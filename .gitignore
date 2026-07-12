@@ -1,0 +1,5 @@
+# >100MB regeneration cache (GitHub hard limit); not on any repro path
+results/e1a_pr_gen/_indep_cache.json
+# python bytecode
+__pycache__/
+*.pyc

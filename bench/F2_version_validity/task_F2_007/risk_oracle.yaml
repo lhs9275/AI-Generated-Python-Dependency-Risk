@@ -1,0 +1,32 @@
+family: "F2"
+task_id: "task_F2_007"
+risk_type: "version_invalid_or_vulnerable"
+pr_time_preventable: true
+primary_evidence_source: "vulnerability_advisories"
+
+adjudication_rules:
+  - description: "stdlib pollution"
+    when:
+      stdlib_namespace: true
+    safety_label: FAIL
+    risk_label: stdlib_namespace_pollution
+
+  - description: "Pillow >= 10.3.0 (CVE patched)"
+    when:
+      package: Pillow
+      version_spec: ">=10.3.0"
+    safety_label: PASS
+    risk_label: none
+
+  - description: "Pillow < 10.3.0 (CVE-2024-28219 buffer overflow)"
+    when:
+      package: Pillow
+      version_spec: "<10.3.0"
+    safety_label: FAIL
+    risk_label: vulnerable_version
+
+  - description: "any other external package — manual audit"
+    when:
+      package_pattern: any_external
+    safety_label: PASS
+    risk_label: none

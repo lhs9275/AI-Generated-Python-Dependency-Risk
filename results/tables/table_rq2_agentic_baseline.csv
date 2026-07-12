@@ -1,0 +1,5 @@
+condition,n,RiskyAcc,n_risky,FuncSucc,FuncSucc_delta_vs_no_gate,B3_residual_RiskyAcc_count,B3_residual_RiskyAcc_rate,minimal_gate_residual_count,minimal_gate_evaluated
+agent_native_no_gate,60,0.0,0,0.6167,0.0,0,0.0,0,0
+agent_native_with_public_tests,60,0.0167,1,0.65,0.0333,1,0.0167,1,1
+agent_native_with_pip_dry_run,60,0.0167,1,0.6,-0.0167,1,0.0167,1,1
+agent_with_guard_observation,60,0.0,0,0.5833,-0.0334,0,0.0,0,0

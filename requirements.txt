@@ -1,0 +1,31 @@
+# AgentSupplyGuard — pinned runtime dependencies
+# Python 3.10+
+
+# LLM inference (vLLM server called via OpenAI-compatible API)
+openai==2.14.0
+
+# HTTP / async
+httpx>=0.27,<1.0
+
+# Config & data
+PyYAML==6.0.3
+packaging==26.0
+
+# Evaluation & statistics
+scipy==1.17.1
+numpy==1.26.4
+pandas==2.3.3
+statsmodels==0.14.6   # Wilson CIs / GEE for naturalistic + sensitivity suite (pipeline/tse_gap_closure, sensitivity_analysis.py)
+
+# Figures
+matplotlib==3.10.9
+
+# Benchmark test runner
+pytest==8.3.5
+pytest-json-report>=1.5
+
+# Vulnerability scanner baseline (Phase 1A)
+pip-audit>=2.7
+
+# Utilities
+requests==2.32.5

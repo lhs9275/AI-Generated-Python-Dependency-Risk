@@ -1,0 +1,6 @@
+model,b3_overall,delta_S2,delta_S4,delta_S6,f6_residual_b3
+Qwen-7B,1.7,10.0,0.0,0.0,0.0
+Qwen-14B,0.8,12.9,0.0,0.0,0.0
+Qwen-32B,2.1,9.2,0.0,0.0,0.0
+DeepSeek-6.7B,0.4,4.6,0.4,0.0,0.0
+CodeLlama-7B,7.5,5.4,0.0,0.0,40.0

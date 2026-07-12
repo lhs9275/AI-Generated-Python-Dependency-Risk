@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "candidates_files": [
+      "results/tse_gap_closure_github_prs.jsonl",
+      "results/aidev_sample_scaleup.jsonl",
+      "results/aidev_sample_v2.jsonl",
+      "results/aidev_sample.jsonl"
+    ],
+    "embedded_files": [
+      "results/tse_gap_closure_github_prs.jsonl",
+      "results/aidev_sample_scaleup.jsonl",
+      "results/aidev_sample_v2.jsonl",
+      "results/aidev_sample.jsonl"
+    ],
+    "selection_terms": "AI-assisted authorship (AIDev agent metadata) + Python dependency-manifest change. NO risk-family terms."
+  },
+  "n_pr_pool": 1701,
+  "n_with_embedded_diff": 1701,
+  "n_fetched_from_github": 0,
+  "fetch_status_counts": {
+    "embedded": 1701
+  },
+  "exclude_reason_counts": {
+    "ok": 1168,
+    "lockfile_or_unparseable_only": 533
+  },
+  "n_included_prs": 1168,
+  "n_included_repos": 1034,
+  "n_tool_families": 7,
+  "tool_families": [
+    "aider",
+    "claude-code",
+    "codex",
+    "continue",
+    "copilot",
+    "cursor",
+    "devin"
+  ],
+  "n_dependency_changes": 10268,
+  "manifest_mix": {
+    "requirements_txt": 6081,
+    "setup_py": 997,
+    "pyproject_toml": 2332,
+    "requirements_dir": 833,
+    "setup_cfg": 25
+  },
+  "change_type_mix": {
+    "add": 6854,
+    "version_change": 1931,
+    "remove": 1483
+  },
+  "pr_time_recoverable_frac": 1.0
+}

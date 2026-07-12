@@ -1,0 +1,39 @@
+{
+  "field": "risky_accepted",
+  "n_runs_with_frozen_evidence": 1200,
+  "note": "Paired McNemar exact test on RiskyAcceptedRate_all over frozen-evidence re-run of run_guard. b=left-positive/right-negative, c=left-negative/right-positive. odds_ratio is the conditional (discordant-pair) OR.",
+  "contrasts": [
+    {
+      "left": "B0",
+      "right": "B3",
+      "field": "risky_accepted",
+      "n_pairs": 1200,
+      "left_pos": 303,
+      "right_pos": 30,
+      "discordant_b_left1_right0": 273,
+      "discordant_c_left0_right1": 0,
+      "both_pos": 30,
+      "both_neg": 897,
+      "p_value": 0.0,
+      "odds_ratio": 547.0,
+      "ci_low": 34.126,
+      "ci_high": 8767.789
+    },
+    {
+      "left": "S1_S2_S3",
+      "right": "B3",
+      "field": "risky_accepted",
+      "n_pairs": 1200,
+      "left_pos": 43,
+      "right_pos": 30,
+      "discordant_b_left1_right0": 13,
+      "discordant_c_left0_right1": 0,
+      "both_pos": 30,
+      "both_neg": 1157,
+      "p_value": 0.000244,
+      "odds_ratio": 27.0,
+      "ci_low": 1.605,
+      "ci_high": 454.21
+    }
+  ]
+}

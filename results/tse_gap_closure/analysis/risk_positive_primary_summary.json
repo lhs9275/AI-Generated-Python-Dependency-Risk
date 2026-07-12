@@ -1,0 +1,170 @@
+{
+  "analysis_population": {
+    "n_changes": 4948,
+    "n_primary": 328,
+    "n_safe": 4620,
+    "population_rule": "add/version changes with primary-risk or NONE labels and archived guard decisions"
+  },
+  "b3_block_only_enforcement_recall": 0.6432926829268293,
+  "b3_detection_recall_block_or_warn": 0.9634146341463414,
+  "b3_silent_pass_floor": 0.036585365853658534,
+  "by_primary_label": {
+    "P1_NONEXISTENT_PACKAGE": 15,
+    "P2_INVALID_VERSION_SPEC": 49,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 264
+  },
+  "by_tool": {
+    "aider": 14,
+    "codex": 20,
+    "copilot": 209,
+    "cursor": 4,
+    "devin": 81
+  },
+  "corpus_role": "Guard-independent naturalistic primary-risk evidence; not a live deployment or end-to-end intervention claim.",
+  "decision_matrix": {
+    "B0_no_gate": {
+      "block_precision": null,
+      "counts": {
+        "primary": {
+          "BLOCK": 0,
+          "MISSING": 0,
+          "PASS": 328,
+          "WARN": 0
+        },
+        "safe": {
+          "BLOCK": 0,
+          "MISSING": 0,
+          "PASS": 4620,
+          "WARN": 0
+        }
+      },
+      "flagged_precision_block_or_warn": null,
+      "n_primary": 328,
+      "n_safe": 4620,
+      "primary_block_recall": 0.0,
+      "primary_detection_recall_block_or_warn": 0.0,
+      "row_rates": {
+        "primary": {
+          "BLOCK": 0.0,
+          "MISSING": 0.0,
+          "PASS": 1.0,
+          "WARN": 0.0
+        },
+        "safe": {
+          "BLOCK": 0.0,
+          "MISSING": 0.0,
+          "PASS": 1.0,
+          "WARN": 0.0
+        }
+      },
+      "safe_block_rate": 0.0,
+      "safe_burden_block_or_warn": 0.0,
+      "safe_pass_rate": 1.0,
+      "variant": "B0_no_gate"
+    },
+    "B3_full_guard": {
+      "block_precision": 0.6261127596439169,
+      "counts": {
+        "primary": {
+          "BLOCK": 211,
+          "MISSING": 0,
+          "PASS": 12,
+          "WARN": 105
+        },
+        "safe": {
+          "BLOCK": 126,
+          "MISSING": 0,
+          "PASS": 4414,
+          "WARN": 80
+        }
+      },
+      "flagged_precision_block_or_warn": 0.6053639846743295,
+      "n_primary": 328,
+      "n_safe": 4620,
+      "primary_block_recall": 0.6432926829268293,
+      "primary_detection_recall_block_or_warn": 0.9634146341463414,
+      "row_rates": {
+        "primary": {
+          "BLOCK": 0.6432926829268293,
+          "MISSING": 0.0,
+          "PASS": 0.036585365853658534,
+          "WARN": 0.3201219512195122
+        },
+        "safe": {
+          "BLOCK": 0.02727272727272727,
+          "MISSING": 0.0,
+          "PASS": 0.9554112554112554,
+          "WARN": 0.017316017316017316
+        }
+      },
+      "safe_block_rate": 0.02727272727272727,
+      "safe_burden_block_or_warn": 0.04458874458874459,
+      "safe_pass_rate": 0.9554112554112554,
+      "variant": "B3_full_guard"
+    },
+    "S1S2S3_direct_evidence": {
+      "block_precision": 0.9797979797979798,
+      "counts": {
+        "primary": {
+          "BLOCK": 194,
+          "MISSING": 0,
+          "PASS": 27,
+          "WARN": 107
+        },
+        "safe": {
+          "BLOCK": 4,
+          "MISSING": 0,
+          "PASS": 4616,
+          "WARN": 0
+        }
+      },
+      "flagged_precision_block_or_warn": 0.9868852459016394,
+      "n_primary": 328,
+      "n_safe": 4620,
+      "primary_block_recall": 0.5914634146341463,
+      "primary_detection_recall_block_or_warn": 0.9176829268292683,
+      "row_rates": {
+        "primary": {
+          "BLOCK": 0.5914634146341463,
+          "MISSING": 0.0,
+          "PASS": 0.08231707317073171,
+          "WARN": 0.32621951219512196
+        },
+        "safe": {
+          "BLOCK": 0.0008658008658008658,
+          "MISSING": 0.0,
+          "PASS": 0.9991341991341991,
+          "WARN": 0.0
+        }
+      },
+      "safe_block_rate": 0.0008658008658008658,
+      "safe_burden_block_or_warn": 0.0008658008658008658,
+      "safe_pass_rate": 0.9991341991341991,
+      "variant": "S1S2S3_direct_evidence"
+    }
+  },
+  "gate_partitions": {
+    "B0_no_gate": {
+      "BLOCK": 0,
+      "MISSING": 0,
+      "PASS": 328,
+      "WARN": 0
+    },
+    "B3_full_guard": {
+      "BLOCK": 211,
+      "MISSING": 0,
+      "PASS": 12,
+      "WARN": 105
+    },
+    "S1S2S3_direct_evidence": {
+      "BLOCK": 194,
+      "MISSING": 0,
+      "PASS": 27,
+      "WARN": 107
+    }
+  },
+  "n_missing_guard_decisions": 0,
+  "n_primary_risk_changes": 328,
+  "n_unique_prs": 137,
+  "n_unique_repos": 127
+}

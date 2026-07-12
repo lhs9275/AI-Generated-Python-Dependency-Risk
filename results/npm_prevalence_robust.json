@@ -1,0 +1,62 @@
+{
+  "n_changes": 1284,
+  "full_prevalence": 0.0483,
+  "family_counts": {
+    "F1": 6,
+    "F2": 11,
+    "F3": 45,
+    "NONE": 1222
+  },
+  "gate_impact": {
+    "F3_pr_time_gated": 45,
+    "F3_live_osv_no_gate": 95,
+    "F3_removed_by_gate": 50,
+    "note": "PR-time advisory-disclosure gate removes post-PR advisories the live OSV would over-count"
+  },
+  "temporal_grade": {
+    "strict_at_pr_time_rate": 0.035,
+    "strict_risky": 45,
+    "full_rate": 0.0483,
+    "ambiguous_F1_present_time_404": 6,
+    "ambiguous_F2_forward_pins": 11,
+    "note": "mirrors PyPI 3.7%->3.1% strict floor; strict=F3, ambiguous=bare-* 404 + forward-pins"
+  },
+  "tool_mix": {
+    "per_tool_rate": {
+      "aider": 0.0375,
+      "devin": 0.0676,
+      "cursor": 0.0485,
+      "claude-code": 0.0556,
+      "codex": 0.0168,
+      "codewhisperer": 0.0,
+      "continue": 0.0452
+    },
+    "per_tool_n": {
+      "aider": 80,
+      "devin": 281,
+      "cursor": 165,
+      "claude-code": 234,
+      "codex": 119,
+      "codewhisperer": 29,
+      "continue": 376
+    },
+    "leave_one_out": {
+      "drop_aider": 0.049,
+      "drop_devin": 0.0429,
+      "drop_cursor": 0.0483,
+      "drop_claude-code": 0.0467,
+      "drop_codex": 0.0515,
+      "drop_codewhisperer": 0.0494,
+      "drop_continue": 0.0496
+    },
+    "equal_tool_weight_all": 0.0387,
+    "equal_tool_weight_n_ge_100": 0.0467
+  },
+  "repo_clustering": {
+    "n_repos": 209,
+    "repos_any_risk": 35,
+    "repo_level_rate": 0.1675,
+    "F2_repos": 1,
+    "note": "F2's 11 changes span 1 repo(s) -> per-repo de-inflates monorepo platform-package clusters"
+  }
+}

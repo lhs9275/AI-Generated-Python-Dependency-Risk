@@ -1,0 +1,31 @@
+{
+  "corpus_role": "Routine-Agent-PR: precision / prevalence-bound evidence only. Not used to estimate recall unless independently labeled positive risks are present (see docs/protocols/corpus_interpretation_rules.md).",
+  "n_prs": 105,
+  "n_dependency_changes": 280,
+  "n_runtime_add_or_change": 215,
+  "n_repos": 52,
+  "by_agent": {
+    "aider": 39,
+    "devin": 62,
+    "cursor": 38,
+    "claude-code": 5,
+    "codex": 128,
+    "continue": 8
+  },
+  "by_manifest_type": {
+    "requirements_txt": 117,
+    "pyproject_toml": 160,
+    "setup_py": 3
+  },
+  "by_change_type": {
+    "version_change": 77,
+    "remove": 31,
+    "add": 172
+  },
+  "by_pr_type": {
+    "version_change_only": 59,
+    "new_runtime_dependency": 164,
+    "mixed": 42,
+    "optional_dependency": 15
+  }
+}

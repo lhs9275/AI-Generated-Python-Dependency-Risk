@@ -1,0 +1,20 @@
+{
+  "n_shared": 10268,
+  "PA_plus_positive_specific": 0.903,
+  "per_class_PA_plus": {
+    "P1": 1.0,
+    "P2": 0.968,
+    "P3": 0.88
+  },
+  "confusion_A_row_B_col": {
+    "NONE|NONE": 9924,
+    "NONE|P3": 4,
+    "P1|P1": 24,
+    "P2|NONE": 3,
+    "P2|P2": 46,
+    "P3|NONE": 54,
+    "P3|P3": 213
+  },
+  "P3_borderline_discordances": 58,
+  "_note": "PA+ restricts agreement to the positive classes; not inflated by the 96.8% NONE cell."
+}

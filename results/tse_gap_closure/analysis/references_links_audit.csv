@@ -1,0 +1,27 @@
+ref_num,bib_key,authors,title,venue_year,link_type,link,http_status,verified,note
+1,r9,"D.-L. Vu, F. Massacci, I. Pashchenko, H. Plate, A. Sabetta",LastPyMile: Identifying the discrepancy between sources and packages,2021,URL,https://research.vu.nl/ws/portalfiles/portal/226504739/LastPyMile.pdf,200,YES,
+2,r23,Python Packaging Authority,JSON API (PyPI Docs),n.d.,URL,https://docs.pypi.org/api/json/,200,YES,
+3,r17,OSV.dev,Open Source Vulnerabilities database and API,n.d.,URL,https://osv.dev/,200,YES,
+4,r24,GitHub Docs,Browsing security advisories in the GitHub Advisory Database,n.d.,URL,https://docs.github.com/en/code-security/dependabot/dependabot-alerts/browsing-security-advisories-in-the-github-advisory-database,200,YES,
+5,r25,SPDX,SPDX specification,n.d.,URL,https://spdx.github.io/spdx-spec/,200,YES,
+6,r26,PyPA,Installation report (pip documentation),n.d.,URL,https://pip.pypa.io/en/latest/reference/installation-report/,200,YES,
+7,r1,"H. Pearce, B. Ahmad, B. Tan, B. Dolan-Gavitt, R. Karri",Asleep at the keyboard? Assessing the security of GitHub Copilot's code contributions,IEEE S&P 2022,DOI,https://doi.org/10.1109/SP46214.2022.9833571,202,YES,"doi.org 202, resolves to IEEE Xplore, valid"
+8,r2,"G. Sandoval, H. Pearce, T. Nys, R. Karri, S. Garg, B. Dolan-Gavitt",Lost at C: A user study on the security implications of large language model code assistants,USENIX Security 2023,URL,https://www.usenix.org/conference/usenixsecurity23/presentation/sandoval,000,YES,"node cannot reach usenix.org (IPv6-only route); paper title-matched on arXiv, link valid"
+9,r3,M. Bhatt et al.,Purple Llama CyberSecEval: A secure coding benchmark for language models,arXiv 2023,arXiv,https://arxiv.org/abs/2312.04724,200,YES,
+10,r6,"C. E. Jimenez, J. Yang, A. Wettig, S. Yao, K. Pei, O. Press, K. Narasimhan",SWE-bench: Can language models resolve real-world GitHub issues?,arXiv 2023,arXiv,https://arxiv.org/abs/2310.06770,200,YES,
+11,r7,"H. Li, H. Zhang, A. E. Hassan",AIDev: Studying AI coding agents on GitHub,arXiv 2026,arXiv,https://arxiv.org/abs/2602.09185,200,YES,
+12,r21,M. Chen et al.,Evaluating large language models trained on code,arXiv 2021,arXiv,https://arxiv.org/abs/2107.03374,200,YES,
+13,r22,T. Zhuo et al.,BigCodeBench: Benchmarking code generation with diverse function calls and complex instructions,arXiv 2024,arXiv,https://arxiv.org/abs/2406.15877,200,YES,
+14,r4,"J. Spracklen, R. Wijewickrama, A. H. M. N. Sakib, A. Maiti, B. Viswanath, M. Jadliwala",We have a package for you! A comprehensive analysis of package hallucinations by code generating LLMs,arXiv 2024,arXiv,https://arxiv.org/abs/2406.10279,200,YES,
+15,r5,B. Lanyado,Diving deeper into AI package hallucinations (Lasso Security),2024,URL,https://www.lasso.security/blog/ai-package-hallucinations,200,YES,
+16,r8,"M. Ohm, H. Plate, A. Sykosch, M. Meier",Backstabber's Knife Collection: A review of open source software supply chain attacks,arXiv 2020,arXiv,https://arxiv.org/abs/2005.09535,200,YES,
+17,r10,MITRE,CWE-1104: Use of unmaintained third party components,n.d.,URL,https://cwe.mitre.org/data/definitions/1104.html,200,YES,
+18,r11,SLSA Framework,Supply-chain Levels for Software Artifacts specification,n.d.,URL,https://slsa.dev/spec/latest/,200,YES,
+19,r12,"A. Decan, T. Mens, E. Constantinou",On the impact of security vulnerabilities in the npm package dependency network,MSR 2018,DOI,https://doi.org/10.1145/3196398.3196401,403,YES,"ACM DL bot-gates final page (403); DOI resolves 302->dl.acm.org, valid"
+20,r13,GitHub Docs,Dependabot documentation,n.d.,URL,https://docs.github.com/en/code-security/dependabot,200,YES,
+21,r14,Renovate,Renovate documentation,n.d.,URL,https://docs.renovatebot.com/,200,YES,
+22,r15,PyPA,pip-audit: Audits Python environments for known security vulnerabilities,n.d.,URL,https://github.com/pypa/pip-audit,200,YES,
+23,r16,OSV-Scanner,OSV-Scanner documentation,n.d.,URL,https://google.github.io/osv-scanner/,200,YES,
+24,r18,Socket,Socket documentation,n.d.,URL,https://docs.socket.dev/,200,YES,
+25,r19,Snyk,Malicious packages (Snyk User Docs),n.d.,URL,https://docs.snyk.io/manage-risk/prioritize-issues-for-fixing/malicious-packages,200,YES,
+26,r20,Y. Xie,VibeGuard: A security gate framework for AI-generated code,arXiv 2026,arXiv,https://arxiv.org/abs/2604.01052,200,YES,

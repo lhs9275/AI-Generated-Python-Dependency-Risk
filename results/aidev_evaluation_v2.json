@@ -1,0 +1,3011 @@
+{
+  "n_prs": 61,
+  "n_with_risk": 53,
+  "risk_label_counts": {
+    "license_missing": 262,
+    "package_nonexistent": 108,
+    "stdlib_namespace_pollution": 2
+  },
+  "by_stage": {
+    "S5": 262,
+    "S1": 110
+  },
+  "by_agent": {
+    "aider": {
+      "total": 6,
+      "with_risk": 6
+    },
+    "devin": {
+      "total": 10,
+      "with_risk": 10
+    },
+    "cursor": {
+      "total": 7,
+      "with_risk": 7
+    },
+    "claude-code": {
+      "total": 1,
+      "with_risk": 1
+    },
+    "codex": {
+      "total": 24,
+      "with_risk": 24
+    },
+    "continue": {
+      "total": 5,
+      "with_risk": 5
+    }
+  },
+  "per_pr": [
+    {
+      "url": "https://github.com/vk4s/aider/pull/9",
+      "agent": "aider",
+      "n_deps": 9,
+      "deps_sample": [
+        "aiohttp",
+        "aiosignal",
+        "anyio",
+        "certifi",
+        "fsspec"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "aiohttp",
+          "reason": "Package 'aiohttp' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "aiosignal",
+          "reason": "Package 'aiosignal' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "anyio",
+          "reason": "Package 'anyio' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "certifi",
+          "reason": "Package 'certifi' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "fsspec",
+          "reason": "Package 'fsspec' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "gitpython",
+          "reason": "Package 'gitpython' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "google_api_python_client",
+          "reason": "Package 'google_api_python_client' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "grpcio",
+          "reason": "Package 'grpcio' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "grpcio_status",
+          "reason": "Package 'grpcio_status' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/akepo225/offline-coding-agent/pull/14",
+      "agent": "aider",
+      "n_deps": 6,
+      "deps_sample": [
+        "llama_cpp_python",
+        "rich",
+        "pyyaml",
+        "requests",
+        "tqdm"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "llama_cpp_python",
+          "reason": "Package 'llama_cpp_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "rich",
+          "reason": "Package 'rich' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pyyaml",
+          "reason": "Package 'pyyaml' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requests",
+          "reason": "Package 'requests' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "tqdm",
+          "reason": "Package 'tqdm' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "huggingface_hub",
+          "reason": "Package 'huggingface_hub' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Quitcode-Dev/project-automatron-vmark/pull/1",
+      "agent": "aider",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/jnavarro7/netlist-parser/pull/1",
+      "agent": "aider",
+      "n_deps": 1,
+      "deps_sample": [
+        "ollama"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "ollama",
+          "reason": "Package 'ollama' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/izzoa/unison-mcp-server/pull/4",
+      "agent": "aider",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/techempower-org/mempalace/pull/156",
+      "agent": "aider",
+      "n_deps": 5,
+      "deps_sample": [
+        "filesystem",
+        "conversations",
+        "codex",
+        "gemini",
+        "aider"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "filesystem",
+          "reason": "Package 'filesystem' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "conversations",
+          "reason": "Package 'conversations' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "codex",
+          "reason": "Package 'codex' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "gemini",
+          "reason": "Package 'gemini' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "aider",
+          "reason": "Package 'aider' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Doomlead/aider-plus/pull/167",
+      "agent": "aider",
+      "n_deps": 3,
+      "deps_sample": [
+        "name",
+        "description",
+        "homepage"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "homepage",
+          "reason": "Package 'homepage' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/AmberCowled/probably-fine/pull/1",
+      "agent": "aider",
+      "n_deps": 1,
+      "deps_sample": [
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/squalliram/flask/pull/1",
+      "agent": "devin",
+      "n_deps": 1,
+      "deps_sample": [
+        "werkzeug"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "werkzeug",
+          "reason": "Package 'werkzeug' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/aaronsmothhh-create/AiVideoMonitoring/pull/1",
+      "agent": "devin",
+      "n_deps": 3,
+      "deps_sample": [
+        "pyjwt",
+        "bcrypt",
+        "slowapi"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pyjwt",
+          "reason": "Package 'pyjwt' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "bcrypt",
+          "reason": "Package 'bcrypt' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "slowapi",
+          "reason": "Package 'slowapi' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/deblasioluca/sap-ai-consultant-v2/pull/30",
+      "agent": "devin",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/botanarede/beddel/pull/3",
+      "agent": "devin",
+      "n_deps": 9,
+      "deps_sample": [
+        "requires",
+        "build_backend",
+        "name",
+        "version",
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires",
+          "reason": "Package 'requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "authors",
+          "reason": "Package 'authors' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "packages",
+          "reason": "Package 'packages' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/leprachuan/Wee-Orchestrator/pull/152",
+      "agent": "devin",
+      "n_deps": 6,
+      "deps_sample": [
+        "wee_cli",
+        "line_length",
+        "target_version",
+        "profile",
+        "per_file_ignores"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "wee_cli",
+          "reason": "Package 'wee_cli' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "profile",
+          "reason": "Package 'profile' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "per_file_ignores",
+          "reason": "Package 'per_file_ignores' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "agent_manager.py",
+          "reason": "Package 'agent_manager.py' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "wee_cli",
+          "reason": "Package 'wee_cli' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "profile",
+          "reason": "Package 'profile' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "per_file_ignores",
+          "reason": "Package 'per_file_ignores' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "agent_manager.py",
+          "reason": "Package 'agent_manager.py' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/hikhikhook-code/sn-image-screener/pull/2",
+      "agent": "devin",
+      "n_deps": 4,
+      "deps_sample": [
+        "version",
+        "description",
+        "send2trash",
+        "requests"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "send2trash",
+          "reason": "Package 'send2trash' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requests",
+          "reason": "Package 'requests' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/saml7n/parbaked/pull/197",
+      "agent": "devin",
+      "n_deps": 1,
+      "deps_sample": [
+        "mcp"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "mcp",
+          "reason": "Package 'mcp' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/0neye/Voidwright/pull/6",
+      "agent": "devin",
+      "n_deps": 2,
+      "deps_sample": [
+        "voidwright_graph_expansion",
+        "addopts"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "voidwright_graph_expansion",
+          "reason": "Package 'voidwright_graph_expansion' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "voidwright_graph_expansion",
+          "reason": "Package 'voidwright_graph_expansion' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/saml7n/parbaked/pull/160",
+      "agent": "devin",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/fproldan/erpnext/pull/37",
+      "agent": "devin",
+      "n_deps": 1,
+      "deps_sample": [
+        "fiscal_year_details"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "fiscal_year_details",
+          "reason": "Package 'fiscal_year_details' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "fiscal_year_details",
+          "reason": "Package 'fiscal_year_details' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/FOSSBots/MirahezeBots/pull/243",
+      "agent": "devin",
+      "n_deps": 50,
+      "deps_sample": [
+        "feedparser",
+        "mwclient",
+        "requests",
+        "sopel",
+        "sqlalchemy"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "license_file",
+          "reason": "Package 'license_file' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "development",
+          "reason": "Package 'development' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "intended",
+          "reason": "Package 'intended' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "operating",
+          "reason": "Package 'operating' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "programming",
+          "reason": "Package 'programming' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "topic",
+          "reason": "Package 'topic' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "python_requires",
+          "reason": "Package 'python_requires' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "sopel.plugins",
+          "reason": "Package 'sopel.plugins' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "adminlist",
+          "reason": "Package 'adminlist' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "channelmgnt",
+          "reason": "Package 'channelmgnt' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "joinall",
+          "reason": "Package 'joinall' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "miraheze",
+          "reason": "Package 'miraheze' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "phab",
+          "reason": "Package 'phab' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "welcome",
+          "reason": "Package 'welcome' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "console_scripts",
+          "reason": "Package 'console_scripts' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "sopel_dbclean",
+          "reason": "Package 'sopel_dbclean' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "from",
+          "reason": "Package 'from' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "import",
+          "reason": "Package 'import' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "history",
+          "reason": "Package 'history' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requirements",
+          "reason": "Package 'requirements' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev_requirements",
+          "reason": "Package 'dev_requirements' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "long_description",
+          "reason": "Package 'long_description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "long_description_content_type",
+          "reason": "Package 'long_description_content_type' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "author",
+          "reason": "Package 'author' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "author_email",
+          "reason": "Package 'author_email' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "include_package_data",
+          "reason": "Package 'include_package_data' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "tests_require",
+          "reason": "Package 'tests_require' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "test_suite",
+          "reason": "Package 'test_suite' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "feedparser",
+          "reason": "Package 'feedparser' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "mwclient",
+          "reason": "Package 'mwclient' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requests",
+          "reason": "Package 'requests' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sopel",
+          "reason": "Package 'sopel' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sqlalchemy",
+          "reason": "Package 'sqlalchemy' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "license_file",
+          "reason": "Package 'license_file' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "development",
+          "reason": "Package 'development' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "intended",
+          "reason": "Package 'intended' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "license",
+          "reason": "Package 'license' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "operating",
+          "reason": "Package 'operating' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "programming",
+          "reason": "Package 'programming' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "topic",
+          "reason": "Package 'topic' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_requires",
+          "reason": "Package 'python_requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sopel.plugins",
+          "reason": "Package 'sopel.plugins' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "adminlist",
+          "reason": "Package 'adminlist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "channelmgnt",
+          "reason": "Package 'channelmgnt' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "joinall",
+          "reason": "Package 'joinall' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "miraheze",
+          "reason": "Package 'miraheze' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "phab",
+          "reason": "Package 'phab' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pingpong",
+          "reason": "Package 'pingpong' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "responses",
+          "reason": "Package 'responses' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "rss",
+          "reason": "Package 'rss' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "shortlinks",
+          "reason": "Package 'shortlinks' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "status",
+          "reason": "Package 'status' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "welcome",
+          "reason": "Package 'welcome' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "goofy",
+          "reason": "Package 'goofy' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "console_scripts",
+          "reason": "Package 'console_scripts' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sopel_dbclean",
+          "reason": "Package 'sopel_dbclean' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "from",
+          "reason": "Package 'from' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "import",
+          "reason": "Package 'import' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "with",
+          "reason": "Package 'with' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "readme",
+          "reason": "Package 'readme' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "history",
+          "reason": "Package 'history' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requirements",
+          "reason": "Package 'requirements' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev_requirements",
+          "reason": "Package 'dev_requirements' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "setup",
+          "reason": "Package 'setup' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "long_description",
+          "reason": "Package 'long_description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "long_description_content_type",
+          "reason": "Package 'long_description_content_type' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "author",
+          "reason": "Package 'author' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "author_email",
+          "reason": "Package 'author_email' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "url",
+          "reason": "Package 'url' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "packages",
+          "reason": "Package 'packages' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "include_package_data",
+          "reason": "Package 'include_package_data' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "install_requires",
+          "reason": "Package 'install_requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "tests_require",
+          "reason": "Package 'tests_require' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "test_suite",
+          "reason": "Package 'test_suite' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/GatorCogitate/cogitate_tool/pull/62",
+      "agent": "devin",
+      "n_deps": 1,
+      "deps_sample": [
+        "pillow"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pillow",
+          "reason": "Package 'pillow' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/yourplane/dev/pull/80",
+      "agent": "cursor",
+      "n_deps": 2,
+      "deps_sample": [
+        "dependencies",
+        "dev_server"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev_server",
+          "reason": "Package 'dev_server' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/yu-iskw/sqlfluff-complexity/pull/22",
+      "agent": "cursor",
+      "n_deps": 1,
+      "deps_sample": [
+        "version"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/yourplane/dev/pull/79",
+      "agent": "cursor",
+      "n_deps": 1,
+      "deps_sample": [
+        "dev_sdk"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev_sdk",
+          "reason": "Package 'dev_sdk' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev_sdk",
+          "reason": "Package 'dev_sdk' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/getbourdon/bourdon/pull/21",
+      "agent": "cursor",
+      "n_deps": 1,
+      "deps_sample": [
+        "cursor"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "cursor",
+          "reason": "Package 'cursor' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/kalanyuz/approve-watch/pull/1",
+      "agent": "cursor",
+      "n_deps": 12,
+      "deps_sample": [
+        "requires",
+        "build_backend",
+        "name",
+        "version",
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev",
+          "reason": "Package 'dev' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "approve_watch",
+          "reason": "Package 'approve_watch' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "asyncio_mode",
+          "reason": "Package 'asyncio_mode' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "testpaths",
+          "reason": "Package 'testpaths' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires",
+          "reason": "Package 'requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev",
+          "reason": "Package 'dev' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "approve_watch",
+          "reason": "Package 'approve_watch' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "packages",
+          "reason": "Package 'packages' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "asyncio_mode",
+          "reason": "Package 'asyncio_mode' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "testpaths",
+          "reason": "Package 'testpaths' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/usik/tamagotchi/pull/8",
+      "agent": "cursor",
+      "n_deps": 2,
+      "deps_sample": [
+        "claude_code",
+        "cursor"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "claude_code",
+          "reason": "Package 'claude_code' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "cursor",
+          "reason": "Package 'cursor' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/andre-koga/bulk-payments-poc/pull/2",
+      "agent": "cursor",
+      "n_deps": 5,
+      "deps_sample": [
+        "agent",
+        "api",
+        "dev",
+        "bulk_api",
+        "markers"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "api",
+          "reason": "Package 'api' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev",
+          "reason": "Package 'dev' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "bulk_api",
+          "reason": "Package 'bulk_api' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "agent",
+          "reason": "Package 'agent' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "api",
+          "reason": "Package 'api' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev",
+          "reason": "Package 'dev' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "bulk_api",
+          "reason": "Package 'bulk_api' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "markers",
+          "reason": "Package 'markers' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/LBP97541135/MultiAgent-Werewolf/pull/4",
+      "agent": "cursor",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/bigler-webapps/webapp-template/pull/11",
+      "agent": "claude-code",
+      "n_deps": 1,
+      "deps_sample": [
+        "django_core_micha"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "django_core_micha",
+          "reason": "Package 'django_core_micha' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/puffo-ai/puffo-agent/pull/21",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "version"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/HansaDR/loco-ai-test/pull/1",
+      "agent": "codex",
+      "n_deps": 5,
+      "deps_sample": [
+        "python_telegram_bot",
+        "cloudinary",
+        "gitpython",
+        "python_dotenv",
+        "openai"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_telegram_bot",
+          "reason": "Package 'python_telegram_bot' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "cloudinary",
+          "reason": "Package 'cloudinary' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "gitpython",
+          "reason": "Package 'gitpython' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_dotenv",
+          "reason": "Package 'python_dotenv' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai",
+          "reason": "Package 'openai' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/HrRodan/agent-workspace-mcp/pull/27",
+      "agent": "codex",
+      "n_deps": 2,
+      "deps_sample": [
+        "version",
+        "sdist"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sdist",
+          "reason": "Package 'sdist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/abramovmarketing88-byte/Avitolog/pull/1",
+      "agent": "codex",
+      "n_deps": 5,
+      "deps_sample": [
+        "aiogram",
+        "openai",
+        "pandas",
+        "openpyxl",
+        "python_dotenv"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "aiogram",
+          "reason": "Package 'aiogram' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai",
+          "reason": "Package 'openai' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pandas",
+          "reason": "Package 'pandas' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openpyxl",
+          "reason": "Package 'openpyxl' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_dotenv",
+          "reason": "Package 'python_dotenv' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ebibibi/claude-code-discord-bridge/pull/404",
+      "agent": "codex",
+      "n_deps": 2,
+      "deps_sample": [
+        "version",
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/max-sixty/tend/pull/545",
+      "agent": "codex",
+      "n_deps": 6,
+      "deps_sample": [
+        "dependencies",
+        "name",
+        "version",
+        "source",
+        "sdist"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "wheels",
+          "reason": "Package 'wheels' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "source",
+          "reason": "Package 'source' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sdist",
+          "reason": "Package 'sdist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "wheels",
+          "reason": "Package 'wheels' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/jacksonsiow-ai/jackson-ai-system/pull/1",
+      "agent": "codex",
+      "n_deps": 5,
+      "deps_sample": [
+        "python_telegram_bot",
+        "openai",
+        "python_dotenv",
+        "apscheduler",
+        "python_dateutil"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_telegram_bot",
+          "reason": "Package 'python_telegram_bot' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai",
+          "reason": "Package 'openai' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_dotenv",
+          "reason": "Package 'python_dotenv' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "apscheduler",
+          "reason": "Package 'apscheduler' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_dateutil",
+          "reason": "Package 'python_dateutil' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/VorobiovD/air/pull/41",
+      "agent": "codex",
+      "n_deps": 12,
+      "deps_sample": [
+        "synced",
+        "coordinator_file",
+        "coordinator",
+        "if",
+        "print"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "coordinator_file",
+          "reason": "Package 'coordinator_file' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "if",
+          "reason": "Package 'if' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "else",
+          "reason": "Package 'else' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "system",
+          "reason": "Package 'system' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "tool_",
+          "reason": "Package 'tool_' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "synced",
+          "reason": "Package 'synced' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "coordinator_file",
+          "reason": "Package 'coordinator_file' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "coordinator",
+          "reason": "Package 'coordinator' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "if",
+          "reason": "Package 'if' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "print",
+          "reason": "Package 'print' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "f",
+          "reason": "Package 'f' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "file",
+          "reason": "Package 'file' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "else",
+          "reason": "Package 'else' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "system",
+          "reason": "Package 'system' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "tools",
+          "reason": "Package 'tools' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "model",
+          "reason": "Package 'model' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "tool_",
+          "reason": "Package 'tool_' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/lotbones1-code/social_agent_codex/pull/60",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "openai"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai",
+          "reason": "Package 'openai' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ishandutta0098/orion/pull/1",
+      "agent": "codex",
+      "n_deps": 2,
+      "deps_sample": [
+        "openai",
+        "discord.py"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai",
+          "reason": "Package 'openai' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "discord.py",
+          "reason": "Package 'discord.py' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/open-telemetry/opentelemetry-python-genai/pull/73",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "openai_agents"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "openai_agents",
+          "reason": "Package 'openai_agents' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/trask/semantic-conventions-genai-orig/pull/28",
+      "agent": "codex",
+      "n_deps": 2,
+      "deps_sample": [
+        "version",
+        "sdist"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sdist",
+          "reason": "Package 'sdist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/SimoKiihamaki/autodev/pull/56",
+      "agent": "codex",
+      "n_deps": 20,
+      "deps_sample": [
+        "name",
+        "version",
+        "description",
+        "readme",
+        "requires_python"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "auto_prd",
+          "reason": "Package 'auto_prd' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "stdlib_namespace_pollution",
+          "pkg": "select",
+          "reason": "'select' is a Python standard library module; adding it to requirements.txt either fails to install (no PyPI package) or"
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "warn_return_any",
+          "reason": "Package 'warn_return_any' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "warn_unused_configs",
+          "reason": "Package 'warn_unused_configs' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "readme",
+          "reason": "Package 'readme' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "license",
+          "reason": "Package 'license' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "authors",
+          "reason": "Package 'authors' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "keywords",
+          "reason": "Package 'keywords' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "auto_prd",
+          "reason": "Package 'auto_prd' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires",
+          "reason": "Package 'requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "where",
+          "reason": "Package 'where' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "include",
+          "reason": "Package 'include' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "select",
+          "reason": "Package 'select' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_version",
+          "reason": "Package 'python_version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "warn_return_any",
+          "reason": "Package 'warn_return_any' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "warn_unused_configs",
+          "reason": "Package 'warn_unused_configs' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/felipe-parodi/eeg_sync/pull/9",
+      "agent": "codex",
+      "n_deps": 11,
+      "deps_sample": [
+        "dev",
+        "gaze",
+        "pose3d",
+        "portal",
+        "eeg_sync"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev",
+          "reason": "Package 'dev' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "eeg_sync",
+          "reason": "Package 'eeg_sync' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "eeg_sync_portal",
+          "reason": "Package 'eeg_sync_portal' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "video_processing_portal",
+          "reason": "Package 'video_processing_portal' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "video_infer_sam3d",
+          "reason": "Package 'video_infer_sam3d' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "video_infer_ultralytics",
+          "reason": "Package 'video_infer_ultralytics' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "video_infer_rtmlib",
+          "reason": "Package 'video_infer_rtmlib' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev",
+          "reason": "Package 'dev' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "gaze",
+          "reason": "Package 'gaze' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pose3d",
+          "reason": "Package 'pose3d' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "portal",
+          "reason": "Package 'portal' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "eeg_sync",
+          "reason": "Package 'eeg_sync' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "eeg_sync_portal",
+          "reason": "Package 'eeg_sync_portal' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "video_processing_portal",
+          "reason": "Package 'video_processing_portal' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "video_infer_sam3d",
+          "reason": "Package 'video_infer_sam3d' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "video_infer_ultralytics",
+          "reason": "Package 'video_infer_ultralytics' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "video_infer_rtmlib",
+          "reason": "Package 'video_infer_rtmlib' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "packages",
+          "reason": "Package 'packages' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/psi-oss/get-physics-done/pull/93",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/DoRmAmMu1997/ChatBot/pull/1",
+      "agent": "codex",
+      "n_deps": 3,
+      "deps_sample": [
+        "tokenizers",
+        "pyyaml",
+        "pytest"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "tokenizers",
+          "reason": "Package 'tokenizers' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pyyaml",
+          "reason": "Package 'pyyaml' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pytest",
+          "reason": "Package 'pytest' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vinnyp/lazypandas/pull/11",
+      "agent": "codex",
+      "n_deps": 3,
+      "deps_sample": [
+        "addopts",
+        "fail_under",
+        "show_missing"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "fail_under",
+          "reason": "Package 'fail_under' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "show_missing",
+          "reason": "Package 'show_missing' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "fail_under",
+          "reason": "Package 'fail_under' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "show_missing",
+          "reason": "Package 'show_missing' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/mauriciomenon/SSA_Consulta_Rapida/pull/49",
+      "agent": "codex",
+      "n_deps": 2,
+      "deps_sample": [
+        "version",
+        "sdist"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sdist",
+          "reason": "Package 'sdist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vinnyp/lazypandas/pull/6",
+      "agent": "codex",
+      "n_deps": 18,
+      "deps_sample": [
+        "requires",
+        "build_backend",
+        "name",
+        "version",
+        "description"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev",
+          "reason": "Package 'dev' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "repository",
+          "reason": "Package 'repository' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "testpaths",
+          "reason": "Package 'testpaths' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires",
+          "reason": "Package 'requires' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "build_backend",
+          "reason": "Package 'build_backend' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "readme",
+          "reason": "Package 'readme' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "license",
+          "reason": "Package 'license' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "authors",
+          "reason": "Package 'authors' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "keywords",
+          "reason": "Package 'keywords' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "classifiers",
+          "reason": "Package 'classifiers' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev",
+          "reason": "Package 'dev' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "homepage",
+          "reason": "Package 'homepage' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "repository",
+          "reason": "Package 'repository' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "where",
+          "reason": "Package 'where' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "testpaths",
+          "reason": "Package 'testpaths' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "addopts",
+          "reason": "Package 'addopts' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KjellKod/metrics-and-insights/pull/111",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "pathspec"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "pathspec",
+          "reason": "Package 'pathspec' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/2513502304/bilibili-mall/pull/1",
+      "agent": "codex",
+      "n_deps": 5,
+      "deps_sample": [
+        "name",
+        "version",
+        "description",
+        "requires_python",
+        "dependencies"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "description",
+          "reason": "Package 'description' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "description",
+          "reason": "Package 'description' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requires_python",
+          "reason": "Package 'requires_python' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dependencies",
+          "reason": "Package 'dependencies' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vinnyp/lazypandas/pull/12",
+      "agent": "codex",
+      "n_deps": 11,
+      "deps_sample": [
+        "version",
+        "dev",
+        "line_length",
+        "target_version",
+        "src"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "dev",
+          "reason": "Package 'dev' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "stdlib_namespace_pollution",
+          "pkg": "select",
+          "reason": "'select' is a Python standard library module; adding it to requirements.txt either fails to install (no PyPI package) or"
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "quote_style",
+          "reason": "Package 'quote_style' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dev",
+          "reason": "Package 'dev' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "line_length",
+          "reason": "Package 'line_length' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "target_version",
+          "reason": "Package 'target_version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "src",
+          "reason": "Package 'src' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "select",
+          "reason": "Package 'select' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "ignore",
+          "reason": "Package 'ignore' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "quote_style",
+          "reason": "Package 'quote_style' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "python_version",
+          "reason": "Package 'python_version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "strict",
+          "reason": "Package 'strict' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "files",
+          "reason": "Package 'files' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/keelapi/keel-verifier/pull/12",
+      "agent": "codex",
+      "n_deps": 1,
+      "deps_sample": [
+        "version"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/dbosk/nytid/pull/292",
+      "agent": "codex",
+      "n_deps": 3,
+      "deps_sample": [
+        "version",
+        "urllib3",
+        "weblogin"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "urllib3",
+          "reason": "Package 'urllib3' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "weblogin",
+          "reason": "Package 'weblogin' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/pyca/pyopenssl/pull/1500",
+      "agent": "continue",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/biocypher/biocypher/pull/513",
+      "agent": "continue",
+      "n_deps": 1,
+      "deps_sample": [
+        "version"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/danniesidequestmaxxing/watchlist-tracking/pull/1",
+      "agent": "continue",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/Luke-Bradford/eBull/pull/18",
+      "agent": "continue",
+      "n_deps": 0,
+      "guard_decision": "PASS",
+      "risks": []
+    },
+    {
+      "url": "https://github.com/johnny-neang/Anima/pull/1",
+      "agent": "continue",
+      "n_deps": 1,
+      "deps_sample": [
+        "elevenlabs"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "elevenlabs",
+          "reason": "Package 'elevenlabs' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/saitatter/pylrcget/pull/21",
+      "agent": "continue",
+      "n_deps": 1,
+      "deps_sample": [
+        "parse_squash_commits"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "parse_squash_commits",
+          "reason": "Package 'parse_squash_commits' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "parse_squash_commits",
+          "reason": "Package 'parse_squash_commits' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/t11z/pan-edl/pull/2",
+      "agent": "continue",
+      "n_deps": 3,
+      "deps_sample": [
+        "requests",
+        "beautifulsoup4",
+        "dnspython"
+      ],
+      "guard_decision": "WARN",
+      "risks": [
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "requests",
+          "reason": "Package 'requests' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "beautifulsoup4",
+          "reason": "Package 'beautifulsoup4' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "dnspython",
+          "reason": "Package 'dnspython' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Daffodil-lab/Flauna/pull/5",
+      "agent": "continue",
+      "n_deps": 5,
+      "deps_sample": [
+        "name",
+        "version",
+        "source",
+        "sdist",
+        "wheels"
+      ],
+      "guard_decision": "BLOCK",
+      "risks": [
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "name",
+          "reason": "Package 'name' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S1",
+          "label": "package_nonexistent",
+          "pkg": "wheels",
+          "reason": "Package 'wheels' does not exist on PyPI (pypi_live)."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "name",
+          "reason": "Package 'name' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "version",
+          "reason": "Package 'version' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "source",
+          "reason": "Package 'source' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "sdist",
+          "reason": "Package 'sdist' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        },
+        {
+          "stage": "S5",
+          "label": "license_missing",
+          "pkg": "wheels",
+          "reason": "Package 'wheels' license is missing (spdx=None); policy.unknown_license_policy='warn'."
+        }
+      ]
+    }
+  ]
+}

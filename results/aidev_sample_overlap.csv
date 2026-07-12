@@ -1,0 +1,6 @@
+sample_set,n_unique,primary_s1_s3_risk,rule_of_three_95_upper_bound,note
+Initial audit,61,0,0.04918032786885246,parser validation and manual audit
+Scale-up sample,72,0,0.041666666666666664,main AIDev precision sample
+Runtime-new-dependency subset,38,0,0.07894736842105263,scale-up subset
+Union,101,0,0.0297029702970297,PR URL union; overlap=32
+Union runtime-new-dependency subset,51,0,0.058823529411764705,union subset where has_runtime_add=True in available stratification

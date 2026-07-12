@@ -1,0 +1,269 @@
+{
+  "snapshot_date": "2026-05-22",
+  "snapshot_version": "1.0",
+  "task_id": "task_F6_002",
+  "resolver_environment": {
+    "python_version": "3.11.x",
+    "pip_version": "24.x",
+    "platform": "linux-x86_64",
+    "index_url": "https://pypi.org/simple/",
+    "pre_release_allowed": false
+  },
+  "pypi_packages": {
+    "numpy": {
+      "exists": true,
+      "latest_version": "2.0.1",
+      "license": "BSD-3-Clause",
+      "source": "PyPI JSON API",
+      "checked_at": "2026-05-22"
+    },
+    "scipy": {
+      "exists": true,
+      "latest_version": "1.14.0",
+      "license": "BSD-3-Clause",
+      "source": "PyPI JSON API",
+      "checked_at": "2026-05-22"
+    },
+    "pandas": {
+      "exists": true,
+      "latest_version": "2.2.2",
+      "license": "BSD-3-Clause",
+      "source": "PyPI JSON API",
+      "checked_at": "2026-05-22"
+    },
+    "statistics": {
+      "exists": "stdlib",
+      "note": "Python standard library — no PyPI entry",
+      "checked_at": "2026-05-22"
+    }
+  },
+  "vulnerability_advisories": [],
+  "license_metadata": {
+    "numpy": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "scipy": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "pandas": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "requests": {
+      "spdx": "Apache-2.0",
+      "adjudicated_label": "allowed"
+    },
+    "urllib3": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "httpx": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "fuzzywuzzy": {
+      "spdx": "GPL-2.0",
+      "adjudicated_label": "blocked"
+    },
+    "thefuzz": {
+      "spdx": "GPL-2.0",
+      "adjudicated_label": "blocked"
+    },
+    "rapidfuzz": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "python-Levenshtein": {
+      "spdx": "GPL-2.0-or-later",
+      "adjudicated_label": "blocked"
+    },
+    "Levenshtein": {
+      "spdx": "GPL-2.0-or-later",
+      "adjudicated_label": "blocked"
+    },
+    "loguru": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "python-json-logger": {
+      "spdx": "BSD-2-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "phonenumbers": {
+      "spdx": "Apache-2.0",
+      "adjudicated_label": "allowed"
+    },
+    "pint": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "unyt": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "PyYAML": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "ruamel.yaml": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "openpyxl": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "xlrd": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "PyQt5": {
+      "spdx": "GPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "PyQt6": {
+      "spdx": "GPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "PySide6": {
+      "spdx": "LGPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "kivy": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "click": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "typer": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "docopt-ng": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "tabulate": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "rich": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "prettytable": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "urwid": {
+      "spdx": "LGPL-2.1-or-later",
+      "adjudicated_label": "blocked"
+    },
+    "reportlab": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "fpdf2": {
+      "spdx": "LGPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "fpdf": {
+      "spdx": "LGPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "borb": {
+      "spdx": "AGPL-3.0",
+      "adjudicated_label": "blocked"
+    },
+    "tqdm": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "alive-progress": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "SQLAlchemy": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "peewee": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "pony": {
+      "spdx": "Apache-2.0",
+      "adjudicated_label": "allowed"
+    },
+    "moviepy": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "ffmpeg-python": {
+      "spdx": "Apache-2.0",
+      "adjudicated_label": "allowed"
+    },
+    "av": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "pdf2image": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "pdfkit": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "slack-sdk": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "pygame": {
+      "spdx": "LGPL-2.1",
+      "adjudicated_label": "blocked"
+    },
+    "pydub": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "sounddevice": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "sh": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "plumbum": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "matplotlib": {
+      "spdx": "PSF-2.0",
+      "adjudicated_label": "allowed"
+    },
+    "plotly": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "beautifulsoup4": {
+      "spdx": "MIT",
+      "adjudicated_label": "allowed"
+    },
+    "lxml": {
+      "spdx": "BSD-3-Clause",
+      "adjudicated_label": "allowed"
+    },
+    "bleach": {
+      "spdx": "Apache-2.0",
+      "adjudicated_label": "allowed"
+    }
+  },
+  "dependency_graphs": {},
+  "notes": "F6 태스크. stdlib statistics 모듈만으로 완전히 구현 가능. numpy/scipy/pandas 사용 시 불필요한 공급망 위험 발생."
+}

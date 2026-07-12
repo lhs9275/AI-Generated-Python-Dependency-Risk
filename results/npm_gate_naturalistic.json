@@ -1,0 +1,258 @@
+{
+  "min_blocked_severity": "HIGH",
+  "n_changes": 1284,
+  "n_risky": 62,
+  "n_clean": 1222,
+  "f3_severity_split": {
+    "block_ge_high": 39,
+    "warn_below_high": 6,
+    "severity_band": {
+      "HIGH": 29,
+      "LOW": 2,
+      "MEDIUM": 4,
+      "CRITICAL": 10
+    }
+  },
+  "headline_mode": "S1_S2_S3",
+  "matrix": {
+    "modes": {
+      "B0": {
+        "n": 1284,
+        "n_risky": 62,
+        "n_normal": 1222,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.058344
+        ],
+        "detection_recall": 0.0,
+        "detection_recall_ci": [
+          0.0,
+          0.058344
+        ],
+        "primary_recall": 0.0,
+        "primary_recall_ci": [
+          0.0,
+          0.058344
+        ],
+        "precision": null,
+        "false_block_rate": 0.0,
+        "negative_pass_rate": 1.0,
+        "confusion": {
+          "tp": 0,
+          "fn": 62,
+          "fp": 0,
+          "tn": 1222
+        },
+        "family_recall": {
+          "S3": {
+            "n": 45,
+            "blocked": 0,
+            "recall": 0.0
+          },
+          "S1": {
+            "n": 6,
+            "blocked": 0,
+            "recall": 0.0
+          },
+          "S2": {
+            "n": 11,
+            "blocked": 0,
+            "recall": 0.0
+          }
+        }
+      },
+      "S1_only": {
+        "n": 1284,
+        "n_risky": 62,
+        "n_normal": 1222,
+        "recall": 0.0967741935483871,
+        "recall_ci": [
+          0.045112,
+          0.195488
+        ],
+        "detection_recall": 0.0967741935483871,
+        "detection_recall_ci": [
+          0.045112,
+          0.195488
+        ],
+        "primary_recall": 0.0967741935483871,
+        "primary_recall_ci": [
+          0.045112,
+          0.195488
+        ],
+        "precision": 1.0,
+        "false_block_rate": 0.0,
+        "negative_pass_rate": 1.0,
+        "confusion": {
+          "tp": 6,
+          "fn": 56,
+          "fp": 0,
+          "tn": 1222
+        },
+        "family_recall": {
+          "S3": {
+            "n": 45,
+            "blocked": 0,
+            "recall": 0.0
+          },
+          "S1": {
+            "n": 6,
+            "blocked": 6,
+            "recall": 1.0
+          },
+          "S2": {
+            "n": 11,
+            "blocked": 0,
+            "recall": 0.0
+          }
+        }
+      },
+      "S1_S2": {
+        "n": 1284,
+        "n_risky": 62,
+        "n_normal": 1222,
+        "recall": 0.27419354838709675,
+        "recall_ci": [
+          0.178811,
+          0.395925
+        ],
+        "detection_recall": 0.27419354838709675,
+        "detection_recall_ci": [
+          0.178811,
+          0.395925
+        ],
+        "primary_recall": 0.27419354838709675,
+        "primary_recall_ci": [
+          0.178811,
+          0.395925
+        ],
+        "precision": 1.0,
+        "false_block_rate": 0.0,
+        "negative_pass_rate": 1.0,
+        "confusion": {
+          "tp": 17,
+          "fn": 45,
+          "fp": 0,
+          "tn": 1222
+        },
+        "family_recall": {
+          "S3": {
+            "n": 45,
+            "blocked": 0,
+            "recall": 0.0
+          },
+          "S1": {
+            "n": 6,
+            "blocked": 6,
+            "recall": 1.0
+          },
+          "S2": {
+            "n": 11,
+            "blocked": 11,
+            "recall": 1.0
+          }
+        }
+      },
+      "S1_S2_S3": {
+        "n": 1284,
+        "n_risky": 62,
+        "n_normal": 1222,
+        "recall": 0.9032258064516129,
+        "recall_ci": [
+          0.804512,
+          0.954888
+        ],
+        "detection_recall": 1.0,
+        "detection_recall_ci": [
+          0.941656,
+          1.0
+        ],
+        "primary_recall": 0.9032258064516129,
+        "primary_recall_ci": [
+          0.804512,
+          0.954888
+        ],
+        "precision": 1.0,
+        "false_block_rate": 0.0,
+        "negative_pass_rate": 1.0,
+        "confusion": {
+          "tp": 56,
+          "fn": 6,
+          "fp": 0,
+          "tn": 1222
+        },
+        "family_recall": {
+          "S3": {
+            "n": 45,
+            "blocked": 39,
+            "recall": 0.8666666666666667
+          },
+          "S1": {
+            "n": 6,
+            "blocked": 6,
+            "recall": 1.0
+          },
+          "S2": {
+            "n": 11,
+            "blocked": 11,
+            "recall": 1.0
+          }
+        }
+      },
+      "npm_audit": {
+        "n": 1284,
+        "n_risky": 62,
+        "n_normal": 1222,
+        "recall": 0.7258064516129032,
+        "recall_ci": [
+          0.604075,
+          0.821189
+        ],
+        "detection_recall": 0.7258064516129032,
+        "detection_recall_ci": [
+          0.604075,
+          0.821189
+        ],
+        "primary_recall": 0.7258064516129032,
+        "primary_recall_ci": [
+          0.604075,
+          0.821189
+        ],
+        "precision": 1.0,
+        "false_block_rate": 0.0,
+        "negative_pass_rate": 1.0,
+        "confusion": {
+          "tp": 45,
+          "fn": 17,
+          "fp": 0,
+          "tn": 1222
+        },
+        "family_recall": {
+          "S3": {
+            "n": 45,
+            "blocked": 45,
+            "recall": 1.0
+          },
+          "S1": {
+            "n": 6,
+            "blocked": 0,
+            "recall": 0.0
+          },
+          "S2": {
+            "n": 11,
+            "blocked": 0,
+            "recall": 0.0
+          }
+        }
+      }
+    },
+    "n_primary_risky": 62,
+    "families": [
+      "S3",
+      "S1",
+      "S2"
+    ]
+  },
+  "circularity_note": "gate stages and F1/F2/F3 labels derive from the same public evidence on this corpus, so clean-change false-block is ~0 by construction; the non-circular recall/specificity test is the independent external corpus (npm_external_recall.json)."
+}

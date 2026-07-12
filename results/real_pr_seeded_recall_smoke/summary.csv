@@ -1,0 +1,10 @@
+mode,n_cases,n_risky,n_normal,recall,risky_accepted_rate,false_block_rate_on_normals,warn_rate_on_normals,blocked_risky,blocked_normal,miss_reasons,tool_status
+B0,10,5,5,0.0,0.5,0.0,0.0,0,0,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_S1_NOT_ENABLED_OR_NO_EXISTENCE_EVIDENCE"": 1, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 1, ""MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE"": 1, ""MISS_TRANSITIVE_SCOPE"": 1}",{}
+S1_only,10,5,5,0.2,0.4,0.0,0.0,1,0,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 1, ""MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE"": 1, ""MISS_TRANSITIVE_SCOPE"": 1}",{}
+S1_S3,10,5,5,0.4,0.3,0.0,0.0,2,0,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 1, ""MISS_TRANSITIVE_SCOPE"": 1}",{}
+S1_S2_S3,10,5,5,0.6,0.2,0.0,0.0,3,0,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_TRANSITIVE_SCOPE"": 1}",{}
+B3,10,5,5,1.0,0.0,0.0,0.0,5,0,{},{}
+pip_audit_no_deps_vuln_only,10,5,5,0.4,0.3,0.2,0.0,2,1,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_TOOL_FAILURE_FAIL_OPEN"": 2}","{""clean"": 4, ""timeout"": 1, ""tool_failure"": 2, ""vulnerabilities_found"": 3}"
+pip_audit_no_deps_fail_closed,10,5,5,0.8,0.1,0.4,0.0,4,2,"{""MISS_LICENSE_SCOPE"": 1}","{""clean"": 4, ""timeout"": 1, ""tool_failure"": 2, ""vulnerabilities_found"": 3}"
+pip_audit_with_deps_vuln_only,10,5,5,0.4,0.3,0.4,0.0,2,2,"{""MISS_LICENSE_SCOPE"": 1, ""MISS_TOOL_FAILURE_FAIL_OPEN"": 2}","{""clean"": 4, ""tool_failure"": 2, ""vulnerabilities_found"": 4}"
+pip_audit_with_deps_fail_closed,10,5,5,0.8,0.1,0.4,0.0,4,2,"{""MISS_LICENSE_SCOPE"": 1}","{""clean"": 4, ""tool_failure"": 2, ""vulnerabilities_found"": 4}"

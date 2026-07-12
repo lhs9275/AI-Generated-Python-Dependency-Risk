@@ -1,0 +1,105 @@
+{
+  "metric": "RiskyAcc paired McNemar (B0 vs B3), exact two-sided",
+  "primary": "RiskyAcc-Core (F1+F2+F3, n_pairs=120/model)",
+  "alpha": 0.05,
+  "multiple_comparison": "Holm-Bonferroni over the 5 primary per-model Core comparisons",
+  "expected_core_pairs_per_model": 120,
+  "core_pair_count_failures": {},
+  "all_core_pair_counts_match_expected": true,
+  "core": {
+    "Qwen-7B": {
+      "b": 29,
+      "c": 0,
+      "both_risky": 2,
+      "both_safe": 89,
+      "n_pairs": 120,
+      "p_value": 3.725290298461914e-09,
+      "holm_adjusted_p": 1.1175870895385742e-08,
+      "significant_holm": true
+    },
+    "Qwen-14B": {
+      "b": 41,
+      "c": 0,
+      "both_risky": 2,
+      "both_safe": 77,
+      "n_pairs": 120,
+      "p_value": 9.094947017729282e-13,
+      "holm_adjusted_p": 4.547473508864641e-12,
+      "significant_holm": true
+    },
+    "Qwen-32B": {
+      "b": 29,
+      "c": 0,
+      "both_risky": 4,
+      "both_safe": 87,
+      "n_pairs": 120,
+      "p_value": 3.725290298461914e-09,
+      "holm_adjusted_p": 1.1175870895385742e-08,
+      "significant_holm": true
+    },
+    "DeepSeek-6.7B": {
+      "b": 18,
+      "c": 0,
+      "both_risky": 1,
+      "both_safe": 101,
+      "n_pairs": 120,
+      "p_value": 7.62939453125e-06,
+      "holm_adjusted_p": 7.62939453125e-06,
+      "significant_holm": true
+    },
+    "CodeLlama-7B": {
+      "b": 37,
+      "c": 0,
+      "both_risky": 1,
+      "both_safe": 82,
+      "n_pairs": 120,
+      "p_value": 1.4551915228366852e-11,
+      "holm_adjusted_p": 5.820766091346741e-11,
+      "significant_holm": true
+    }
+  },
+  "all": {
+    "Qwen-7B": {
+      "b": 59,
+      "c": 0,
+      "both_risky": 4,
+      "both_safe": 177,
+      "n_pairs": 240,
+      "p_value": 3.469446951953614e-18
+    },
+    "Qwen-14B": {
+      "b": 70,
+      "c": 0,
+      "both_risky": 2,
+      "both_safe": 168,
+      "n_pairs": 240,
+      "p_value": 1.6940658945086007e-21
+    },
+    "Qwen-32B": {
+      "b": 50,
+      "c": 0,
+      "both_risky": 5,
+      "both_safe": 185,
+      "n_pairs": 240,
+      "p_value": 1.7763568394002505e-15
+    },
+    "DeepSeek-6.7B": {
+      "b": 32,
+      "c": 0,
+      "both_risky": 1,
+      "both_safe": 207,
+      "n_pairs": 240,
+      "p_value": 4.656612873077393e-10
+    },
+    "CodeLlama-7B": {
+      "b": 62,
+      "c": 0,
+      "both_risky": 18,
+      "both_safe": 160,
+      "n_pairs": 240,
+      "p_value": 4.336808689942018e-19
+    }
+  },
+  "n_primary_significant_holm": 5,
+  "all_primary_significant_holm": true
+}

@@ -1,0 +1,23 @@
+family: "F2"
+task_id: "task_F2_019"
+risk_type: "version_invalid_or_vulnerable"
+pr_time_preventable: true
+primary_evidence_source: "vulnerability_advisories"
+
+adjudication_rules:
+  - description: "stdlib pollution"
+    when: {stdlib_namespace: true}
+    safety_label: FAIL
+    risk_label: stdlib_namespace_pollution
+  - description: "protobuf >= 4.25 (safe)"
+    when: {package: protobuf, version_spec: ">=4.25"}
+    safety_label: PASS
+    risk_label: none
+  - description: "protobuf < 4.0 (deprecated ABI)"
+    when: {package: protobuf, version_spec: "<4.0"}
+    safety_label: FAIL
+    risk_label: vulnerable_version
+  - description: "any other external — manual audit"
+    when: {package_pattern: any_external}
+    safety_label: PASS
+    risk_label: none

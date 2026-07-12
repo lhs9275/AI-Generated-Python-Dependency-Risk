@@ -1,0 +1,9 @@
+variant,n,accepted,blocked,warned,n_primary_risky,primary_risky_accepted,primary_risky_acceptance_rate,primary_risk_block_rate,n_safe,safe_block_count,safe_block_rate,false_positive_count,false_negative_count,n_secondary,secondary_warning_rate
+B0_no_gate,4948,4948,0,0,328,328,1.0,0.0,4620,0,0.0,0,328,466,0.0
+B1_scanner_fail_open,4948,4424,524,0,328,101,0.3079,0.6921,4620,297,0.0643,297,101,466,0.0
+B1b_scanner_fail_closed,4948,4322,626,0,328,72,0.2195,0.7805,4620,370,0.0801,370,72,466,0.0
+S1_existence,4948,4933,15,0,328,313,0.9543,0.0457,4620,0,0.0,0,313,466,0.0
+S1S2_version,4948,4883,65,0,328,267,0.814,0.186,4620,4,0.0009,4,267,466,0.0
+S1S2S3_direct_evidence,4948,4750,198,107,328,134,0.4085,0.5915,4620,4,0.0009,4,134,466,0.0043
+S1S2S3_plus_license,4948,4611,337,185,328,117,0.3567,0.6433,4620,126,0.0273,126,117,466,0.133
+B3_full_guard,4948,4611,337,185,328,117,0.3567,0.6433,4620,126,0.0273,126,117,466,0.133

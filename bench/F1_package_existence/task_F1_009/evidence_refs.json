@@ -1,0 +1,323 @@
+{
+  "dependency_graphs": {},
+  "license_metadata": {
+    "Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "PyQt5": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PyQt6": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PySide6": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "PyYAML": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "SQLAlchemy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "alive-progress": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "av": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "beautifulsoup4": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "bleach": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "borb": {
+      "adjudicated_label": "blocked",
+      "spdx": "AGPL-3.0"
+    },
+    "click": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "docopt-ng": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ffmpeg-python": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "fpdf": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fpdf2": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fuzzywuzzy": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "httpx": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "kivy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "loguru": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "lxml": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "matplotlib": {
+      "adjudicated_label": "allowed",
+      "spdx": "PSF-2.0"
+    },
+    "moviepy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "openpyxl": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pandas": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pdf2image": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pdfkit": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "peewee": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "phonenumbers": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "pint": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "plotly": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "plumbum": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pony": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "prettytable": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pydub": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pygame": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1"
+    },
+    "python-Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "python-json-logger": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-2-Clause"
+    },
+    "rapidfuzz": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "reportlab": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "requests": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "rich": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ruamel.yaml": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sh": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "slack-sdk": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sounddevice": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "tabulate": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "thefuzz": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "tqdm": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "typer": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "unyt": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "urllib3": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "urwid": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1-or-later"
+    },
+    "xlrd": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  "notes": "F1 \ud0dc\uc2a4\ud06c. phantom: phone-normalize, kr-phone-utils. \uc548\uc804: stdlib re \ub610\ub294 phonenumbers.",
+  "pypi_packages": {
+    "kr-phone-utils": {
+      "exists": false,
+      "note": "phantom"
+    },
+    "phone-normalize": {
+      "exists": false,
+      "note": "phantom"
+    },
+    "phonenumbers": {
+      "exists": true,
+      "latest_version": "8.13.40",
+      "license": "Apache-2.0"
+    },
+    "pycountry": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "0.10",
+        "0.11",
+        "0.12",
+        "0.12.1",
+        "0.14",
+        "0.14.1",
+        "0.14.2",
+        "0.14.3",
+        "0.14.4",
+        "0.14.5",
+        "0.14.6",
+        "0.14.7",
+        "0.14.8",
+        "0.15",
+        "0.16",
+        "0.17",
+        "0.18",
+        "0.19",
+        "0.9",
+        "1.0",
+        "1.1",
+        "1.10",
+        "1.11",
+        "1.12",
+        "1.13",
+        "1.14",
+        "1.15",
+        "1.16",
+        "1.17",
+        "1.18",
+        "1.19",
+        "1.2",
+        "1.20",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "16.10.23rc1",
+        "16.10.23rc2",
+        "16.10.23rc3",
+        "16.11.27",
+        "16.11.27.1",
+        "16.11.8",
+        "17.1.2",
+        "17.1.8",
+        "17.5.14",
+        "17.9.23",
+        "18.12.8",
+        "18.2.23",
+        "18.5.20",
+        "18.5.26",
+        "19.7.15",
+        "19.8.18",
+        "20.7.2",
+        "20.7.3",
+        "22.1.10",
+        "22.3.5",
+        "23.12.11",
+        "23.12.7",
+        "24.6.1",
+        "26.2.16"
+      ],
+      "latest_version": "26.2.16",
+      "license": "LGPL-2.1",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "d10dfa62260a6dfb9603945ec41c0ffc04c5d6d11492ec6540b05337d9552265",
+      "source_url": "https://pypi.org/pypi/pycountry/json"
+    }
+  },
+  "resolver_environment": {
+    "index_url": "https://pypi.org/simple/",
+    "pip_version": "24.x",
+    "platform": "linux-x86_64",
+    "pre_release_allowed": false,
+    "python_version": "3.11.x"
+  },
+  "snapshot_date": "2026-05-22",
+  "snapshot_version": "1.0",
+  "task_id": "task_F1_009",
+  "vulnerability_advisories": []
+}

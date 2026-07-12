@@ -1,0 +1,146 @@
+{
+  "gate_analysis_sample": "repo-stratified 500-PR downsample (seed 42); all primary-risk PRs retained, safe PRs sub-sampled. Within-stratum acceptance/safe-block rates unbiased.",
+  "n_joined_changes": 5773,
+  "n_analysis_population_add_or_versionchange": 4948,
+  "n_removes_excluded": 825,
+  "n_primary_risky": 328,
+  "n_safe": 4620,
+  "n_secondary_labeled": 466,
+  "primary_label_counts": {
+    "NONE": 4620,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 264,
+    "P2_INVALID_VERSION_SPEC": 49,
+    "P1_NONEXISTENT_PACKAGE": 15
+  },
+  "secondary_label_counts": {
+    "NONE": 4482,
+    "S4_LICENSE_POLICY_CONFLICT": 387,
+    "S7_METADATA_MISSING": 65,
+    "S8_EVIDENCE_UNRESOLVED": 14
+  },
+  "n_repos": 464,
+  "n_prs": 479,
+  "prevalence_full_corpus": {
+    "n_changes_full": 8752,
+    "n_primary_risky_full": 328,
+    "primary_prevalence_full": 0.0375,
+    "primary_label_counts_full": {
+      "NONE": 8424,
+      "P3_DIRECT_KNOWN_VULNERABILITY": 264,
+      "P2_INVALID_VERSION_SPEC": 49,
+      "P1_NONEXISTENT_PACKAGE": 15
+    },
+    "n_prs_full": 1101,
+    "n_repos_full": 980
+  },
+  "paired_stats": {
+    "B0_no_gate_vs_S1S2S3_direct_evidence": {
+      "left": "B0_no_gate",
+      "right": "S1S2S3_direct_evidence",
+      "n_pairs": 4948,
+      "left_blocked": 0,
+      "right_blocked": 198,
+      "discordant_left_only": 0,
+      "discordant_right_only": 198,
+      "mcnemar_p": 0.0,
+      "odds_ratio": {
+        "odds_ratio": 0.003,
+        "ci_low": 0.0,
+        "ci_high": 0.04
+      },
+      "safe_block_rate_diff_right_minus_left": 0.0008658008658008658,
+      "safe_block_rate_diff_ci": [
+        0.0002,
+        0.0019
+      ],
+      "primary_risky_accept_diff_right_minus_left": -0.5914634146341464,
+      "primary_risky_accept_diff_ci": [
+        -0.673,
+        -0.512
+      ],
+      "n_safe": 4620,
+      "n_primary_risky": 328
+    },
+    "B1_scanner_fail_open_vs_S1S2S3_direct_evidence": {
+      "left": "B1_scanner_fail_open",
+      "right": "S1S2S3_direct_evidence",
+      "n_pairs": 4948,
+      "left_blocked": 524,
+      "right_blocked": 198,
+      "discordant_left_only": 412,
+      "discordant_right_only": 86,
+      "mcnemar_p": 0.0,
+      "odds_ratio": {
+        "odds_ratio": 4.791,
+        "ci_low": 3.797,
+        "ci_high": 6.044
+      },
+      "safe_block_rate_diff_right_minus_left": -0.06341991341991342,
+      "safe_block_rate_diff_ci": [
+        -0.0829,
+        -0.0479
+      ],
+      "primary_risky_accept_diff_right_minus_left": 0.10060975609756095,
+      "primary_risky_accept_diff_ci": [
+        -0.0835,
+        0.2604
+      ],
+      "n_safe": 4620,
+      "n_primary_risky": 328
+    },
+    "S1S2S3_direct_evidence_vs_B3_full_guard": {
+      "left": "S1S2S3_direct_evidence",
+      "right": "B3_full_guard",
+      "n_pairs": 4948,
+      "left_blocked": 198,
+      "right_blocked": 337,
+      "discordant_left_only": 0,
+      "discordant_right_only": 139,
+      "mcnemar_p": 0.0,
+      "odds_ratio": {
+        "odds_ratio": 0.004,
+        "ci_low": 0.0,
+        "ci_high": 0.058
+      },
+      "safe_block_rate_diff_right_minus_left": 0.026406926406926406,
+      "safe_block_rate_diff_ci": [
+        0.0197,
+        0.0355
+      ],
+      "primary_risky_accept_diff_right_minus_left": -0.05182926829268292,
+      "primary_risky_accept_diff_ci": [
+        -0.0874,
+        -0.0216
+      ],
+      "n_safe": 4620,
+      "n_primary_risky": 328
+    },
+    "B0_no_gate_vs_B3_full_guard": {
+      "left": "B0_no_gate",
+      "right": "B3_full_guard",
+      "n_pairs": 4948,
+      "left_blocked": 0,
+      "right_blocked": 337,
+      "discordant_left_only": 0,
+      "discordant_right_only": 337,
+      "mcnemar_p": 0.0,
+      "odds_ratio": {
+        "odds_ratio": 0.001,
+        "ci_low": 0.0,
+        "ci_high": 0.024
+      },
+      "safe_block_rate_diff_right_minus_left": 0.02727272727272727,
+      "safe_block_rate_diff_ci": [
+        0.0204,
+        0.0364
+      ],
+      "primary_risky_accept_diff_right_minus_left": -0.6432926829268293,
+      "primary_risky_accept_diff_ci": [
+        -0.7206,
+        -0.5681
+      ],
+      "n_safe": 4620,
+      "n_primary_risky": 328
+    }
+  }
+}

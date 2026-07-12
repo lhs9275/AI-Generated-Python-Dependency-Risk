@@ -1,0 +1,17 @@
+task_id,run_id,package,adj_labels,s1_fired,s6_fired,is_imported_in_code,is_stdlib_name,miss_category,s6_issues_count,s1_issues_count
+task_F6_001,704be108,python_dotenv,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_005,80829311,python_dotenv,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_011,5605013f,pytest,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_011,912038b1,pytest,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_012,94b0adcd,pytest,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_013,0838bd6a,numpy,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_013,018a541f,numpy,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_014,ee16c022,numpy,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_015,d1f6defd,python_dotenv,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_015,7d2b8e93,pylint,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_017,b4a9f881,pytest,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_018,3de5ebd4,pytest,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_018,3de37e95,pandas,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_019,236cf664,numpy,unnecessary_dependency,False,False,False,False,spec_not_imported,0,0
+task_F6_019,633bb1ee,pytest,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0
+task_F6_020,18c9570e,pylint,unnecessary_dependency,False,False,True,False,s6_heuristic_miss_nonstdlib,0,0

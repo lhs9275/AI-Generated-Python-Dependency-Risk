@@ -1,0 +1,62 @@
+PR#,guard_category,agent,created_at,n_deps,primary_labels,flagged_pkgs,auto_flag,V1_manifest_change,V2_pypi_public,V3_temporal_ok,V4_pr_merged,V5_runtime_dep,V6_confirmed_risk,V7_notes,pr_url
+1,GAP_ONLY,aider,2025-08-14,9,,,,,,,,,,,https://github.com/vk4s/aider/pull/9
+2,GAP_ONLY,aider,2025-10-14,6,,,,,,,,,,,https://github.com/akepo225/offline-coding-agent/pull/14
+3,TRUE_NEG,aider,2026-05-12,0,,,,,,,,,,,https://github.com/Quitcode-Dev/project-automatron-vmark/pull/1
+4,GAP_ONLY,aider,2026-05-05,1,,,,,,,,,,,https://github.com/jnavarro7/netlist-parser/pull/1
+5,TRUE_NEG,aider,2026-05-20,0,,,,,,,,,,,https://github.com/izzoa/unison-mcp-server/pull/4
+6,GAP_ONLY,aider,2026-05-23,5,,,,,,,,,,,https://github.com/techempower-org/mempalace/pull/156
+7,PRIMARY,aider,2026-05-20,3,package_nonexistent,"description, name","SUSPICIOUS_PKG:description,name",,,,,,,,https://github.com/Doomlead/aider-plus/pull/167
+8,PRIMARY,aider,2026-05-22,1,package_nonexistent,description,SUSPICIOUS_PKG:description,,,,,,,,https://github.com/AmberCowled/probably-fine/pull/1
+9,GAP_ONLY,devin,2026-05-23,1,,,,,,,,,,,https://github.com/squalliram/flask/pull/1
+10,GAP_ONLY,devin,2026-05-23,3,,,,,,,,,,,https://github.com/aaronsmothhh-create/AiVideoMonitoring/pull/1
+11,TRUE_NEG,devin,2026-05-23,0,,,,,,,,,,,https://github.com/deblasioluca/sap-ai-consultant-v2/pull/30
+12,PRIMARY,devin,2026-05-10,9,package_nonexistent,"build_backend, description, name, requires_python","SUSPICIOUS_PKG:build_backend,description,name,requires_python",,,,,,,,https://github.com/botanarede/beddel/pull/3
+13,PRIMARY,devin,2026-04-13,6,package_nonexistent,"agent_manager.py, line_length, per_file_ignores, profile, target_version, wee_cl","SUSPICIOUS_PKG:line_length,per_file_ignores,profile",,,,,,,,https://github.com/leprachuan/Wee-Orchestrator/pull/152
+14,PRIMARY,devin,2026-05-02,4,package_nonexistent,description,SUSPICIOUS_PKG:description,,,,,,,,https://github.com/hikhikhook-code/sn-image-screener/pull/2
+15,GAP_ONLY,devin,2026-05-18,1,,,,,,,,,,,https://github.com/saml7n/parbaked/pull/197
+16,PRIMARY,devin,2026-03-13,2,package_nonexistent,"addopts, voidwright_graph_expansion",SUSPICIOUS_PKG:addopts,,,,,,,,https://github.com/0neye/Voidwright/pull/6
+17,TRUE_NEG,devin,2026-05-18,0,,,,,,,,,,,https://github.com/saml7n/parbaked/pull/160
+18,PRIMARY,devin,2021-12-06,1,package_nonexistent,fiscal_year_details,TEMPORAL_RISK,,,,,,,,https://github.com/fproldan/erpnext/pull/37
+19,PRIMARY,devin,2020-08-01,50,package_nonexistent,"adminlist, author, author_email, channelmgnt, classifiers, console_scripts, desc","SUSPICIOUS_PKG:classifiers,description,dev_requirements,history,import,long_description_content_type,name TEMPORAL_RISK",,,,,,,,https://github.com/FOSSBots/MirahezeBots/pull/243
+20,GAP_ONLY,devin,2020-03-03,1,,,,,,,,,,,https://github.com/GatorCogitate/cogitate_tool/pull/62
+21,GAP_ONLY,cursor,2026-05-02,2,,,,,,,,,,,https://github.com/yourplane/dev/pull/80
+22,GAP_ONLY,cursor,2026-05-03,1,,,,,,,,,,,https://github.com/yu-iskw/sqlfluff-complexity/pull/22
+23,PRIMARY,cursor,2026-05-02,1,package_nonexistent,dev_sdk,,,,,,,,,https://github.com/yourplane/dev/pull/79
+24,GAP_ONLY,cursor,2026-05-03,1,,,,,,,,,,,https://github.com/getbourdon/bourdon/pull/21
+25,PRIMARY,cursor,2026-05-08,12,package_nonexistent,"approve_watch, asyncio_mode, build_backend, description, dev, name, requires_pyt","SUSPICIOUS_PKG:asyncio_mode,build_backend,description,dev,name,requires_python,testpaths",,,,,,,,https://github.com/kalanyuz/approve-watch/pull/1
+26,GAP_ONLY,cursor,2026-04-01,2,,,,,,,,,,,https://github.com/usik/tamagotchi/pull/8
+27,PRIMARY,cursor,2026-05-19,5,package_nonexistent,"api, bulk_api, dev","SUSPICIOUS_PKG:api,bulk_api,dev",,,,,,,,https://github.com/andre-koga/bulk-payments-poc/pull/2
+28,TRUE_NEG,cursor,2026-05-23,0,,,,,,,,,,,https://github.com/LBP97541135/MultiAgent-Werewolf/pull/4
+29,GAP_ONLY,claude-code,2026-05-21,1,,,,,,,,,,,https://github.com/bigler-webapps/webapp-template/pull/11
+30,GAP_ONLY,codex,2026-05-16,1,,,,,,,,,,,https://github.com/puffo-ai/puffo-agent/pull/21
+31,GAP_ONLY,codex,2026-03-21,5,,,,,,,,,,,https://github.com/HansaDR/loco-ai-test/pull/1
+32,GAP_ONLY,codex,2026-05-09,2,,,,,,,,,,,https://github.com/HrRodan/agent-workspace-mcp/pull/27
+33,GAP_ONLY,codex,2026-04-20,5,,,,,,,,,,,https://github.com/abramovmarketing88-byte/Avitolog/pull/1
+34,PRIMARY,codex,2026-05-15,2,package_nonexistent,description,SUSPICIOUS_PKG:description,,,,,,,,https://github.com/ebibibi/claude-code-discord-bridge/pull/404
+35,PRIMARY,codex,2026-05-16,6,package_nonexistent,"name, wheels","SUSPICIOUS_PKG:name,wheels",,,,,,,,https://github.com/max-sixty/tend/pull/545
+36,GAP_ONLY,codex,2026-03-14,5,,,,,,,,,,,https://github.com/jacksonsiow-ai/jackson-ai-system/pull/1
+37,PRIMARY,codex,2026-04-28,12,package_nonexistent,"coordinator_file, else, if, system, tool_","SUSPICIOUS_PKG:else,system,tool_",,,,,,,,https://github.com/VorobiovD/air/pull/41
+38,GAP_ONLY,codex,2025-11-28,1,,,,,,,,,,,https://github.com/lotbones1-code/social_agent_codex/pull/60
+39,GAP_ONLY,codex,2025-07-30,2,,,,,,,,,,,https://github.com/ishandutta0098/orion/pull/1
+40,GAP_ONLY,codex,2026-05-22,1,,,,,,,,,,,https://github.com/open-telemetry/opentelemetry-python-genai/pull/73
+41,GAP_ONLY,codex,2026-04-29,2,,,,,,,,,,,https://github.com/trask/semantic-conventions-genai-orig/pull/28
+42,PRIMARY,codex,2025-12-12,20,"package_nonexistent, stdlib_namespace_pollution","auto_prd, build_backend, classifiers, description, line_length, name, requires_p","SUSPICIOUS_PKG:build_backend,classifiers,description,line_length,name,requires_python,select",,,,,,,,https://github.com/SimoKiihamaki/autodev/pull/56
+43,PRIMARY,codex,2026-05-14,11,package_nonexistent,"dev, eeg_sync, eeg_sync_portal, video_infer_rtmlib, video_infer_sam3d, video_inf",SUSPICIOUS_PKG:dev,,,,,,,,https://github.com/felipe-parodi/eeg_sync/pull/9
+44,PRIMARY,codex,2026-04-06,1,package_nonexistent,description,SUSPICIOUS_PKG:description,,,,,,,,https://github.com/psi-oss/get-physics-done/pull/93
+45,GAP_ONLY,codex,2026-05-10,3,,,,,,,,,,,https://github.com/DoRmAmMu1997/ChatBot/pull/1
+46,PRIMARY,codex,2026-05-22,3,package_nonexistent,"addopts, fail_under, show_missing","SUSPICIOUS_PKG:addopts,fail_under,show_missing",,,,,,,,https://github.com/vinnyp/lazypandas/pull/11
+47,GAP_ONLY,codex,2026-04-26,2,,,,,,,,,,,https://github.com/mauriciomenon/SSA_Consulta_Rapida/pull/49
+48,PRIMARY,codex,2026-05-22,18,package_nonexistent,"addopts, build_backend, classifiers, description, dev, name, repository, require","SUSPICIOUS_PKG:addopts,build_backend,classifiers,description,dev,name,requires_python,testpaths",,,,,,,,https://github.com/vinnyp/lazypandas/pull/6
+49,GAP_ONLY,codex,2026-04-23,1,,,,,,,,,,,https://github.com/KjellKod/metrics-and-insights/pull/111
+50,PRIMARY,codex,2026-05-13,5,package_nonexistent,"description, name, requires_python","SUSPICIOUS_PKG:description,name,requires_python",,,,,,,,https://github.com/2513502304/bilibili-mall/pull/1
+51,PRIMARY,codex,2026-05-22,11,"package_nonexistent, stdlib_namespace_pollution","dev, line_length, quote_style, select, target_version","SUSPICIOUS_PKG:dev,line_length,quote_style,select",,,,,,,,https://github.com/vinnyp/lazypandas/pull/12
+52,GAP_ONLY,codex,2026-05-22,1,,,,,,,,,,,https://github.com/keelapi/keel-verifier/pull/12
+53,GAP_ONLY,codex,2026-03-08,3,,,,,,,,,,,https://github.com/dbosk/nytid/pull/292
+54,TRUE_NEG,continue,2026-05-04,0,,,,,,,,,,,https://github.com/pyca/pyopenssl/pull/1500
+55,GAP_ONLY,continue,2026-05-13,1,,,,,,,,,,,https://github.com/biocypher/biocypher/pull/513
+56,TRUE_NEG,continue,2026-05-08,0,,,,,,,,,,,https://github.com/danniesidequestmaxxing/watchlist-tracking/pull/1
+57,TRUE_NEG,continue,2026-04-04,0,,,,,,,,,,,https://github.com/Luke-Bradford/eBull/pull/18
+58,GAP_ONLY,continue,2026-05-07,1,,,,,,,,,,,https://github.com/johnny-neang/Anima/pull/1
+59,PRIMARY,continue,2026-04-23,1,package_nonexistent,parse_squash_commits,,,,,,,,,https://github.com/saitatter/pylrcget/pull/21
+60,GAP_ONLY,continue,2026-05-15,3,,,,,,,,,,,https://github.com/t11z/pan-edl/pull/2
+61,PRIMARY,continue,2026-04-27,5,package_nonexistent,"name, wheels","SUSPICIOUS_PKG:name,wheels",,,,,,,,https://github.com/Daffodil-lab/Flauna/pull/5

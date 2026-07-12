@@ -1,0 +1,502 @@
+{
+  "corpus_role": "Archived controlled benchmark summary; B1/B2 scanner are stored pip-audit --no-deps results.",
+  "rows": [
+    {
+      "model": "CodeLlama-7B",
+      "mode": "B0",
+      "n": 240,
+      "RiskyAcc": 0.3333,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 80,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "CodeLlama-7B",
+      "mode": "B1_scanner",
+      "n": 240,
+      "RiskyAcc": 0.3333,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 80,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "CodeLlama-7B",
+      "mode": "B2_scanner",
+      "n": 240,
+      "RiskyAcc": 0.3333,
+      "BlockRate": 0.0208,
+      "DIR": 0.0208,
+      "n_risky": 80,
+      "n_blocked": 5,
+      "n_false_block": 5
+    },
+    {
+      "model": "CodeLlama-7B",
+      "mode": "S1_S3",
+      "n": 240,
+      "RiskyAcc": 0.1375,
+      "BlockRate": 0.2,
+      "DIR": 0.0042,
+      "n_risky": 33,
+      "n_blocked": 48,
+      "n_false_block": 1
+    },
+    {
+      "model": "CodeLlama-7B",
+      "mode": "S1_S2_S3",
+      "n": 240,
+      "RiskyAcc": 0.0792,
+      "BlockRate": 0.2667,
+      "DIR": 0.0125,
+      "n_risky": 19,
+      "n_blocked": 64,
+      "n_false_block": 3
+    },
+    {
+      "model": "CodeLlama-7B",
+      "mode": "B3",
+      "n": 240,
+      "RiskyAcc": 0.075,
+      "BlockRate": 0.2833,
+      "DIR": 0.025,
+      "n_risky": 18,
+      "n_blocked": 68,
+      "n_false_block": 6
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "B0",
+      "n": 240,
+      "RiskyAcc": 0.1375,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 33,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "B1_scanner",
+      "n": 240,
+      "RiskyAcc": 0.1375,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 33,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "B2_scanner",
+      "n": 240,
+      "RiskyAcc": 0.1375,
+      "BlockRate": 0.0083,
+      "DIR": 0.0083,
+      "n_risky": 33,
+      "n_blocked": 2,
+      "n_false_block": 2
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "S1_S3",
+      "n": 240,
+      "RiskyAcc": 0.0792,
+      "BlockRate": 0.0583,
+      "DIR": 0.0,
+      "n_risky": 19,
+      "n_blocked": 14,
+      "n_false_block": 0
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "S1_S2_S3",
+      "n": 240,
+      "RiskyAcc": 0.0167,
+      "BlockRate": 0.1208,
+      "DIR": 0.0,
+      "n_risky": 4,
+      "n_blocked": 29,
+      "n_false_block": 0
+    },
+    {
+      "model": "DeepSeek-6.7B",
+      "mode": "B3",
+      "n": 240,
+      "RiskyAcc": 0.0042,
+      "BlockRate": 0.1333,
+      "DIR": 0.0,
+      "n_risky": 1,
+      "n_blocked": 32,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "B0",
+      "n": 240,
+      "RiskyAcc": 0.3,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 72,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "B1_scanner",
+      "n": 240,
+      "RiskyAcc": 0.3,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 72,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "B2_scanner",
+      "n": 240,
+      "RiskyAcc": 0.3,
+      "BlockRate": 0.0042,
+      "DIR": 0.0042,
+      "n_risky": 72,
+      "n_blocked": 1,
+      "n_false_block": 1
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "S1_S3",
+      "n": 240,
+      "RiskyAcc": 0.1792,
+      "BlockRate": 0.1208,
+      "DIR": 0.0,
+      "n_risky": 43,
+      "n_blocked": 29,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "S1_S2_S3",
+      "n": 240,
+      "RiskyAcc": 0.025,
+      "BlockRate": 0.2917,
+      "DIR": 0.0167,
+      "n_risky": 6,
+      "n_blocked": 70,
+      "n_false_block": 4
+    },
+    {
+      "model": "Qwen-14B",
+      "mode": "B3",
+      "n": 240,
+      "RiskyAcc": 0.0083,
+      "BlockRate": 0.3083,
+      "DIR": 0.0167,
+      "n_risky": 2,
+      "n_blocked": 74,
+      "n_false_block": 4
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "B0",
+      "n": 240,
+      "RiskyAcc": 0.2292,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 55,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "B1_scanner",
+      "n": 240,
+      "RiskyAcc": 0.2292,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 55,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "B2_scanner",
+      "n": 240,
+      "RiskyAcc": 0.2292,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 55,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "S1_S3",
+      "n": 240,
+      "RiskyAcc": 0.1292,
+      "BlockRate": 0.1292,
+      "DIR": 0.0292,
+      "n_risky": 31,
+      "n_blocked": 31,
+      "n_false_block": 7
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "S1_S2_S3",
+      "n": 240,
+      "RiskyAcc": 0.0333,
+      "BlockRate": 0.2625,
+      "DIR": 0.0667,
+      "n_risky": 8,
+      "n_blocked": 63,
+      "n_false_block": 16
+    },
+    {
+      "model": "Qwen-32B",
+      "mode": "B3",
+      "n": 240,
+      "RiskyAcc": 0.0208,
+      "BlockRate": 0.275,
+      "DIR": 0.0667,
+      "n_risky": 5,
+      "n_blocked": 66,
+      "n_false_block": 16
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "B0",
+      "n": 240,
+      "RiskyAcc": 0.2625,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 63,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "B1_scanner",
+      "n": 240,
+      "RiskyAcc": 0.2625,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 63,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "B2_scanner",
+      "n": 240,
+      "RiskyAcc": 0.2625,
+      "BlockRate": 0.0042,
+      "DIR": 0.0042,
+      "n_risky": 63,
+      "n_blocked": 1,
+      "n_false_block": 1
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "S1_S3",
+      "n": 240,
+      "RiskyAcc": 0.1417,
+      "BlockRate": 0.1417,
+      "DIR": 0.0208,
+      "n_risky": 34,
+      "n_blocked": 34,
+      "n_false_block": 5
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "S1_S2_S3",
+      "n": 240,
+      "RiskyAcc": 0.025,
+      "BlockRate": 0.2583,
+      "DIR": 0.0208,
+      "n_risky": 6,
+      "n_blocked": 62,
+      "n_false_block": 5
+    },
+    {
+      "model": "Qwen-7B",
+      "mode": "B3",
+      "n": 240,
+      "RiskyAcc": 0.0167,
+      "BlockRate": 0.275,
+      "DIR": 0.0292,
+      "n_risky": 4,
+      "n_blocked": 66,
+      "n_false_block": 7
+    }
+  ],
+  "overall": {
+    "B0": {
+      "n": 1200,
+      "RiskyAcc": 0.2525,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 303,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    "B1_scanner": {
+      "n": 1200,
+      "RiskyAcc": 0.2525,
+      "BlockRate": 0.0,
+      "DIR": 0.0,
+      "n_risky": 303,
+      "n_blocked": 0,
+      "n_false_block": 0
+    },
+    "B2_scanner": {
+      "n": 1200,
+      "RiskyAcc": 0.2525,
+      "BlockRate": 0.0075,
+      "DIR": 0.0075,
+      "n_risky": 303,
+      "n_blocked": 9,
+      "n_false_block": 9
+    },
+    "S1_S3": {
+      "n": 1200,
+      "RiskyAcc": 0.1333,
+      "BlockRate": 0.13,
+      "DIR": 0.0108,
+      "n_risky": 160,
+      "n_blocked": 156,
+      "n_false_block": 13
+    },
+    "S1_S2_S3": {
+      "n": 1200,
+      "RiskyAcc": 0.0358,
+      "BlockRate": 0.24,
+      "DIR": 0.0233,
+      "n_risky": 43,
+      "n_blocked": 288,
+      "n_false_block": 28
+    },
+    "B3": {
+      "n": 1200,
+      "RiskyAcc": 0.025,
+      "BlockRate": 0.255,
+      "DIR": 0.0275,
+      "n_risky": 30,
+      "n_blocked": 306,
+      "n_false_block": 33
+    }
+  },
+  "family_misses_by_mode": {
+    "B0": {
+      "F1": {
+        "risky": 35
+      },
+      "F3": {
+        "risky": 74
+      },
+      "F4": {
+        "risky": 42
+      },
+      "F6": {
+        "risky": 35
+      },
+      "F2": {
+        "risky": 55
+      },
+      "F5": {
+        "risky": 62
+      }
+    },
+    "B1_scanner": {
+      "F1": {
+        "risky": 35
+      },
+      "F3": {
+        "risky": 74
+      },
+      "F4": {
+        "risky": 42
+      },
+      "F6": {
+        "risky": 35
+      },
+      "F2": {
+        "risky": 55
+      },
+      "F5": {
+        "risky": 62
+      }
+    },
+    "B2_scanner": {
+      "F1": {
+        "risky": 35
+      },
+      "F3": {
+        "risky": 74
+      },
+      "F4": {
+        "risky": 42
+      },
+      "F6": {
+        "risky": 35
+      },
+      "F2": {
+        "risky": 55
+      },
+      "F5": {
+        "risky": 62
+      }
+    },
+    "S1_S3": {
+      "F2": {
+        "risky": 34
+      },
+      "F3": {
+        "risky": 43
+      },
+      "F4": {
+        "risky": 10
+      },
+      "F5": {
+        "risky": 57
+      },
+      "F6": {
+        "risky": 16
+      }
+    },
+    "S1_S2_S3": {
+      "F3": {
+        "risky": 10
+      },
+      "F4": {
+        "risky": 10
+      },
+      "F6": {
+        "risky": 16
+      },
+      "F5": {
+        "risky": 5
+      },
+      "F2": {
+        "risky": 2
+      }
+    },
+    "B3": {
+      "F3": {
+        "risky": 8
+      },
+      "F6": {
+        "risky": 16
+      },
+      "F5": {
+        "risky": 4
+      },
+      "F2": {
+        "risky": 2
+      }
+    }
+  },
+  "scanner_scope_note": "B1_scanner/B2_scanner are vulnerability-scanner baselines over agent-added requirements. S1_S2_S3 is the minimal deterministic PR-time public-evidence gate."
+}

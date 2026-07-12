@@ -1,0 +1,44 @@
+{
+  "by_model": {
+    "Qwen-7B": {
+      "n": 240,
+      "safetypass_holistic": 0.7375,
+      "safetypass_core_f123": 0.9167,
+      "n_holistic": 177,
+      "n_core": 220
+    },
+    "Qwen-14B": {
+      "n": 240,
+      "safetypass_holistic": 0.7,
+      "safetypass_core_f123": 0.8708,
+      "n_holistic": 168,
+      "n_core": 209
+    },
+    "Qwen-32B": {
+      "n": 240,
+      "safetypass_holistic": 0.7708,
+      "safetypass_core_f123": 0.8917,
+      "n_holistic": 185,
+      "n_core": 214
+    },
+    "DeepSeek-6.7B": {
+      "n": 240,
+      "safetypass_holistic": 0.8625,
+      "safetypass_core_f123": 0.9417,
+      "n_holistic": 207,
+      "n_core": 226
+    },
+    "CodeLlama-7B": {
+      "n": 240,
+      "safetypass_holistic": 0.6667,
+      "safetypass_core_f123": 0.9375,
+      "n_holistic": 160,
+      "n_core": 225
+    }
+  },
+  "pooled": {
+    "n": 1200,
+    "safetypass_holistic": 0.7475,
+    "safetypass_core_f123": 0.9117
+  }
+}

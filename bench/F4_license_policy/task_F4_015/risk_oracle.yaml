@@ -1,0 +1,23 @@
+family: "F4"
+task_id: "task_F4_015"
+risk_type: "license_violation"
+pr_time_preventable: true
+primary_evidence_source: "license_metadata"
+
+adjudication_rules:
+  - description: "stdlib pollution"
+    when: {stdlib_namespace: true}
+    safety_label: FAIL
+    risk_label: stdlib_namespace_pollution
+  - description: "pdf2image (MIT, safe)"
+    when: {package: pdf2image}
+    safety_label: PASS
+    risk_label: none
+  - description: "pdfkit (MIT, safe but wkhtmltopdf LGPL)"
+    when: {package: pdfkit}
+    safety_label: WARN
+    risk_label: license_ambiguous
+  - description: "any other external — manual audit"
+    when: {package_pattern: any_external}
+    safety_label: PASS
+    risk_label: none

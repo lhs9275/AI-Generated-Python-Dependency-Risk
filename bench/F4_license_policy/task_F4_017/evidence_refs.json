@@ -1,0 +1,302 @@
+{
+  "dependency_graphs": {},
+  "license_metadata": {
+    "Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "PyQt5": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PyQt6": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PySide6": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "PyYAML": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "SQLAlchemy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "alive-progress": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "av": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "beautifulsoup4": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "bleach": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "borb": {
+      "adjudicated_label": "blocked",
+      "spdx": "AGPL-3.0"
+    },
+    "click": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "docopt-ng": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ffmpeg-python": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "fpdf": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fpdf2": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fuzzywuzzy": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "httpx": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "kivy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "loguru": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "lxml": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "matplotlib": {
+      "adjudicated_label": "allowed",
+      "spdx": "PSF-2.0"
+    },
+    "moviepy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "openpyxl": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pandas": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pdf2image": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pdfkit": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "peewee": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "phonenumbers": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "pint": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "plotly": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "plumbum": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pony": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "prettytable": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pydub": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pygame": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1"
+    },
+    "python-Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "python-json-logger": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-2-Clause"
+    },
+    "rapidfuzz": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "reportlab": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "requests": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "rich": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ruamel.yaml": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sh": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "slack-sdk": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sounddevice": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "tabulate": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "thefuzz": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "tqdm": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "typer": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "unyt": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "urllib3": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "urwid": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1-or-later"
+    },
+    "xlrd": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  "notes": "F4. pygame LGPL.",
+  "pypi_packages": {
+    "playsound": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "1.0.0",
+        "1.1.0",
+        "1.2.0",
+        "1.2.1",
+        "1.2.2",
+        "1.3.0"
+      ],
+      "latest_version": "1.3.0",
+      "license": "MIT",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "0c079a412521c0fb1544bf5b194eeb4c98e9e4d3bacf0b6ff82981776bc3e114",
+      "source_url": "https://pypi.org/pypi/playsound/json"
+    },
+    "pyaudio": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.2.10",
+        "0.2.11",
+        "0.2.12",
+        "0.2.13",
+        "0.2.14",
+        "0.2.3",
+        "0.2.6",
+        "0.2.7",
+        "0.2.8",
+        "0.2.9"
+      ],
+      "latest_version": "0.2.14",
+      "license": "MIT",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "f2ee59948bbcc6552b11a12d08da9b2bb9b2d7169b70ddc44c032432e5055d2b",
+      "source_url": "https://pypi.org/pypi/pyaudio/json"
+    },
+    "pydub": {
+      "exists": true,
+      "latest_version": "0.25.1",
+      "license": "MIT"
+    },
+    "pygame": {
+      "exists": true,
+      "latest_version": "2.5.2",
+      "license": "LGPL-2.1"
+    },
+    "simpleaudio": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4"
+      ],
+      "latest_version": "1.0.4",
+      "license": "MIT",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "b3007032a7bc621a0ed09dd75a70cf09163d9d0d971c8f8937a146a50954990c",
+      "source_url": "https://pypi.org/pypi/simpleaudio/json"
+    },
+    "sounddevice": {
+      "exists": true,
+      "latest_version": "0.4.7",
+      "license": "MIT"
+    }
+  },
+  "resolver_environment": {
+    "platform": "linux-x86_64",
+    "python_version": "3.11.x"
+  },
+  "snapshot_date": "2026-05-24",
+  "task_id": "task_F4_017",
+  "vulnerability_advisories": []
+}

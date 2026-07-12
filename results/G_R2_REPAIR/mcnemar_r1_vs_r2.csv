@@ -1,0 +1,16 @@
+Model,Metric,n_paired,R2_True_R1_False,R1_True_R2_False,favors,McNemar_p,sig,primary_case
+Qwen-7B,FuncSucc,66,11,9,,0.8231,,yes
+Qwen-14B,FuncSucc,74,11,3,,0.0614,,no
+Qwen-32B,FuncSucc,66,7,3,,0.3428,,yes
+DeepSeek-6.7B,FuncSucc,32,2,10,R1,0.0433,*,no
+CodeLlama-7B,FuncSucc,68,3,3,,1.0000,,no
+Qwen-7B,AFSP,66,7,20,R1,0.0209,*,yes
+Qwen-14B,AFSP,74,14,3,R2,0.0153,*,no
+Qwen-32B,AFSP,66,9,3,,0.1489,,yes
+DeepSeek-6.7B,AFSP,32,0,15,R1,0.0003,*,no
+CodeLlama-7B,AFSP,68,0,5,,0.0736,,no
+Qwen-7B,RiskyAcc,66,5,0,,0.0736,,yes
+Qwen-14B,RiskyAcc,74,0,0,,1.0000,,no
+Qwen-32B,RiskyAcc,66,0,0,,1.0000,,yes
+DeepSeek-6.7B,RiskyAcc,32,2,0,,0.4795,,no
+CodeLlama-7B,RiskyAcc,68,0,0,,1.0000,,no

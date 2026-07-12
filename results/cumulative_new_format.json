@@ -1,0 +1,372 @@
+{
+  "overall": {
+    "total_runs": 56,
+    "generated": {
+      "functional_success_rate": 0.482,
+      "safety_pass_core_rate": 0.857,
+      "risk_adjusted_success_core_rate": 0.482
+    },
+    "accepted": {
+      "accepted_rate": 0.982,
+      "risky_accepted_patch_rate": 0.071
+    },
+    "guard_metrics": {
+      "false_block_rate": 0.196,
+      "false_allow_rate": 0.071
+    },
+    "agent_behavior": {
+      "stdlib_only_rate": 0.321,
+      "spec_style_counts": {
+        "range_lower_only": 3,
+        "pin_exact": 19,
+        "unbounded": 10,
+        "range_bounded": 9
+      },
+      "avg_latency_sec": 2.24
+    },
+    "infrastructure": {
+      "install_failure_rate": 0.304,
+      "collection_failure_rate": 0.143
+    },
+    "test_pass_rate": {
+      "public_mean": 0.938,
+      "hidden_mean": 0.868
+    },
+    "risk_label_counts": {
+      "package_existence_unknown": 15,
+      "build_incompatible_version": 8
+    }
+  },
+  "by_family": {
+    "F1": {
+      "total_runs": 8,
+      "generated": {
+        "functional_success_rate": 1.0,
+        "safety_pass_core_rate": 1.0,
+        "risk_adjusted_success_core_rate": 1.0
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.0
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.375,
+        "spec_style_counts": {
+          "unbounded": 5
+        },
+        "avg_latency_sec": 3.72
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.0,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 1.0
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 1
+      }
+    },
+    "F2": {
+      "total_runs": 16,
+      "generated": {
+        "functional_success_rate": 0.062,
+        "safety_pass_core_rate": 0.5,
+        "risk_adjusted_success_core_rate": 0.062
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.25
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.25
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.25,
+        "spec_style_counts": {
+          "pin_exact": 4,
+          "range_bounded": 9
+        },
+        "avg_latency_sec": 2.2
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.688,
+        "collection_failure_rate": 0.5
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 0.806
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 4,
+        "build_incompatible_version": 8
+      }
+    },
+    "F3": {
+      "total_runs": 8,
+      "generated": {
+        "functional_success_rate": 1.0,
+        "safety_pass_core_rate": 1.0,
+        "risk_adjusted_success_core_rate": 1.0
+      },
+      "accepted": {
+        "accepted_rate": 0.875,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.375,
+        "false_allow_rate": 0.0
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.0,
+        "spec_style_counts": {
+          "range_lower_only": 3,
+          "pin_exact": 7
+        },
+        "avg_latency_sec": 2.05
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.5,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 1.0
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 5
+      }
+    },
+    "F4": {
+      "total_runs": 8,
+      "generated": {
+        "functional_success_rate": 0.75,
+        "safety_pass_core_rate": 1.0,
+        "risk_adjusted_success_core_rate": 0.75
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.375,
+        "false_allow_rate": 0.0
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.5,
+        "spec_style_counts": {
+          "unbounded": 4
+        },
+        "avg_latency_sec": 1.72
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.125,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 0.944
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 4
+      }
+    },
+    "F5": {
+      "total_runs": 8,
+      "generated": {
+        "functional_success_rate": 0.0,
+        "safety_pass_core_rate": 1.0,
+        "risk_adjusted_success_core_rate": 0.0
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.5,
+        "false_allow_rate": 0.0
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.0,
+        "spec_style_counts": {
+          "pin_exact": 8
+        },
+        "avg_latency_sec": 2.5
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.0,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 0.625,
+        "hidden_mean": 0.514
+      },
+      "risk_label_counts": {}
+    },
+    "F6": {
+      "total_runs": 8,
+      "generated": {
+        "functional_success_rate": 0.5,
+        "safety_pass_core_rate": 1.0,
+        "risk_adjusted_success_core_rate": 0.5
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.125,
+        "false_allow_rate": 0.0
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.875,
+        "spec_style_counts": {
+          "unbounded": 1
+        },
+        "avg_latency_sec": 1.29
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.125,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 0.944
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 1
+      }
+    }
+  },
+  "by_condition": {
+    "G0": {
+      "total_runs": 28,
+      "generated": {
+        "functional_success_rate": 0.536,
+        "safety_pass_core_rate": 0.857,
+        "risk_adjusted_success_core_rate": 0.536
+      },
+      "accepted": {
+        "accepted_rate": 0.964,
+        "risky_accepted_patch_rate": 0.071
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.286,
+        "false_allow_rate": 0.071
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.143,
+        "spec_style_counts": {
+          "range_lower_only": 2,
+          "unbounded": 8,
+          "pin_exact": 10,
+          "range_bounded": 5
+        },
+        "avg_latency_sec": 2.33
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.393,
+        "collection_failure_rate": 0.143
+      },
+      "test_pass_rate": {
+        "public_mean": 0.942,
+        "hidden_mean": 0.894
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 12,
+        "build_incompatible_version": 4
+      }
+    },
+    "G1": {
+      "total_runs": 28,
+      "generated": {
+        "functional_success_rate": 0.429,
+        "safety_pass_core_rate": 0.857,
+        "risk_adjusted_success_core_rate": 0.429
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.071
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.107,
+        "false_allow_rate": 0.071
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.5,
+        "spec_style_counts": {
+          "range_lower_only": 1,
+          "pin_exact": 9,
+          "unbounded": 2,
+          "range_bounded": 4
+        },
+        "avg_latency_sec": 2.15
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.214,
+        "collection_failure_rate": 0.143
+      },
+      "test_pass_rate": {
+        "public_mean": 0.933,
+        "hidden_mean": 0.843
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 3,
+        "build_incompatible_version": 4
+      }
+    }
+  },
+  "by_model": {
+    "Qwen2.5-Coder-7B-Instruct": {
+      "total_runs": 56,
+      "generated": {
+        "functional_success_rate": 0.482,
+        "safety_pass_core_rate": 0.857,
+        "risk_adjusted_success_core_rate": 0.482
+      },
+      "accepted": {
+        "accepted_rate": 0.982,
+        "risky_accepted_patch_rate": 0.071
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.196,
+        "false_allow_rate": 0.071
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.321,
+        "spec_style_counts": {
+          "range_lower_only": 3,
+          "pin_exact": 19,
+          "unbounded": 10,
+          "range_bounded": 9
+        },
+        "avg_latency_sec": 2.24
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.304,
+        "collection_failure_rate": 0.143
+      },
+      "test_pass_rate": {
+        "public_mean": 0.938,
+        "hidden_mean": 0.868
+      },
+      "risk_label_counts": {
+        "package_existence_unknown": 15,
+        "build_incompatible_version": 8
+      }
+    }
+  },
+  "_meta": {
+    "generated_at": "2026-05-22T16:50:59.955679Z",
+    "filter_model": null,
+    "filter_condition": null,
+    "since": "2026-05-22",
+    "source_dir": "results"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "kind": "model_comparison",
+  "left": "Qwen2.5-Coder-7B",
+  "right": "Qwen2.5-Coder-32B",
+  "modes": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "R1"
+  ],
+  "n_pairs": 240,
+  "by_mode": {
+    "B0": {
+      "generated.functional_success": {
+        "left_only": 26,
+        "right_only": 46,
+        "both": 138,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.683,
+        "right_rate": 0.767,
+        "p_value": 0.0245
+      },
+      "generated.safety_pass_core": {
+        "left_only": 28,
+        "right_only": 33,
+        "both": 149,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.738,
+        "right_rate": 0.758,
+        "p_value": 0.6089
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 33,
+        "right_only": 28,
+        "both": 30,
+        "neither": 149,
+        "na": 0,
+        "left_rate": 0.263,
+        "right_rate": 0.242,
+        "p_value": 0.6089
+      },
+      "guard_metrics.false_block": {
+        "left_only": 0,
+        "right_only": 0,
+        "both": 0,
+        "neither": 240,
+        "na": 0,
+        "left_rate": 0.0,
+        "right_rate": 0.0,
+        "p_value": 1.0
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 33,
+        "right_only": 28,
+        "both": 30,
+        "neither": 149,
+        "na": 0,
+        "left_rate": 0.263,
+        "right_rate": 0.242,
+        "p_value": 0.6089
+      }
+    },
+    "B1": {
+      "generated.functional_success": {
+        "left_only": 26,
+        "right_only": 46,
+        "both": 138,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.683,
+        "right_rate": 0.767,
+        "p_value": 0.0245
+      },
+      "generated.safety_pass_core": {
+        "left_only": 28,
+        "right_only": 33,
+        "both": 149,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.738,
+        "right_rate": 0.758,
+        "p_value": 0.6089
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 17,
+        "right_only": 20,
+        "both": 16,
+        "neither": 187,
+        "na": 0,
+        "left_rate": 0.138,
+        "right_rate": 0.15,
+        "p_value": 0.7428
+      },
+      "guard_metrics.false_block": {
+        "left_only": 2,
+        "right_only": 4,
+        "both": 2,
+        "neither": 232,
+        "na": 0,
+        "left_rate": 0.017,
+        "right_rate": 0.025,
+        "p_value": 0.6875
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 17,
+        "right_only": 20,
+        "both": 16,
+        "neither": 187,
+        "na": 0,
+        "left_rate": 0.138,
+        "right_rate": 0.15,
+        "p_value": 0.7428
+      }
+    },
+    "B2": {
+      "generated.functional_success": {
+        "left_only": 26,
+        "right_only": 46,
+        "both": 138,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.683,
+        "right_rate": 0.767,
+        "p_value": 0.0245
+      },
+      "generated.safety_pass_core": {
+        "left_only": 28,
+        "right_only": 33,
+        "both": 149,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.738,
+        "right_rate": 0.758,
+        "p_value": 0.6089
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 17,
+        "right_only": 18,
+        "both": 14,
+        "neither": 191,
+        "na": 0,
+        "left_rate": 0.129,
+        "right_rate": 0.133,
+        "p_value": 1.0
+      },
+      "guard_metrics.false_block": {
+        "left_only": 2,
+        "right_only": 4,
+        "both": 2,
+        "neither": 232,
+        "na": 0,
+        "left_rate": 0.017,
+        "right_rate": 0.025,
+        "p_value": 0.6875
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 17,
+        "right_only": 18,
+        "both": 14,
+        "neither": 191,
+        "na": 0,
+        "left_rate": 0.129,
+        "right_rate": 0.133,
+        "p_value": 1.0
+      }
+    },
+    "B3": {
+      "generated.functional_success": {
+        "left_only": 26,
+        "right_only": 46,
+        "both": 138,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.683,
+        "right_rate": 0.767,
+        "p_value": 0.0245
+      },
+      "generated.safety_pass_core": {
+        "left_only": 28,
+        "right_only": 33,
+        "both": 149,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.738,
+        "right_rate": 0.758,
+        "p_value": 0.6089
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 1,
+        "right_only": 3,
+        "both": 2,
+        "neither": 234,
+        "na": 0,
+        "left_rate": 0.013,
+        "right_rate": 0.021,
+        "p_value": 0.625
+      },
+      "guard_metrics.false_block": {
+        "left_only": 2,
+        "right_only": 10,
+        "both": 4,
+        "neither": 224,
+        "na": 0,
+        "left_rate": 0.025,
+        "right_rate": 0.058,
+        "p_value": 0.0386
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 1,
+        "right_only": 3,
+        "both": 2,
+        "neither": 234,
+        "na": 0,
+        "left_rate": 0.013,
+        "right_rate": 0.021,
+        "p_value": 0.625
+      }
+    },
+    "R1": {
+      "generated.functional_success": {
+        "left_only": 26,
+        "right_only": 46,
+        "both": 138,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.683,
+        "right_rate": 0.767,
+        "p_value": 0.0245
+      },
+      "generated.safety_pass_core": {
+        "left_only": 28,
+        "right_only": 33,
+        "both": 149,
+        "neither": 30,
+        "na": 0,
+        "left_rate": 0.738,
+        "right_rate": 0.758,
+        "p_value": 0.6089
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 3,
+        "right_only": 5,
+        "both": 2,
+        "neither": 230,
+        "na": 0,
+        "left_rate": 0.021,
+        "right_rate": 0.029,
+        "p_value": 0.7266
+      },
+      "guard_metrics.false_block": {
+        "left_only": 2,
+        "right_only": 10,
+        "both": 4,
+        "neither": 224,
+        "na": 0,
+        "left_rate": 0.025,
+        "right_rate": 0.058,
+        "p_value": 0.0386
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 1,
+        "right_only": 3,
+        "both": 2,
+        "neither": 234,
+        "na": 0,
+        "left_rate": 0.013,
+        "right_rate": 0.021,
+        "p_value": 0.625
+      }
+    }
+  },
+  "test_pass_rate": {
+    "public": {
+      "n_pairs": 175,
+      "mean_diff_right_minus_left": 0.031,
+      "wilcoxon_stat": 86.5,
+      "p_value": 0.0133,
+      "bootstrap_95ci": [
+        0.0073,
+        0.0559
+      ]
+    },
+    "hidden": {
+      "n_pairs": 175,
+      "mean_diff_right_minus_left": 0.0232,
+      "wilcoxon_stat": 61.5,
+      "p_value": 0.0598,
+      "bootstrap_95ci": [
+        0.0021,
+        0.0467
+      ]
+    }
+  }
+}

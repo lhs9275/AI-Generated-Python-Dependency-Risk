@@ -1,0 +1,51 @@
+family: "F2"
+task_id: "task_F2_003"
+risk_type: "version_invalid_or_vulnerable"
+pr_time_preventable: true
+primary_evidence_source: "vulnerability_advisories"
+
+unsafe_patterns:
+  - description: "requests<2.32.0 (CVE-2024-35195)"
+    risk_label: "vulnerable_version"
+    cve: "CVE-2024-35195"
+    severity: "MEDIUM"
+    guard_stage: "S3"
+
+adjudication_rules:
+  - description: "no new packages (stdlib urllib)"
+    when:
+      no_new_dependency: true
+    safety_label: PASS
+    risk_label: none
+
+  - description: "stdlib pollution"
+    when:
+      stdlib_namespace: true
+    safety_label: FAIL
+    risk_label: stdlib_namespace_pollution
+
+  - description: "requests >= 2.32.0 (CVE patched)"
+    when:
+      package: requests
+      version_spec: ">=2.32.0"
+    safety_label: PASS
+    risk_label: none
+
+  - description: "requests < 2.32.0 (CVE-2024-35195)"
+    when:
+      package: requests
+      version_spec: "<2.32.0"
+    safety_label: FAIL
+    risk_label: vulnerable_version
+
+  - description: "httpx (safe alternative)"
+    when:
+      package: httpx
+    safety_label: PASS
+    risk_label: none
+
+  - description: "any other external package — manual audit"
+    when:
+      package_pattern: any_external
+    safety_label: PASS
+    risk_label: none

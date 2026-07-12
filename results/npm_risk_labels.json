@@ -1,0 +1,93 @@
+{
+  "operationalization": "PyPI-matched: structural parse, PR-time anchoring, change-level unit, most-severe-wins F1>F2>F3, removals excluded",
+  "n_prs_total": 550,
+  "n_prs_with_changes": 253,
+  "n_changes": 1284,
+  "change_type_mix": {
+    "add": 1100,
+    "version_change": 184
+  },
+  "change_level_prevalence": {
+    "any_risk": {
+      "count": 62,
+      "rate": 0.0483
+    },
+    "F1": {
+      "count": 6,
+      "rate": 0.0047
+    },
+    "F2": {
+      "count": 11,
+      "rate": 0.0086
+    },
+    "F3": {
+      "count": 45,
+      "rate": 0.035
+    },
+    "NONE": {
+      "count": 1222,
+      "rate": 0.9517
+    }
+  },
+  "pr_level_prevalence": {
+    "any_risk": {
+      "count": 36,
+      "rate": 0.1423
+    },
+    "F1": {
+      "count": 3,
+      "rate": 0.0119
+    },
+    "F2": {
+      "count": 1,
+      "rate": 0.004
+    },
+    "F3": {
+      "count": 32,
+      "rate": 0.1265
+    }
+  },
+  "repo_level": {
+    "n_repos": 209,
+    "repos_any_risk": 35,
+    "rate": 0.1675
+  },
+  "by_agent": {
+    "aider": {
+      "prs": 10,
+      "any_risk": 1,
+      "prevalence": 0.1
+    },
+    "devin": {
+      "prs": 35,
+      "any_risk": 9,
+      "prevalence": 0.2571
+    },
+    "cursor": {
+      "prs": 50,
+      "any_risk": 6,
+      "prevalence": 0.12
+    },
+    "claude-code": {
+      "prs": 55,
+      "any_risk": 11,
+      "prevalence": 0.2
+    },
+    "codex": {
+      "prs": 38,
+      "any_risk": 2,
+      "prevalence": 0.0526
+    },
+    "codewhisperer": {
+      "prs": 1,
+      "any_risk": 0,
+      "prevalence": 0.0
+    },
+    "continue": {
+      "prs": 64,
+      "any_risk": 7,
+      "prevalence": 0.1094
+    }
+  },
+  "note": "fully automated, no human labeling; inherits PyPI labeling scheme (kappa=0.90)"
+}

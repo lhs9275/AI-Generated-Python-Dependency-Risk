@@ -1,0 +1,462 @@
+{
+  "corpus_role": "Seeded risk-containing real-PR-style corpus. Preserves real PR metadata and manifest paths while replacing only dependency decisions. This is recall / scanner-scope evidence, not a prevalence estimate.",
+  "n_cases": 10,
+  "n_normal": 5,
+  "n_risky": 5,
+  "n_pip_audit_unique_invocations": 20,
+  "by_family": {
+    "NONE": 5,
+    "F1": 1,
+    "F2": 1,
+    "F3": 1,
+    "F4": 1,
+    "F5": 1
+  },
+  "modes": {
+    "B0": {
+      "n": 10,
+      "recall": 0.0,
+      "risky_accepted_rate": 0.5,
+      "false_block_rate_on_normals": 0.0,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 0,
+      "blocked_normal": 0,
+      "risky_accepted": 5
+    },
+    "S1_only": {
+      "n": 10,
+      "recall": 0.2,
+      "risky_accepted_rate": 0.4,
+      "false_block_rate_on_normals": 0.0,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 1,
+      "blocked_normal": 0,
+      "risky_accepted": 4
+    },
+    "S1_S3": {
+      "n": 10,
+      "recall": 0.4,
+      "risky_accepted_rate": 0.3,
+      "false_block_rate_on_normals": 0.0,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 2,
+      "blocked_normal": 0,
+      "risky_accepted": 3
+    },
+    "S1_S2_S3": {
+      "n": 10,
+      "recall": 0.6,
+      "risky_accepted_rate": 0.2,
+      "false_block_rate_on_normals": 0.0,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 3,
+      "blocked_normal": 0,
+      "risky_accepted": 2
+    },
+    "B3": {
+      "n": 10,
+      "recall": 1.0,
+      "risky_accepted_rate": 0.0,
+      "false_block_rate_on_normals": 0.0,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 5,
+      "blocked_normal": 0,
+      "risky_accepted": 0
+    },
+    "pip_audit_no_deps_vuln_only": {
+      "n": 10,
+      "recall": 0.4,
+      "risky_accepted_rate": 0.3,
+      "false_block_rate_on_normals": 0.2,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 2,
+      "blocked_normal": 1,
+      "risky_accepted": 3
+    },
+    "pip_audit_no_deps_fail_closed": {
+      "n": 10,
+      "recall": 0.8,
+      "risky_accepted_rate": 0.1,
+      "false_block_rate_on_normals": 0.4,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 4,
+      "blocked_normal": 2,
+      "risky_accepted": 1
+    },
+    "pip_audit_with_deps_vuln_only": {
+      "n": 10,
+      "recall": 0.4,
+      "risky_accepted_rate": 0.3,
+      "false_block_rate_on_normals": 0.4,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 2,
+      "blocked_normal": 2,
+      "risky_accepted": 3
+    },
+    "pip_audit_with_deps_fail_closed": {
+      "n": 10,
+      "recall": 0.8,
+      "risky_accepted_rate": 0.1,
+      "false_block_rate_on_normals": 0.4,
+      "warn_rate_on_normals": 0.0,
+      "blocked_risky": 4,
+      "blocked_normal": 2,
+      "risky_accepted": 1
+    }
+  },
+  "per_family_recall": {
+    "B0": {
+      "F1": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      }
+    },
+    "S1_only": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      }
+    },
+    "S1_S3": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      }
+    },
+    "S1_S2_S3": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      }
+    },
+    "B3": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      }
+    },
+    "pip_audit_no_deps_vuln_only": {
+      "F1": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      }
+    },
+    "pip_audit_no_deps_fail_closed": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      }
+    },
+    "pip_audit_with_deps_vuln_only": {
+      "F1": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      }
+    },
+    "pip_audit_with_deps_fail_closed": {
+      "F1": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F2": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F3": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      },
+      "F4": {
+        "n": 1,
+        "blocked": 0,
+        "recall": 0.0
+      },
+      "F5": {
+        "n": 1,
+        "blocked": 1,
+        "recall": 1.0
+      }
+    }
+  },
+  "miss_reasons": {
+    "B0": {
+      "MISS_S1_NOT_ENABLED_OR_NO_EXISTENCE_EVIDENCE": 1,
+      "MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE": 1,
+      "MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE": 1,
+      "MISS_LICENSE_SCOPE": 1,
+      "MISS_TRANSITIVE_SCOPE": 1
+    },
+    "S1_only": {
+      "MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE": 1,
+      "MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE": 1,
+      "MISS_LICENSE_SCOPE": 1,
+      "MISS_TRANSITIVE_SCOPE": 1
+    },
+    "S1_S3": {
+      "MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE": 1,
+      "MISS_LICENSE_SCOPE": 1,
+      "MISS_TRANSITIVE_SCOPE": 1
+    },
+    "S1_S2_S3": {
+      "MISS_LICENSE_SCOPE": 1,
+      "MISS_TRANSITIVE_SCOPE": 1
+    },
+    "B3": {},
+    "pip_audit_no_deps_vuln_only": {
+      "MISS_TOOL_FAILURE_FAIL_OPEN": 2,
+      "MISS_LICENSE_SCOPE": 1
+    },
+    "pip_audit_no_deps_fail_closed": {
+      "MISS_LICENSE_SCOPE": 1
+    },
+    "pip_audit_with_deps_vuln_only": {
+      "MISS_TOOL_FAILURE_FAIL_OPEN": 2,
+      "MISS_LICENSE_SCOPE": 1
+    },
+    "pip_audit_with_deps_fail_closed": {
+      "MISS_LICENSE_SCOPE": 1
+    }
+  },
+  "expected_stage_match": {
+    "B0": {
+      "n": 5,
+      "matched": 0,
+      "rate": 0.0
+    },
+    "S1_only": {
+      "n": 5,
+      "matched": 1,
+      "rate": 0.2
+    },
+    "S1_S3": {
+      "n": 5,
+      "matched": 2,
+      "rate": 0.4
+    },
+    "S1_S2_S3": {
+      "n": 5,
+      "matched": 3,
+      "rate": 0.6
+    },
+    "B3": {
+      "n": 5,
+      "matched": 5,
+      "rate": 1.0
+    },
+    "pip_audit_no_deps_vuln_only": {
+      "n": 5,
+      "matched": 0,
+      "rate": 0.0
+    },
+    "pip_audit_no_deps_fail_closed": {
+      "n": 5,
+      "matched": 0,
+      "rate": 0.0
+    },
+    "pip_audit_with_deps_vuln_only": {
+      "n": 5,
+      "matched": 0,
+      "rate": 0.0
+    },
+    "pip_audit_with_deps_fail_closed": {
+      "n": 5,
+      "matched": 0,
+      "rate": 0.0
+    }
+  },
+  "tool_status": {
+    "pip_audit_no_deps_vuln_only": {
+      "vulnerabilities_found": 3,
+      "timeout": 1,
+      "clean": 4,
+      "tool_failure": 2
+    },
+    "pip_audit_no_deps_fail_closed": {
+      "vulnerabilities_found": 3,
+      "timeout": 1,
+      "clean": 4,
+      "tool_failure": 2
+    },
+    "pip_audit_with_deps_vuln_only": {
+      "vulnerabilities_found": 4,
+      "clean": 4,
+      "tool_failure": 2
+    },
+    "pip_audit_with_deps_fail_closed": {
+      "vulnerabilities_found": 4,
+      "clean": 4,
+      "tool_failure": 2
+    }
+  }
+}

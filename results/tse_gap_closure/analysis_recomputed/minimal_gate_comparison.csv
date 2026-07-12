@@ -1,0 +1,7 @@
+rung,cumulative_blocked,marginal_new_blocks,marginal_frac_of_total
+B0_no_gate,0,0,0.0
+S1_existence,15,15,0.003
+S1S2_version,65,50,0.0101
+S1S2S3_direct_evidence,198,133,0.0269
+S1S2S3_plus_license,337,139,0.0281
+B3_full_guard,337,0,0.0

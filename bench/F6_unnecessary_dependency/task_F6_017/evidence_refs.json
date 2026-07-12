@@ -1,0 +1,434 @@
+{
+  "dependency_graphs": {},
+  "license_metadata": {
+    "Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "PyQt5": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PyQt6": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PySide6": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "PyYAML": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "SQLAlchemy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "alive-progress": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "av": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "beautifulsoup4": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "bleach": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "borb": {
+      "adjudicated_label": "blocked",
+      "spdx": "AGPL-3.0"
+    },
+    "click": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "docopt-ng": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ffmpeg-python": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "fpdf": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fpdf2": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fuzzywuzzy": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "httpx": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "kivy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "loguru": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "lxml": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "matplotlib": {
+      "adjudicated_label": "allowed",
+      "spdx": "PSF-2.0"
+    },
+    "moviepy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "openpyxl": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pandas": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pdf2image": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pdfkit": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "peewee": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "phonenumbers": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "pint": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "plotly": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "plumbum": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pony": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "prettytable": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pydub": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pygame": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1"
+    },
+    "python-Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "python-json-logger": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-2-Clause"
+    },
+    "rapidfuzz": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "reportlab": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "requests": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "rich": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ruamel.yaml": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sh": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "slack-sdk": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sounddevice": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "tabulate": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "thefuzz": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "tqdm": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "typer": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "unyt": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "urllib3": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "urwid": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1-or-later"
+    },
+    "xlrd": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  "notes": "F6.",
+  "pypi_packages": {
+    "pytest": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "2.0.0",
+        "2.0.1",
+        "2.0.2",
+        "2.0.3",
+        "2.1.0",
+        "2.1.1",
+        "2.1.2",
+        "2.1.3",
+        "2.2.0",
+        "2.2.1",
+        "2.2.2",
+        "2.2.3",
+        "2.2.4",
+        "2.3.0",
+        "2.3.1",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.3.5",
+        "2.4.0",
+        "2.4.1",
+        "2.4.2",
+        "2.5.0",
+        "2.5.1",
+        "2.5.2",
+        "2.6.0",
+        "2.6.1",
+        "2.6.2",
+        "2.6.3",
+        "2.6.4",
+        "2.7.0",
+        "2.7.1",
+        "2.7.2",
+        "2.7.3",
+        "2.8.0",
+        "2.8.1",
+        "2.8.2",
+        "2.8.3",
+        "2.8.4",
+        "2.8.5",
+        "2.8.6",
+        "2.8.7",
+        "2.9.0",
+        "2.9.1",
+        "2.9.2",
+        "3.0.0",
+        "3.0.1",
+        "3.0.2",
+        "3.0.3",
+        "3.0.4",
+        "3.0.5",
+        "3.0.6",
+        "3.0.7",
+        "3.1.0",
+        "3.1.1",
+        "3.1.2",
+        "3.1.3",
+        "3.10.0",
+        "3.10.1",
+        "3.2.0",
+        "3.2.1",
+        "3.2.2",
+        "3.2.3",
+        "3.2.4",
+        "3.2.5",
+        "3.3.0",
+        "3.3.1",
+        "3.3.2",
+        "3.4.0",
+        "3.4.1",
+        "3.4.2",
+        "3.5.0",
+        "3.5.1",
+        "3.6.0",
+        "3.6.1",
+        "3.6.2",
+        "3.6.3",
+        "3.6.4",
+        "3.7.0",
+        "3.7.1",
+        "3.7.2",
+        "3.7.3",
+        "3.7.4",
+        "3.8.0",
+        "3.8.1",
+        "3.8.2",
+        "3.9.1",
+        "3.9.2",
+        "3.9.3",
+        "4.0.0",
+        "4.0.1",
+        "4.0.2",
+        "4.1.0",
+        "4.1.1",
+        "4.2.0",
+        "4.2.1",
+        "4.3.0",
+        "4.3.1",
+        "4.4.0",
+        "4.4.1",
+        "4.4.2",
+        "4.5.0",
+        "4.6.0",
+        "4.6.1",
+        "4.6.10",
+        "4.6.11",
+        "4.6.2",
+        "4.6.3",
+        "4.6.4",
+        "4.6.5",
+        "4.6.6",
+        "4.6.7",
+        "4.6.8",
+        "4.6.9",
+        "5.0.0",
+        "5.0.1",
+        "5.1.0",
+        "5.1.1",
+        "5.1.2",
+        "5.1.3",
+        "5.2.0",
+        "5.2.1",
+        "5.2.2",
+        "5.2.3",
+        "5.2.4",
+        "5.3.0",
+        "5.3.1",
+        "5.3.2",
+        "5.3.3",
+        "5.3.4",
+        "5.3.5",
+        "5.4.0",
+        "5.4.1",
+        "5.4.2",
+        "5.4.3",
+        "6.0.0",
+        "6.0.0rc1",
+        "6.0.1",
+        "6.0.2",
+        "6.1.0",
+        "6.1.1",
+        "6.1.2",
+        "6.2.0",
+        "6.2.1",
+        "6.2.2",
+        "6.2.3",
+        "6.2.4",
+        "6.2.5",
+        "7.0.0",
+        "7.0.0rc1",
+        "7.0.1",
+        "7.1.0",
+        "7.1.1",
+        "7.1.2",
+        "7.1.3",
+        "7.2.0",
+        "7.2.1",
+        "7.2.2",
+        "7.3.0",
+        "7.3.1",
+        "7.3.2",
+        "7.4.0",
+        "7.4.1",
+        "7.4.2",
+        "7.4.3",
+        "7.4.4",
+        "8.0.0",
+        "8.0.0rc1",
+        "8.0.0rc2",
+        "8.0.1",
+        "8.0.2",
+        "8.1.0",
+        "8.1.1",
+        "8.1.2",
+        "8.2.0",
+        "8.2.1",
+        "8.2.2",
+        "8.3.0",
+        "8.3.1",
+        "8.3.2",
+        "8.3.3",
+        "8.3.4",
+        "8.3.5",
+        "8.4.0",
+        "8.4.1",
+        "8.4.2",
+        "9.0.0",
+        "9.0.1",
+        "9.0.2",
+        "9.0.3",
+        "9.1.0",
+        "9.1.1"
+      ],
+      "latest_version": "9.1.1",
+      "license": "MIT",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "7186f12fa746d8430e6a532a2ac4a1e87a8f420f54dbd8338e0504910c4503fa",
+      "source_url": "https://pypi.org/pypi/pytest/json"
+    }
+  },
+  "resolver_environment": {
+    "platform": "linux-x86_64",
+    "python_version": "3.11.x"
+  },
+  "snapshot_date": "2026-05-24",
+  "task_id": "task_F6_017",
+  "vulnerability_advisories": []
+}

@@ -1,0 +1,82 @@
+{
+  "primary_partition": {
+    "block": 211,
+    "warn": 105,
+    "silent_pass": 12,
+    "n": 328
+  },
+  "safe_partition": {
+    "block": 126,
+    "warn": 80,
+    "pass": 4414,
+    "n": 4620
+  },
+  "detection_recall": 0.9634,
+  "silent_miss_floor": 0.0366,
+  "by_grade": {
+    "P1": {
+      "n": 15,
+      "block": 15,
+      "warn": 0,
+      "silent_pass": 0
+    },
+    "P2": {
+      "n": 49,
+      "block": 47,
+      "warn": 0,
+      "silent_pass": 2
+    },
+    "P3": {
+      "n": 264,
+      "block": 149,
+      "warn": 105,
+      "silent_pass": 10
+    }
+  },
+  "policies": [
+    {
+      "policy": "block_only",
+      "n_primary": 328,
+      "enforcement_recall": 0.6433,
+      "enforcement_recall_ci": [
+        0.5901,
+        0.6932
+      ],
+      "primary_accepted": 117,
+      "primary_accepted_rate": 0.3567,
+      "detection_recall": 0.9634,
+      "safe_block_count": 126,
+      "safe_block_rate": 0.0273,
+      "safe_block_ci": [
+        0.023,
+        0.0324
+      ]
+    },
+    {
+      "policy": "warn_as_block",
+      "n_primary": 328,
+      "enforcement_recall": 0.9634,
+      "enforcement_recall_ci": [
+        0.9372,
+        0.9789
+      ],
+      "primary_accepted": 12,
+      "primary_accepted_rate": 0.0366,
+      "detection_recall": 0.9634,
+      "safe_block_count": 206,
+      "safe_block_rate": 0.0446,
+      "safe_block_ci": [
+        0.039,
+        0.0509
+      ]
+    }
+  ],
+  "warn_requires_approval": {
+    "policy": "warn_requires_approval",
+    "n_primary": 328,
+    "enforcement_recall_lower": 0.6433,
+    "enforcement_recall_upper": 0.9634,
+    "detection_recall": 0.9634,
+    "note": "realized enforcement between block_only and warn_as_block; depends on unobserved human approval rate (observational)"
+  }
+}

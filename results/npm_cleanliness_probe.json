@@ -1,0 +1,41 @@
+{
+  "n_prs_probed": 30,
+  "n_specs": 65,
+  "n_unique_names": 53,
+  "semver": {
+    "buckets": {
+      "caret": 52,
+      "range": 1,
+      "exact": 9,
+      "non_registry": 3
+    },
+    "resolvable": 62,
+    "resolvable_rate": 0.954,
+    "resolvable_def": [
+      "caret",
+      "exact",
+      "partial",
+      "range",
+      "tilde"
+    ]
+  },
+  "registry": {
+    "exists_true": 49,
+    "exists_false": 4,
+    "error": 0,
+    "exists_rate": 0.925
+  },
+  "osv": {
+    "hit_true": 10,
+    "checked": 53,
+    "hit_rate": 0.189
+  },
+  "by_agent": {
+    "aider": 6,
+    "devin": 10,
+    "cursor": 10,
+    "claude-code": 2,
+    "codex": 2
+  },
+  "interpretation": "GREEN semver (F2 portable); registry deterministic (F1 portable); OSV returns npm advisories (F3 evidence present)"
+}

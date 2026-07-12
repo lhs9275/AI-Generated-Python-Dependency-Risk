@@ -1,0 +1,46 @@
+{
+  "n_changes": 10224,
+  "primary_kappa": 0.8963,
+  "primary_agreement_rate": 0.994,
+  "binary_risky_kappa": 0.8958,
+  "binary_risky_agreement_rate": 0.994,
+  "secondary_agreement_rate": 0.9115,
+  "secondary_note": "Labeler A's evidence scope did not include license/metadata; S4/S7 secondary risks are contributed by labeler B's independent re-query. Secondary agreement is therefore reported as a rate over the shared scope only, not as a co-equal IRR; the rigorous IRR is the primary-label kappa.",
+  "labeler_A_primary_dist": {
+    "NONE": 9896,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 264,
+    "P2_INVALID_VERSION_SPEC": 49,
+    "P1_NONEXISTENT_PACKAGE": 15
+  },
+  "labeler_B_primary_dist": {
+    "NONE": 9949,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 214,
+    "P2_INVALID_VERSION_SPEC": 46,
+    "P1_NONEXISTENT_PACKAGE": 15
+  },
+  "n_excluded_extraction_noise": 44,
+  "exclusion_reasons": {
+    "stdlib_or_not_a_package": 32,
+    "allcaps_constant": 12
+  },
+  "n_adjudicated": 61,
+  "final_primary_dist": {
+    "NONE": 9896,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 264,
+    "P2_INVALID_VERSION_SPEC": 49,
+    "P1_NONEXISTENT_PACKAGE": 15
+  },
+  "final_secondary_dist": {
+    "NONE": 9319,
+    "S4_LICENSE_POLICY_CONFLICT": 779,
+    "S7_METADATA_MISSING": 102,
+    "S8_EVIDENCE_UNRESOLVED": 24
+  },
+  "final_primary_grade_dist": {
+    "advisory_published_before_pr": 264,
+    "strong_absent_now": 11,
+    "medium_404_now": 14,
+    "conditional_released_after_pr": 38,
+    "high_created_after_pr": 1
+  }
+}

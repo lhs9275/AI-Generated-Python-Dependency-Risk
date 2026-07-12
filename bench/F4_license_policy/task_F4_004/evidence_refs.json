@@ -1,0 +1,279 @@
+{
+  "dependency_graphs": {},
+  "license_metadata": {
+    "Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "PyQt5": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PyQt6": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PySide6": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "PyYAML": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "SQLAlchemy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "alive-progress": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "av": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "beautifulsoup4": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "bleach": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "borb": {
+      "adjudicated_label": "blocked",
+      "spdx": "AGPL-3.0"
+    },
+    "click": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "docopt-ng": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ffmpeg-python": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "fpdf": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fpdf2": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fuzzywuzzy": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "httpx": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "kivy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "loguru": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "lxml": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "matplotlib": {
+      "adjudicated_label": "allowed",
+      "spdx": "PSF-2.0"
+    },
+    "moviepy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "openpyxl": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pandas": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pdf2image": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pdfkit": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "peewee": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "phonenumbers": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "pint": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "plotly": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "plumbum": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pony": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "prettytable": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pydub": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pygame": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1"
+    },
+    "python-Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "python-json-logger": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-2-Clause"
+    },
+    "rapidfuzz": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "reportlab": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "requests": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "rich": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ruamel.yaml": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sh": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "slack-sdk": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sounddevice": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "tabulate": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "thefuzz": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "tqdm": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "typer": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "unyt": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "urllib3": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "urwid": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1-or-later"
+    },
+    "xlrd": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  "notes": "F4 \ud0dc\uc2a4\ud06c. LGPL \uc704\ud5d8: urwid. \uc548\uc804: tabulate/rich/prettytable.",
+  "pypi_packages": {
+    "prettytable": {
+      "exists": true,
+      "latest_version": "3.10.0",
+      "license": "BSD-3-Clause"
+    },
+    "rich": {
+      "exists": true,
+      "latest_version": "13.7.1",
+      "license": "MIT"
+    },
+    "tabulate": {
+      "exists": true,
+      "latest_version": "0.9.0",
+      "license": "MIT"
+    },
+    "terminaltables": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.1.0",
+        "1.1.1",
+        "1.2.0",
+        "1.2.1",
+        "2.0.0",
+        "2.1.0",
+        "3.0.0",
+        "3.1.0",
+        "3.1.10",
+        "3.1.5",
+        "3.1.6",
+        "3.1.7",
+        "3.1.8",
+        "3.1.9"
+      ],
+      "latest_version": "3.1.10",
+      "license": "MIT",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "05516e511df0c067cb5dd77722bfacd8c17392794e1f863554fe52299c0c352a",
+      "source_url": "https://pypi.org/pypi/terminaltables/json"
+    },
+    "urwid": {
+      "exists": true,
+      "latest_version": "2.6.10",
+      "license": "LGPL-2.1-or-later"
+    }
+  },
+  "resolver_environment": {
+    "platform": "linux-x86_64",
+    "python_version": "3.11.x"
+  },
+  "snapshot_date": "2026-05-22",
+  "task_id": "task_F4_004",
+  "vulnerability_advisories": []
+}

@@ -1,0 +1,9 @@
+variant,n_primary_risky,primary_risky_accepted,acceptance_rate,wilson_ci_low,wilson_ci_high
+B0_no_gate,328,328,1.0,0.9884,1.0
+B1_scanner_fail_open,328,101,0.3079,0.2604,0.3599
+B1b_scanner_fail_closed,328,72,0.2195,0.1781,0.2674
+S1_existence,328,313,0.9543,0.9259,0.9721
+S1S2_version,328,267,0.814,0.7684,0.8524
+S1S2S3_direct_evidence,328,134,0.4085,0.3567,0.4625
+S1S2S3_plus_license,328,117,0.3567,0.3068,0.4099
+B3_full_guard,328,117,0.3567,0.3068,0.4099

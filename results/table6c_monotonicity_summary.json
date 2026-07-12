@@ -1,0 +1,261 @@
+{
+  "detail_file": "results/table6c_falseblock_monotonicity_check.csv",
+  "model_run_counts": {
+    "CodeLlama-7B": 240,
+    "DeepSeek-6.7B": 240,
+    "Qwen-14B": 240,
+    "Qwen-32B": 240,
+    "Qwen-7B": 240
+  },
+  "models": [
+    "Qwen-7B",
+    "Qwen-14B",
+    "Qwen-32B",
+    "DeepSeek-6.7B",
+    "CodeLlama-7B"
+  ],
+  "policy_source": "archived B3 stage reports filtered to S1/S2/S3 and re-aggregated",
+  "same_policy": true,
+  "same_run_set": true,
+  "table6c_recomputed": {
+    "CodeLlama-7B": {
+      "B0": {
+        "block_rate": 0.0,
+        "blocked_n": 0,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.3333333333333333,
+        "risky_n": 80
+      },
+      "B3": {
+        "block_rate": 0.2833333333333333,
+        "blocked_n": 68,
+        "false_block": 0.025,
+        "false_block_n": 6,
+        "n": 240,
+        "risky_acc": 0.075,
+        "risky_n": 18
+      },
+      "S1_S2_S3": {
+        "block_rate": 0.26666666666666666,
+        "blocked_n": 64,
+        "false_block": 0.0125,
+        "false_block_n": 3,
+        "n": 240,
+        "risky_acc": 0.07916666666666666,
+        "risky_n": 19
+      },
+      "S1_S3": {
+        "block_rate": 0.2,
+        "blocked_n": 48,
+        "false_block": 0.004166666666666667,
+        "false_block_n": 1,
+        "n": 240,
+        "risky_acc": 0.1375,
+        "risky_n": 33
+      },
+      "S1_only": {
+        "block_rate": 0.1875,
+        "blocked_n": 45,
+        "false_block": 0.004166666666666667,
+        "false_block_n": 1,
+        "n": 240,
+        "risky_acc": 0.15,
+        "risky_n": 36
+      }
+    },
+    "DeepSeek-6.7B": {
+      "B0": {
+        "block_rate": 0.0,
+        "blocked_n": 0,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.1375,
+        "risky_n": 33
+      },
+      "B3": {
+        "block_rate": 0.13333333333333333,
+        "blocked_n": 32,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.004166666666666667,
+        "risky_n": 1
+      },
+      "S1_S2_S3": {
+        "block_rate": 0.12083333333333333,
+        "blocked_n": 29,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.016666666666666666,
+        "risky_n": 4
+      },
+      "S1_S3": {
+        "block_rate": 0.058333333333333334,
+        "blocked_n": 14,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.07916666666666666,
+        "risky_n": 19
+      },
+      "S1_only": {
+        "block_rate": 0.0375,
+        "blocked_n": 9,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.1,
+        "risky_n": 24
+      }
+    },
+    "Qwen-14B": {
+      "B0": {
+        "block_rate": 0.0,
+        "blocked_n": 0,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.3,
+        "risky_n": 72
+      },
+      "B3": {
+        "block_rate": 0.30833333333333335,
+        "blocked_n": 74,
+        "false_block": 0.016666666666666666,
+        "false_block_n": 4,
+        "n": 240,
+        "risky_acc": 0.008333333333333333,
+        "risky_n": 2
+      },
+      "S1_S2_S3": {
+        "block_rate": 0.2916666666666667,
+        "blocked_n": 70,
+        "false_block": 0.016666666666666666,
+        "false_block_n": 4,
+        "n": 240,
+        "risky_acc": 0.025,
+        "risky_n": 6
+      },
+      "S1_S3": {
+        "block_rate": 0.12083333333333333,
+        "blocked_n": 29,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.17916666666666667,
+        "risky_n": 43
+      },
+      "S1_only": {
+        "block_rate": 0.09166666666666666,
+        "blocked_n": 22,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.20833333333333334,
+        "risky_n": 50
+      }
+    },
+    "Qwen-32B": {
+      "B0": {
+        "block_rate": 0.0,
+        "blocked_n": 0,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.22916666666666666,
+        "risky_n": 55
+      },
+      "B3": {
+        "block_rate": 0.275,
+        "blocked_n": 66,
+        "false_block": 0.06666666666666667,
+        "false_block_n": 16,
+        "n": 240,
+        "risky_acc": 0.020833333333333332,
+        "risky_n": 5
+      },
+      "S1_S2_S3": {
+        "block_rate": 0.2625,
+        "blocked_n": 63,
+        "false_block": 0.06666666666666667,
+        "false_block_n": 16,
+        "n": 240,
+        "risky_acc": 0.03333333333333333,
+        "risky_n": 8
+      },
+      "S1_S3": {
+        "block_rate": 0.12916666666666668,
+        "blocked_n": 31,
+        "false_block": 0.029166666666666667,
+        "false_block_n": 7,
+        "n": 240,
+        "risky_acc": 0.12916666666666668,
+        "risky_n": 31
+      },
+      "S1_only": {
+        "block_rate": 0.07083333333333333,
+        "blocked_n": 17,
+        "false_block": 0.004166666666666667,
+        "false_block_n": 1,
+        "n": 240,
+        "risky_acc": 0.1625,
+        "risky_n": 39
+      }
+    },
+    "Qwen-7B": {
+      "B0": {
+        "block_rate": 0.0,
+        "blocked_n": 0,
+        "false_block": 0.0,
+        "false_block_n": 0,
+        "n": 240,
+        "risky_acc": 0.2625,
+        "risky_n": 63
+      },
+      "B3": {
+        "block_rate": 0.275,
+        "blocked_n": 66,
+        "false_block": 0.029166666666666667,
+        "false_block_n": 7,
+        "n": 240,
+        "risky_acc": 0.016666666666666666,
+        "risky_n": 4
+      },
+      "S1_S2_S3": {
+        "block_rate": 0.25833333333333336,
+        "blocked_n": 62,
+        "false_block": 0.020833333333333332,
+        "false_block_n": 5,
+        "n": 240,
+        "risky_acc": 0.025,
+        "risky_n": 6
+      },
+      "S1_S3": {
+        "block_rate": 0.14166666666666666,
+        "blocked_n": 34,
+        "false_block": 0.020833333333333332,
+        "false_block_n": 5,
+        "n": 240,
+        "risky_acc": 0.14166666666666666,
+        "risky_n": 34
+      },
+      "S1_only": {
+        "block_rate": 0.10416666666666667,
+        "blocked_n": 25,
+        "false_block": 0.008333333333333333,
+        "false_block_n": 2,
+        "n": 240,
+        "risky_acc": 0.16666666666666666,
+        "risky_n": 40
+      }
+    }
+  },
+  "total_runs_checked": 1200,
+  "unique_model_task_condition_keys": 1200,
+  "violation_file": "results/violations_falseblock_monotonicity.csv",
+  "violations": 0
+}

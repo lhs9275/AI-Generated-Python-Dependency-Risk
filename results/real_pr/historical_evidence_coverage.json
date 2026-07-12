@@ -1,0 +1,73 @@
+{
+  "corpus_role": "Historical evidence for the Routine-Agent-PR corpus. Deterministic S1/S2/S3 labels are precision/prevalence-bound; low-confidence and live-only signals are reported separately and excluded from prevalence (docs/protocols/corpus_interpretation_rules.md).",
+  "n_dependency_changes": 280,
+  "n_with_version_pin": 61,
+  "pr_time_basis": {
+    "created_at": 280
+  },
+  "evidence_confidence": {
+    "high": 142,
+    "medium": 138
+  },
+  "evidence_source": {
+    "pypi": 276,
+    "osv": 3,
+    "live_query": 1
+  },
+  "package_exists_now": {
+    "true": 279,
+    "false": 1
+  },
+  "license_missing": 6,
+  "deterministic_positive_counts": {
+    "S1": 0,
+    "S2": 20,
+    "S3": 3
+  },
+  "low_confidence_candidate_counts": {
+    "S1": 1,
+    "S2": 0,
+    "S3": 0
+  },
+  "s2_breakdown": {
+    "postdates_pr": 20
+  },
+  "s2_breakdown_note": "S2 deterministic positives are disaggregated: 'nonexistent' = version never uploaded (hallucination-grade); 'postdates_pr' = version released after the PR (premature pin, sensitive to created_at accuracy); 'yanked'. Only 'nonexistent' and 'yanked' are robust invalid-version signals; 'postdates_pr' needs manual review and is not a confident prevalence signal.",
+  "deterministic_positives": {
+    "S1": [],
+    "S2": [
+      "trask/semantic-conventions-genai-orig#28::anthropic::0.98.1",
+      "trask/semantic-conventions-genai-orig#28::boto3::1.43.3",
+      "trask/semantic-conventions-genai-orig#28::boto3::1.43.3",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::claude-agent-sdk::0.1.73",
+      "trask/semantic-conventions-genai-orig#28::crewai::1.14.4",
+      "trask/semantic-conventions-genai-orig#28::langchain::1.2.17",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::google-adk::1.32.0",
+      "trask/semantic-conventions-genai-orig#28::google-genai::1.75.0",
+      "trask/semantic-conventions-genai-orig#28::google-genai::1.75.0",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::langchain::1.2.17",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::mistralai::2.4.4",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::openai-agents::0.15.1",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::openai::2.34.0",
+      "trask/semantic-conventions-genai-orig#28::pydantic-ai-slim::1.90.0"
+    ],
+    "S3": [
+      "vk4s/aider#9::pillow::11.3.0",
+      "OgabekAI/Sparkle-Step-bot#2::django::5.0.6",
+      "OgabekAI/Sparkle-Step-bot#2::sqlparse::0.5.0"
+    ]
+  },
+  "low_confidence_candidates": {
+    "S1": [
+      "akepo225/offline-coding-agent#14::sqlite3::None"
+    ],
+    "S2": [],
+    "S3": []
+  }
+}

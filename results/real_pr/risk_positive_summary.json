@@ -1,0 +1,33 @@
+{
+  "corpus_role": "This corpus is not used to estimate prevalence. It is a recall / construct-validity corpus assembled from deterministic positive signals and manual-review candidates. See docs/protocols/corpus_interpretation_rules.md.",
+  "n_routine_changes_source": 280,
+  "n_candidates_total": 18,
+  "n_deterministic_positive": 3,
+  "n_manual_review_needed": 15,
+  "target_cases": 80,
+  "cases_found": 18,
+  "gap": 62,
+  "gap_note": "Target of 80 cases not reached. Only 18 candidates extracted from the routine corpus. Additional risk-positive PRs would require a dedicated search (e.g. mining CVE-linked PRs, vulnerability-fix commits, or targeted GitHub search for known-risky packages).",
+  "by_risk_family": {
+    "S3_direct_advisory": 3,
+    "S5_license_policy_violation": 4,
+    "S2_invalid_version": 11
+  },
+  "by_label": {
+    "positive": 3,
+    "uncertain": 15
+  },
+  "deterministic_positive_breakdown": {
+    "S1_package_nonexistent": 0,
+    "S2_invalid_version_robust": 0,
+    "S2_invalid_version_postdates": 11,
+    "S3_direct_advisory": 3
+  },
+  "manual_only_families": [
+    "S4_transitive_advisory",
+    "S5_license_policy_violation",
+    "S6_unnecessary_dependency"
+  ],
+  "manual_annotation_status": "round1 template generated; not yet annotated",
+  "irr_status": "pending \u2014 annotation not complete"
+}

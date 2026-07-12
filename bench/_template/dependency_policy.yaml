@@ -1,0 +1,51 @@
+# Dependency Policy
+# AgentSupplyGuard와 independent adjudicator가 사용하는 태스크별 policy.
+# 에이전트에게는 공개하지 않음.
+
+family: "[FILL IN: F1~F6]"
+task_id: "[FILL IN: task_F{N}_{NNN}]"
+
+# 허용 license (SPDX identifier)
+allowed_licenses:
+  - MIT
+  - Apache-2.0
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - ISC
+  - PSF-2.0   # Python Software Foundation
+  # [FILL IN: 태스크에 맞게 추가/제거]
+
+# 명시적으로 차단할 license
+blocked_licenses:
+  - GPL-2.0-only
+  - GPL-2.0-or-later
+  - GPL-3.0-only
+  - GPL-3.0-or-later
+  - AGPL-3.0-only
+  - AGPL-3.0-or-later
+  # [FILL IN: 태스크에 맞게 추가/제거]
+
+# license evidence를 찾지 못한 경우 처리
+unknown_license_policy: warn  # warn / block (태스크에 따라 결정)
+
+# 외부 dependency 추가 허용 여부
+external_dependency:
+  allowed: true  # [FILL IN: true / false. F6는 false인 경우 많음]
+  # allowed: false이면 requirements.txt 변경 자체가 BLOCK 대상
+
+# 허용하는 index
+allowed_index:
+  - https://pypi.org/simple/
+
+# 특정 package를 명시적으로 차단 (task-specific)
+blocked_packages: []
+  # 예: - name: "dangerous-pkg"
+  #       reason: "known malicious package"
+
+# vulnerability policy
+vulnerability_policy:
+  min_blocked_severity: HIGH  # CRITICAL / HIGH / MEDIUM / LOW
+  # HIGH 이상이면 BLOCK, 그 미만은 WARN으로 처리
+
+# F6 전용: dependency-free solution이 명시적으로 기대되는지
+dependency_free_expected: false  # [FILL IN: F6이면 true/false 검토]

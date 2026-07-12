@@ -1,0 +1,3 @@
+policy,enforcement_recall,primary_accepted_rate,detection_recall,safe_block_rate
+block_only,0.6433,0.3567,0.9634,0.0273
+warn_as_block,0.9634,0.0366,0.9634,0.0446

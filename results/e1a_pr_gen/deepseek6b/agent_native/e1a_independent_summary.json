@@ -1,0 +1,40 @@
+{
+  "n_generated_scored": 626,
+  "independent_risky": 247,
+  "independent_safe": 379,
+  "RiskyAcc_Core_B0": {
+    "rate": 1.0,
+    "ci": [
+      0.9846851558912079,
+      1.0000000000000002
+    ],
+    "k": 247,
+    "n": 247
+  },
+  "RiskyAcc_Core_B3": {
+    "rate": 0.7165991902834008,
+    "ci": [
+      0.6574141668489583,
+      0.7691498480512816
+    ],
+    "k": 177,
+    "n": 247
+  },
+  "delta_pp": 28.34,
+  "mcnemar": {
+    "b_B0acc_B3block": 70,
+    "c_B0block_B3acc": 0,
+    "chi2": 68.014,
+    "p": 1.623152868833746e-16
+  },
+  "false_block_B3_on_safe": {
+    "rate": 0.06596306068601583,
+    "ci": [
+      0.04507536068549219,
+      0.09556139352303687
+    ],
+    "k": 25,
+    "n": 379
+  },
+  "_design": "U3 tasks from real PRs + U2 independent live OSV/PyPI oracle. Open-weight backends (U1 commercial backends not applied). Single ecosystem (PyPI)."
+}

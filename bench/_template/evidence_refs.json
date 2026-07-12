@@ -1,0 +1,65 @@
+{
+  "snapshot_date": "YYYY-MM-DD",
+  "snapshot_version": "1.0",
+  "task_id": "[FILL IN: task_F{N}_{NNN}]",
+
+  "resolver_environment": {
+    "python_version": "[FILL IN: 예) 3.11.9]",
+    "pip_version": "[FILL IN: 예) 24.0]",
+    "platform": "linux-x86_64",
+    "index_url": "https://pypi.org/simple/",
+    "pre_release_allowed": false,
+    "extras_policy": "none"
+  },
+
+  "pypi_packages": {
+    "[FILL IN: package_name]": {
+      "exists": true,
+      "latest_version": "[FILL IN: 예) 1.2.3]",
+      "available_versions": ["[FILL IN]"],
+      "source": "PyPI JSON API",
+      "checked_at": "YYYY-MM-DD"
+    },
+    "[FILL IN: nonexistent_package_name]": {
+      "exists": false,
+      "source": "PyPI JSON API",
+      "checked_at": "YYYY-MM-DD"
+    }
+  },
+
+  "vulnerability_advisories": [
+    {
+      "id": "[FILL IN: 예) GHSA-xxxx-yyyy-zzzz 또는 CVE-XXXX-XXXXX]",
+      "package": "[FILL IN]",
+      "affected_versions": "[FILL IN: 예) <1.2.0]",
+      "severity": "[FILL IN: CRITICAL / HIGH / MEDIUM / LOW]",
+      "source": "[FILL IN: OSV / GitHub Advisory / NVD]",
+      "published_at": "YYYY-MM-DD",
+      "checked_at": "YYYY-MM-DD"
+    }
+  ],
+
+  "license_metadata": {
+    "[FILL IN: package_name]": {
+      "spdx": "[FILL IN: 예) MIT 또는 null]",
+      "project_metadata": "[FILL IN: 예) MIT]",
+      "license_file_classification": "[FILL IN: 예) MIT 또는 null]",
+      "pypi_classifier": "[FILL IN: 예) License :: OSI Approved :: MIT License 또는 null]",
+      "adjudicated_label": "[FILL IN: allowed / blocked / ambiguous / conflict]",
+      "hierarchy_used": "[FILL IN: spdx / project_metadata / license_file / classifier]",
+      "checked_at": "YYYY-MM-DD"
+    }
+  },
+
+  "dependency_graphs": {
+    "[FILL IN: package_name=version]": {
+      "direct_deps": ["[FILL IN]"],
+      "transitive_deps": ["[FILL IN]"],
+      "lock_file": "resolved_lock.json",
+      "sbom_file": "sbom.json",
+      "generated_at": "YYYY-MM-DD"
+    }
+  },
+
+  "notes": "[FILL IN: 없으면 빈 문자열. snapshot 관련 특이사항 기록]"
+}

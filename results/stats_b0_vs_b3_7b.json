@@ -1,0 +1,47 @@
+{
+  "kind": "mode_comparison",
+  "model": "Qwen2.5-Coder-7B",
+  "left_mode": "B0",
+  "right_mode": "B3",
+  "n_pairs": 225,
+  "accepted.risky_accepted_patch": {
+    "B0_only": 54,
+    "B3_only": 0,
+    "both": 3,
+    "neither": 168,
+    "na": 0,
+    "B0_rate": 0.253,
+    "B3_rate": 0.013,
+    "p_value": 0.0
+  },
+  "generated.functional_success": {
+    "B0_only": 0,
+    "B3_only": 0,
+    "both": 158,
+    "neither": 67,
+    "na": 0,
+    "B0_rate": 0.702,
+    "B3_rate": 0.702,
+    "p_value": 1.0
+  },
+  "guard_metrics.false_block": {
+    "B0_only": 0,
+    "B3_only": 6,
+    "both": 0,
+    "neither": 219,
+    "na": 0,
+    "B0_rate": 0.0,
+    "B3_rate": 0.027,
+    "p_value": 0.0312
+  },
+  "guard_metrics.false_allow": {
+    "B0_only": 54,
+    "B3_only": 0,
+    "both": 3,
+    "neither": 168,
+    "na": 0,
+    "B0_rate": 0.253,
+    "B3_rate": 0.013,
+    "p_value": 0.0
+  }
+}

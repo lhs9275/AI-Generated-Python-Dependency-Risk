@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "target_prs": 500,
+  "n_prs_full": 1168,
+  "n_changes_full": 10268,
+  "n_risk_prs_kept_all": 137,
+  "n_safe_prs_sampled": 363,
+  "n_prs_kept": 500,
+  "n_changes_kept": 5789,
+  "n_repos_kept": 485,
+  "primary_changes_kept": 328,
+  "primary_changes_full": 328,
+  "backup": "outputs/tse_gap_closure/data/dependency_change_patches.full.jsonl"
+}

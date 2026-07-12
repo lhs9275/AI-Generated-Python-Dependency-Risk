@@ -1,0 +1,159 @@
+{
+  "n_changes": 8752,
+  "n_primary_risky": 328,
+  "per_tool": [
+    {
+      "tool": "aider",
+      "n": 489,
+      "k": 14,
+      "rate": 0.0286,
+      "ci": [
+        0.0171,
+        0.0475
+      ]
+    },
+    {
+      "tool": "claude-code",
+      "n": 5,
+      "k": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.4345
+      ]
+    },
+    {
+      "tool": "codex",
+      "n": 127,
+      "k": 20,
+      "rate": 0.1575,
+      "ci": [
+        0.1043,
+        0.2308
+      ]
+    },
+    {
+      "tool": "continue",
+      "n": 8,
+      "k": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.3244
+      ]
+    },
+    {
+      "tool": "copilot",
+      "n": 5675,
+      "k": 209,
+      "rate": 0.0368,
+      "ci": [
+        0.0322,
+        0.042
+      ]
+    },
+    {
+      "tool": "cursor",
+      "n": 260,
+      "k": 4,
+      "rate": 0.0154,
+      "ci": [
+        0.006,
+        0.0389
+      ]
+    },
+    {
+      "tool": "devin",
+      "n": 2188,
+      "k": 81,
+      "rate": 0.037,
+      "ci": [
+        0.0299,
+        0.0458
+      ]
+    }
+  ],
+  "schemes": {
+    "pooled_size_weighted": {
+      "value": 0.0375,
+      "ci": [
+        0.0337,
+        0.0417
+      ],
+      "note": "headline 3.7% (328/8,752)"
+    },
+    "equal_tool_weighted_all": {
+      "value": 0.0393,
+      "note": "mean of 7 per-tool rates"
+    },
+    "equal_tool_weighted_n>=100": {
+      "value": 0.0551,
+      "note": "mean of 5 tools with n>=100"
+    },
+    "leave_one_tool_out_range": {
+      "min": 0.0357,
+      "min_drop": "codex",
+      "max": 0.0387,
+      "max_drop": "copilot"
+    }
+  },
+  "leave_one_tool_out": [
+    {
+      "drop": "aider",
+      "pooled_without": 0.038,
+      "ci": [
+        0.0341,
+        0.0423
+      ]
+    },
+    {
+      "drop": "claude-code",
+      "pooled_without": 0.0375,
+      "ci": [
+        0.0337,
+        0.0417
+      ]
+    },
+    {
+      "drop": "codex",
+      "pooled_without": 0.0357,
+      "ci": [
+        0.032,
+        0.0398
+      ]
+    },
+    {
+      "drop": "continue",
+      "pooled_without": 0.0375,
+      "ci": [
+        0.0337,
+        0.0417
+      ]
+    },
+    {
+      "drop": "copilot",
+      "pooled_without": 0.0387,
+      "ci": [
+        0.0324,
+        0.0461
+      ]
+    },
+    {
+      "drop": "cursor",
+      "pooled_without": 0.0382,
+      "ci": [
+        0.0343,
+        0.0424
+      ]
+    },
+    {
+      "drop": "devin",
+      "pooled_without": 0.0376,
+      "ci": [
+        0.0333,
+        0.0425
+      ]
+    }
+  ],
+  "interpretation": "Prevalence is robust to tool-mix reweighting and only moves UPWARD: copilot's own rate (209/5,675=3.68%) essentially equals the pooled 3.75%, so the headline is not a large-denominator artifact; leave-one-tool-out stays 3.6-3.9% (dropping copilot RAISES it to 3.87%); equal-tool-weighting gives 3.9% over all seven tools and 5.5% over the five with n>=100 (codex's small-sample 15.7% gains equal weight). With the strict at-PR-time temporal grade (3.1%) as the floor, every scheme stays in 3.1-5.5% and none approaches zero; 3.7% is a conservative point in this band, with codex (20/127) the only high outlier."
+}

@@ -1,0 +1,44 @@
+{
+  "n_total": 329,
+  "P1": {
+    "realized": 2,
+    "n": 16,
+    "rate": 12.5,
+    "ci": [
+      3.5,
+      36.0
+    ]
+  },
+  "P2": {
+    "realized": 11,
+    "n": 49,
+    "rate": 22.4,
+    "ci": [
+      13.0,
+      35.9
+    ]
+  },
+  "P3": {
+    "realized": 240,
+    "n": 264,
+    "rate": 90.9,
+    "ci": [
+      86.8,
+      93.8
+    ]
+  },
+  "ALL": {
+    "realized": 253,
+    "n": 329,
+    "rate": 76.9,
+    "ci": [
+      72.1,
+      81.1
+    ]
+  },
+  "P3_leadtime": {
+    "advisory_le_PR_catchable": 209,
+    "advisory_gt_PR_undisclosed": 31
+  },
+  "_caveats": "P3 'materialized'=advisory still present now (semi-tautological: labeled by advisory). Lead-time split is the informative part. Observational; no counterfactual."
+}

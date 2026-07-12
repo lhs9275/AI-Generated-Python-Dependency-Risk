@@ -1,0 +1,248 @@
+{
+  "_note": "Cross-seed variance from on-disk replicates (canonical seed0 + _s1_/_s2_); _mr3_ excluded. GPU-free.",
+  "skipped": {},
+  "per_model": {
+    "Qwen-7B": {
+      "n_seeds": 3,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "B0_RiskyAcc_by_seed": [
+        26.2,
+        25.0,
+        26.7
+      ],
+      "B3_RiskyAcc_by_seed": [
+        1.7,
+        1.7,
+        1.7
+      ],
+      "B0_RiskyAcc_SD": 0.7,
+      "B3_RiskyAcc_SD": 0.0,
+      "deltaSafetyPassCore_by_seed": {
+        "0": 9.2,
+        "1": 6.7,
+        "2": 8.3
+      },
+      "delta_sign_stable": true,
+      "seed_disagreement_B0_pct": 10.0,
+      "seed_disagreement_B3_pct": 0.0
+    },
+    "Qwen-14B": {
+      "n_seeds": 2,
+      "seeds": [
+        0,
+        1
+      ],
+      "B0_RiskyAcc_by_seed": [
+        30.0,
+        27.5
+      ],
+      "B3_RiskyAcc_by_seed": [
+        0.8,
+        0.8
+      ],
+      "B0_RiskyAcc_SD": 1.2,
+      "B3_RiskyAcc_SD": 0.0,
+      "deltaSafetyPassCore_by_seed": {
+        "0": 6.7,
+        "1": 3.3
+      },
+      "delta_sign_stable": true,
+      "seed_disagreement_B0_pct": 4.2,
+      "seed_disagreement_B3_pct": 0.0
+    },
+    "Qwen-32B": {
+      "n_seeds": 1,
+      "seeds": [
+        0
+      ],
+      "B0_RiskyAcc_by_seed": [
+        22.9
+      ],
+      "B3_RiskyAcc_by_seed": [
+        2.1
+      ],
+      "B0_RiskyAcc_SD": 0.0,
+      "B3_RiskyAcc_SD": 0.0,
+      "deltaSafetyPassCore_by_seed": {
+        "0": 0.8
+      },
+      "delta_sign_stable": true,
+      "seed_disagreement_B0_pct": null,
+      "seed_disagreement_B3_pct": null
+    },
+    "DeepSeek-6.7B": {
+      "n_seeds": 2,
+      "seeds": [
+        0,
+        1
+      ],
+      "B0_RiskyAcc_by_seed": [
+        13.8,
+        10.0
+      ],
+      "B3_RiskyAcc_by_seed": [
+        0.4,
+        0.4
+      ],
+      "B0_RiskyAcc_SD": 1.9,
+      "B3_RiskyAcc_SD": 0.0,
+      "deltaSafetyPassCore_by_seed": {
+        "0": -10.8,
+        "1": -6.7
+      },
+      "delta_sign_stable": true,
+      "seed_disagreement_B0_pct": 7.9,
+      "seed_disagreement_B3_pct": 0.0
+    },
+    "CodeLlama-7B": {
+      "n_seeds": 2,
+      "seeds": [
+        0,
+        1
+      ],
+      "B0_RiskyAcc_by_seed": [
+        33.3,
+        29.2
+      ],
+      "B3_RiskyAcc_by_seed": [
+        7.5,
+        6.7
+      ],
+      "B0_RiskyAcc_SD": 2.1,
+      "B3_RiskyAcc_SD": 0.4,
+      "deltaSafetyPassCore_by_seed": {
+        "0": -5.0,
+        "1": 1.7
+      },
+      "delta_sign_stable": false,
+      "seed_disagreement_B0_pct": 17.5,
+      "seed_disagreement_B3_pct": 1.7
+    }
+  },
+  "per_cell": {
+    "DeepSeek-6.7B|G0|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 6.7,
+      "B3_RiskyAcc": 0.0,
+      "SafetyPassCore": 93.3
+    },
+    "CodeLlama-7B|G1|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 35.8,
+      "B3_RiskyAcc": 9.2,
+      "SafetyPassCore": 64.2
+    },
+    "Qwen-7B|G0|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 30.8,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 69.2
+    },
+    "Qwen-14B|G1|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 25.8,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 74.2
+    },
+    "CodeLlama-7B|G1|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 28.3,
+      "B3_RiskyAcc": 8.3,
+      "SafetyPassCore": 71.7
+    },
+    "Qwen-7B|G1|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 21.7,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 78.3
+    },
+    "DeepSeek-6.7B|G1|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 13.3,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 86.7
+    },
+    "Qwen-14B|G0|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 29.2,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 70.8
+    },
+    "Qwen-7B|G0|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 28.3,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 71.7
+    },
+    "Qwen-14B|G1|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 26.7,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 73.3
+    },
+    "Qwen-7B|G1|s2": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 22.5,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 77.5
+    },
+    "Qwen-32B|G0|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 23.3,
+      "B3_RiskyAcc": 2.5,
+      "SafetyPassCore": 76.7
+    },
+    "CodeLlama-7B|G0|s1": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 30.0,
+      "B3_RiskyAcc": 5.0,
+      "SafetyPassCore": 70.0
+    },
+    "DeepSeek-6.7B|G0|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 8.3,
+      "B3_RiskyAcc": 0.0,
+      "SafetyPassCore": 91.7
+    },
+    "Qwen-32B|G1|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 22.5,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 77.5
+    },
+    "Qwen-7B|G0|s2": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 30.8,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 69.2
+    },
+    "CodeLlama-7B|G0|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 30.8,
+      "B3_RiskyAcc": 5.8,
+      "SafetyPassCore": 69.2
+    },
+    "Qwen-7B|G1|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 21.7,
+      "B3_RiskyAcc": 1.7,
+      "SafetyPassCore": 78.3
+    },
+    "Qwen-14B|G0|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 33.3,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 66.7
+    },
+    "DeepSeek-6.7B|G1|s0": {
+      "n_tasks": 120,
+      "B0_RiskyAcc": 19.2,
+      "B3_RiskyAcc": 0.8,
+      "SafetyPassCore": 80.8
+    }
+  }
+}

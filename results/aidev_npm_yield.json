@@ -1,0 +1,23 @@
+{
+  "per_agent": {
+    "aider": 5095,
+    "devin": 51023,
+    "cursor": 247818,
+    "claude-code": 2064369,
+    "openai-codex": 0,
+    "codex": 764,
+    "sweep": 0,
+    "codewhisperer": 2,
+    "continue": 1746
+  },
+  "sample_npm_change": {
+    "sampled": 60,
+    "with_package_json": 5,
+    "rate": 0.083
+  },
+  "projection": {
+    "total_js_ts_prs": 2370817,
+    "est_package_json_change_prs": 196777,
+    "note": ">=500 dep-change PRs -> npm prevalence worth the ~2wk study"
+  }
+}

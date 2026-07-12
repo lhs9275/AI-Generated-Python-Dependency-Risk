@@ -1,0 +1,5 @@
+primary_label,n,scanner_blocked,direct_gate_blocked,scanner_missed_but_gate_caught
+P1_NONEXISTENT_PACKAGE,15,0,15,15
+P2_INVALID_VERSION_SPEC,49,6,46,40
+P3_DIRECT_KNOWN_VULNERABILITY,264,221,133,27
+NONE,4620,297,4,4

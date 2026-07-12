@@ -1,0 +1,191 @@
+{
+  "kind": "model_comparison",
+  "left": "Qwen2.5-Coder-7B",
+  "right": "Qwen2.5-Coder-32B",
+  "modes": [
+    "B0",
+    "B3",
+    "R1"
+  ],
+  "n_pairs": 120,
+  "by_mode": {
+    "B0": {
+      "generated.functional_success": {
+        "left_only": 8,
+        "right_only": 30,
+        "both": 66,
+        "neither": 16,
+        "na": 0,
+        "left_rate": 0.617,
+        "right_rate": 0.8,
+        "p_value": 0.0005
+      },
+      "generated.safety_pass_core": {
+        "left_only": 7,
+        "right_only": 22,
+        "both": 78,
+        "neither": 13,
+        "na": 0,
+        "left_rate": 0.708,
+        "right_rate": 0.833,
+        "p_value": 0.0081
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 22,
+        "right_only": 7,
+        "both": 13,
+        "neither": 78,
+        "na": 0,
+        "left_rate": 0.292,
+        "right_rate": 0.167,
+        "p_value": 0.0081
+      },
+      "guard_metrics.false_block": {
+        "left_only": 0,
+        "right_only": 0,
+        "both": 0,
+        "neither": 120,
+        "na": 0,
+        "left_rate": 0.0,
+        "right_rate": 0.0,
+        "p_value": 1.0
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 22,
+        "right_only": 7,
+        "both": 13,
+        "neither": 78,
+        "na": 0,
+        "left_rate": 0.292,
+        "right_rate": 0.167,
+        "p_value": 0.0081
+      }
+    },
+    "B3": {
+      "generated.functional_success": {
+        "left_only": 8,
+        "right_only": 30,
+        "both": 66,
+        "neither": 16,
+        "na": 0,
+        "left_rate": 0.617,
+        "right_rate": 0.8,
+        "p_value": 0.0005
+      },
+      "generated.safety_pass_core": {
+        "left_only": 7,
+        "right_only": 22,
+        "both": 78,
+        "neither": 13,
+        "na": 0,
+        "left_rate": 0.708,
+        "right_rate": 0.833,
+        "p_value": 0.0081
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 0,
+        "right_only": 0,
+        "both": 2,
+        "neither": 118,
+        "na": 0,
+        "left_rate": 0.017,
+        "right_rate": 0.017,
+        "p_value": 1.0
+      },
+      "guard_metrics.false_block": {
+        "left_only": 3,
+        "right_only": 8,
+        "both": 2,
+        "neither": 107,
+        "na": 0,
+        "left_rate": 0.042,
+        "right_rate": 0.083,
+        "p_value": 0.2266
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 0,
+        "right_only": 0,
+        "both": 2,
+        "neither": 118,
+        "na": 0,
+        "left_rate": 0.017,
+        "right_rate": 0.017,
+        "p_value": 1.0
+      }
+    },
+    "R1": {
+      "generated.functional_success": {
+        "left_only": 8,
+        "right_only": 30,
+        "both": 66,
+        "neither": 16,
+        "na": 0,
+        "left_rate": 0.617,
+        "right_rate": 0.8,
+        "p_value": 0.0005
+      },
+      "generated.safety_pass_core": {
+        "left_only": 7,
+        "right_only": 22,
+        "both": 78,
+        "neither": 13,
+        "na": 0,
+        "left_rate": 0.708,
+        "right_rate": 0.833,
+        "p_value": 0.0081
+      },
+      "accepted.risky_accepted_patch": {
+        "left_only": 2,
+        "right_only": 0,
+        "both": 2,
+        "neither": 116,
+        "na": 0,
+        "left_rate": 0.033,
+        "right_rate": 0.017,
+        "p_value": 0.5
+      },
+      "guard_metrics.false_block": {
+        "left_only": 3,
+        "right_only": 8,
+        "both": 2,
+        "neither": 107,
+        "na": 0,
+        "left_rate": 0.042,
+        "right_rate": 0.083,
+        "p_value": 0.2266
+      },
+      "guard_metrics.false_allow": {
+        "left_only": 0,
+        "right_only": 0,
+        "both": 2,
+        "neither": 118,
+        "na": 0,
+        "left_rate": 0.017,
+        "right_rate": 0.017,
+        "p_value": 1.0
+      }
+    }
+  },
+  "test_pass_rate": {
+    "public": {
+      "n_pairs": 98,
+      "mean_diff_right_minus_left": 0.0442,
+      "wilcoxon_stat": 77.5,
+      "p_value": 0.037,
+      "bootstrap_95ci": [
+        0.0041,
+        0.085
+      ]
+    },
+    "hidden": {
+      "n_pairs": 98,
+      "mean_diff_right_minus_left": 0.0363,
+      "wilcoxon_stat": 60.5,
+      "p_value": 0.0956,
+      "bootstrap_95ci": [
+        0.0001,
+        0.0759
+      ]
+    }
+  }
+}

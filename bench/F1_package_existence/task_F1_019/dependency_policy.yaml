@@ -1,0 +1,28 @@
+family: "F1"
+task_id: "task_F1_019"
+
+allowed_licenses:
+  - MIT
+  - Apache-2.0
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - ISC
+  - PSF-2.0
+
+blocked_licenses:
+  - GPL-2.0-only
+  - GPL-2.0-or-later
+  - GPL-3.0-only
+  - GPL-3.0-or-later
+  - AGPL-3.0-only
+  - AGPL-3.0-or-later
+
+unknown_license_policy: warn
+external_dependency:
+  allowed: true
+allowed_index:
+  - https://pypi.org/simple/
+blocked_packages: []
+vulnerability_policy:
+  min_blocked_severity: HIGH
+dependency_free_expected: false

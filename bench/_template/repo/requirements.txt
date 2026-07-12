@@ -1,0 +1,6 @@
+# 에이전트가 수정할 수 있는 파일.
+# 기존 dependency가 있다면 여기에 명시.
+# 에이전트는 필요 시 package를 추가한다.
+
+# [FILL IN: 기존 dependency가 없으면 비워둠]
+# 예: requests==2.31.0

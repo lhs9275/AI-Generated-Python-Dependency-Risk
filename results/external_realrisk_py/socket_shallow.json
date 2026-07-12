@@ -1,0 +1,2448 @@
+{
+  "method": "socket package shallow (batched, version-pinned purls)",
+  "caveat": "current-SaaS non-frozen diagnostic (June 2026); shallow = package-own alerts, not transitive; analogous to live pip-audit cell",
+  "summary": {
+    "native": {
+      "block_recall": 0.1731,
+      "false_block_rate": 0.0364,
+      "precision": 0.8182,
+      "S1_recall": 0.0,
+      "S2_recall": 0.0,
+      "S3_recall": 0.45,
+      "S1_block": 0,
+      "S2_block": 0,
+      "S3_block": 9,
+      "S1_n": 20,
+      "S2_n": 12,
+      "S3_n": 20,
+      "n_risk": 52,
+      "n_normal": 55
+    },
+    "diagnostic": {
+      "block_recall": 1.0,
+      "false_block_rate": 0.0364,
+      "precision": 0.963,
+      "S1_recall": 1.0,
+      "S2_recall": 1.0,
+      "S3_recall": 1.0,
+      "S1_block": 20,
+      "S2_block": 12,
+      "S3_block": 20,
+      "S1_n": 20,
+      "S2_n": 12,
+      "S3_n": 20,
+      "n_risk": 52,
+      "n_normal": 55
+    },
+    "diagnostic_v": {
+      "block_recall": 1.0,
+      "false_block_rate": 0.0,
+      "precision": 1.0,
+      "S1_recall": 1.0,
+      "S2_recall": 1.0,
+      "S3_recall": 1.0,
+      "S1_block": 20,
+      "S2_block": 12,
+      "S3_block": 20,
+      "S1_n": 20,
+      "S2_n": 12,
+      "S3_n": 20,
+      "n_risk": 52,
+      "n_normal": 55
+    },
+    "_meta": {
+      "n_resolved": 107,
+      "n_unresolved": 0,
+      "policy_defs": {
+        "native": "Socket's own gate: alert action in {warn,error}",
+        "diagnostic": "notFound OR any high/critical-severity alert",
+        "diagnostic_v": "notFound OR (vulnerability-type alert at high/critical severity)"
+      }
+    }
+  },
+  "raw_count": 1309,
+  "per_manifest": [
+    {
+      "manifest": "NEG-Quitcode-Dev_project-automatron-vmark_1-aider-chat.txt",
+      "family": "NEG",
+      "name": "aider-chat",
+      "version": "0.86.2",
+      "purl": "pkg:pypi/aider-chat@0.86.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-fastapi.txt",
+      "family": "NEG",
+      "name": "fastapi",
+      "version": "0.136.3",
+      "purl": "pkg:pypi/fastapi@0.136.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-httpx.txt",
+      "family": "NEG",
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-pydantic-settings.txt",
+      "family": "NEG",
+      "name": "pydantic-settings",
+      "version": "2.14.1",
+      "purl": "pkg:pypi/pydantic-settings@2.14.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-pydantic.txt",
+      "family": "NEG",
+      "name": "pydantic",
+      "version": "2.13.4",
+      "purl": "pkg:pypi/pydantic@2.13.4",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-python-multipart.txt",
+      "family": "NEG",
+      "name": "python-multipart",
+      "version": "0.0.32",
+      "purl": "pkg:pypi/python-multipart@0.0.32",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-ruff.txt",
+      "family": "NEG",
+      "name": "ruff",
+      "version": "0.15.17",
+      "purl": "pkg:pypi/ruff@0.15.17",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-sqlalchemy.txt",
+      "family": "NEG",
+      "name": "sqlalchemy",
+      "version": "2.0.50",
+      "purl": "pkg:pypi/sqlalchemy@2.0.50",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-RYSESEO_DEVIN_1-uvicorn.txt",
+      "family": "NEG",
+      "name": "uvicorn",
+      "version": "0.49.0",
+      "purl": "pkg:pypi/uvicorn@0.49.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-black.txt",
+      "family": "NEG",
+      "name": "black",
+      "version": "26.5.1",
+      "purl": "pkg:pypi/black@26.5.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-click.txt",
+      "family": "NEG",
+      "name": "click",
+      "version": "8.4.1",
+      "purl": "pkg:pypi/click@8.4.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-colorama.txt",
+      "family": "NEG",
+      "name": "colorama",
+      "version": "0.4.6",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-flake8.txt",
+      "family": "NEG",
+      "name": "flake8",
+      "version": "7.3.0",
+      "purl": "pkg:pypi/flake8@7.3.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-llama-cpp-python.txt",
+      "family": "NEG",
+      "name": "llama-cpp-python",
+      "version": "0.3.28",
+      "purl": "pkg:pypi/llama-cpp-python@0.3.28",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": false,
+        "actions": [
+          "ignore",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-mypy.txt",
+      "family": "NEG",
+      "name": "mypy",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/mypy@2.1.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-pathlib2.txt",
+      "family": "NEG",
+      "name": "pathlib2",
+      "version": "2.3.7",
+      "purl": "pkg:pypi/pathlib2@2.3.7",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-pytest.txt",
+      "family": "NEG",
+      "name": "pytest",
+      "version": "9.0.3",
+      "purl": "pkg:pypi/pytest@9.0.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-pyyaml.txt",
+      "family": "NEG",
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-rich.txt",
+      "family": "NEG",
+      "name": "rich",
+      "version": "15.0.0",
+      "purl": "pkg:pypi/rich@15.0.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-akepo225_offline-coding-agent_14-watchdog.txt",
+      "family": "NEG",
+      "name": "watchdog",
+      "version": "6.0.0",
+      "purl": "pkg:pypi/watchdog@6.0.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-hbro319-lab_nexa_2-pyautogui.txt",
+      "family": "NEG",
+      "name": "pyautogui",
+      "version": "0.9.54",
+      "purl": "pkg:pypi/pyautogui@0.9.54",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-jnavarro7_netlist-parser_1-ollama.txt",
+      "family": "NEG",
+      "name": "ollama",
+      "version": "0.6.2",
+      "purl": "pkg:pypi/ollama@0.6.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-midnghtsapphire_bar-chart-race-engine_2-bar-chart-race.txt",
+      "family": "NEG",
+      "name": "bar-chart-race",
+      "version": "0.1.0",
+      "purl": "pkg:pypi/bar-chart-race@0.1.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-midnghtsapphire_bar-chart-race-engine_2-matplotlib.txt",
+      "family": "NEG",
+      "name": "matplotlib",
+      "version": "3.11.0",
+      "purl": "pkg:pypi/matplotlib@3.11.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-midnghtsapphire_bar-chart-race-engine_2-pandas.txt",
+      "family": "NEG",
+      "name": "pandas",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/pandas@3.0.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-midnghtsapphire_bar-chart-race-engine_2-requests.txt",
+      "family": "NEG",
+      "name": "requests",
+      "version": "2.34.2",
+      "purl": "pkg:pypi/requests@2.34.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-ctranslate2.txt",
+      "family": "NEG",
+      "name": "ctranslate2",
+      "version": "4.8.0",
+      "purl": "pkg:pypi/ctranslate2@4.8.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-faster-whisper.txt",
+      "family": "NEG",
+      "name": "faster-whisper",
+      "version": "1.2.1",
+      "purl": "pkg:pypi/faster-whisper@1.2.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-numpy.txt",
+      "family": "NEG",
+      "name": "numpy",
+      "version": "2.4.6",
+      "purl": "pkg:pypi/numpy@2.4.6",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": false,
+        "actions": [
+          "ignore",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-sentencepiece.txt",
+      "family": "NEG",
+      "name": "sentencepiece",
+      "version": "0.2.1",
+      "purl": "pkg:pypi/sentencepiece@0.2.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-sounddevice.txt",
+      "family": "NEG",
+      "name": "sounddevice",
+      "version": "0.5.5",
+      "purl": "pkg:pypi/sounddevice@0.5.5",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_2-transformers.txt",
+      "family": "NEG",
+      "name": "transformers",
+      "version": "5.12.0",
+      "purl": "pkg:pypi/transformers@5.12.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-mohamedredachakir_CcLIVE_5-argostranslate.txt",
+      "family": "NEG",
+      "name": "argostranslate",
+      "version": "1.11.0",
+      "purl": "pkg:pypi/argostranslate@1.11.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-aiosignal.txt",
+      "family": "NEG",
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "purl": "pkg:pypi/aiosignal@1.4.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-anyio.txt",
+      "family": "NEG",
+      "name": "anyio",
+      "version": "4.10.0",
+      "purl": "pkg:pypi/anyio@4.10.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-certifi.txt",
+      "family": "NEG",
+      "name": "certifi",
+      "version": "2025.8.3",
+      "purl": "pkg:pypi/certifi@2025.8.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-fsspec.txt",
+      "family": "NEG",
+      "name": "fsspec",
+      "version": "2025.7.0",
+      "purl": "pkg:pypi/fsspec@2025.7.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-google-api-python-client.txt",
+      "family": "NEG",
+      "name": "google-api-python-client",
+      "version": "2.178.0",
+      "purl": "pkg:pypi/google-api-python-client@2.178.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-grpcio-status.txt",
+      "family": "NEG",
+      "name": "grpcio-status",
+      "version": "1.71.2",
+      "purl": "pkg:pypi/grpcio-status@1.71.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-grpcio.txt",
+      "family": "NEG",
+      "name": "grpcio",
+      "version": "1.74.0",
+      "purl": "pkg:pypi/grpcio@1.74.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-hf-xet.txt",
+      "family": "NEG",
+      "name": "hf-xet",
+      "version": "1.1.7",
+      "purl": "pkg:pypi/hf-xet@1.1.7",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-huggingface-hub.txt",
+      "family": "NEG",
+      "name": "huggingface-hub",
+      "version": "0.34.3",
+      "purl": "pkg:pypi/huggingface-hub@0.34.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-jsonschema.txt",
+      "family": "NEG",
+      "name": "jsonschema",
+      "version": "4.25.0",
+      "purl": "pkg:pypi/jsonschema@4.25.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-multidict.txt",
+      "family": "NEG",
+      "name": "multidict",
+      "version": "6.6.3",
+      "purl": "pkg:pypi/multidict@6.6.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-openai.txt",
+      "family": "NEG",
+      "name": "openai",
+      "version": "1.99.1",
+      "purl": "pkg:pypi/openai@1.99.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-posthog.txt",
+      "family": "NEG",
+      "name": "posthog",
+      "version": "6.4.1",
+      "purl": "pkg:pypi/posthog@6.4.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-regex.txt",
+      "family": "NEG",
+      "name": "regex",
+      "version": "2025.7.34",
+      "purl": "pkg:pypi/regex@2025.7.34",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-rich.txt",
+      "family": "NEG",
+      "name": "rich",
+      "version": "14.1.0",
+      "purl": "pkg:pypi/rich@14.1.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-rpds-py.txt",
+      "family": "NEG",
+      "name": "rpds-py",
+      "version": "0.27.0",
+      "purl": "pkg:pypi/rpds-py@0.27.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-tiktoken.txt",
+      "family": "NEG",
+      "name": "tiktoken",
+      "version": "0.10.0",
+      "purl": "pkg:pypi/tiktoken@0.10.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-tokenizers.txt",
+      "family": "NEG",
+      "name": "tokenizers",
+      "version": "0.21.4",
+      "purl": "pkg:pypi/tokenizers@0.21.4",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-tree-sitter-language-pack.txt",
+      "family": "NEG",
+      "name": "tree-sitter-language-pack",
+      "version": "0.9.0",
+      "purl": "pkg:pypi/tree-sitter-language-pack@0.9.0",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-vk4s_aider_9-typing-extensions.txt",
+      "family": "NEG",
+      "name": "typing-extensions",
+      "version": "4.14.1",
+      "purl": "pkg:pypi/typing-extensions@4.14.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-wangfamaimar_MCP-STEM_6-rdkit-pypi.txt",
+      "family": "NEG",
+      "name": "rdkit-pypi",
+      "version": "2022.9.5",
+      "purl": "pkg:pypi/rdkit-pypi@2022.9.5",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "NEG-wangfamaimar_MCP-STEM_6-rdkit.txt",
+      "family": "NEG",
+      "name": "rdkit",
+      "version": "2026.3.3",
+      "purl": "pkg:pypi/rdkit@2026.3.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": false,
+        "diagnostic_v": false
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7421.txt",
+      "family": "S1",
+      "name": "ascii2text",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/ascii2text@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7422.txt",
+      "family": "S1",
+      "name": "browserdiv",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/browserdiv@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7423.txt",
+      "family": "S1",
+      "name": "free-net-vpn",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/free-net-vpn@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7424.txt",
+      "family": "S1",
+      "name": "free-net-vpn2",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/free-net-vpn2@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7425.txt",
+      "family": "S1",
+      "name": "pyg-utils",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/pyg-utils@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7426.txt",
+      "family": "S1",
+      "name": "pymocks",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/pymocks@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7427.txt",
+      "family": "S1",
+      "name": "pyproto2",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/pyproto2@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7428.txt",
+      "family": "S1",
+      "name": "test-async",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/test-async@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7429.txt",
+      "family": "S1",
+      "name": "winrpcexploit",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/winrpcexploit@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7430.txt",
+      "family": "S1",
+      "name": "zlibsrc",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/zlibsrc@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7433.txt",
+      "family": "S1",
+      "name": "equests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/equests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7434.txt",
+      "family": "S1",
+      "name": "reequests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/reequests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7435.txt",
+      "family": "S1",
+      "name": "reqquests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/reqquests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7436.txt",
+      "family": "S1",
+      "name": "requeests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/requeests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7437.txt",
+      "family": "S1",
+      "name": "requess",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/requess@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7438.txt",
+      "family": "S1",
+      "name": "requessts",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/requessts@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7439.txt",
+      "family": "S1",
+      "name": "requestts",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/requestts@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7440.txt",
+      "family": "S1",
+      "name": "requuests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/requuests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7441.txt",
+      "family": "S1",
+      "name": "reuests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/reuests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S1-MAL-2022-7442.txt",
+      "family": "S1",
+      "name": "rrequests",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/rrequests@0.0.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-boto3-1.43.36.txt",
+      "family": "S2",
+      "name": "boto3",
+      "version": "1.43.36",
+      "purl": "pkg:pypi/boto3@1.43.36",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-click-8.4.8.txt",
+      "family": "S2",
+      "name": "click",
+      "version": "8.4.8",
+      "purl": "pkg:pypi/click@8.4.8",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-flask-3.1.10.txt",
+      "family": "S2",
+      "name": "flask",
+      "version": "3.1.10",
+      "purl": "pkg:pypi/flask@3.1.10",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-matplotlib-3.11.7.txt",
+      "family": "S2",
+      "name": "matplotlib",
+      "version": "3.11.7",
+      "purl": "pkg:pypi/matplotlib@3.11.7",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-packaging-26.9.txt",
+      "family": "S2",
+      "name": "packaging",
+      "version": "26.9",
+      "purl": "pkg:pypi/packaging@26.9",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-pandas-3.0.10.txt",
+      "family": "S2",
+      "name": "pandas",
+      "version": "3.0.10",
+      "purl": "pkg:pypi/pandas@3.0.10",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-pydantic-2.13.11.txt",
+      "family": "S2",
+      "name": "pydantic",
+      "version": "2.13.11",
+      "purl": "pkg:pypi/pydantic@2.13.11",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-pytest-9.0.10.txt",
+      "family": "S2",
+      "name": "pytest",
+      "version": "9.0.10",
+      "purl": "pkg:pypi/pytest@9.0.10",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-requests-2.34.9.txt",
+      "family": "S2",
+      "name": "requests",
+      "version": "2.34.9",
+      "purl": "pkg:pypi/requests@2.34.9",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-rich-15.0.7.txt",
+      "family": "S2",
+      "name": "rich",
+      "version": "15.0.7",
+      "purl": "pkg:pypi/rich@15.0.7",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-scipy-1.17.8.txt",
+      "family": "S2",
+      "name": "scipy",
+      "version": "1.17.8",
+      "purl": "pkg:pypi/scipy@1.17.8",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S2-setuptools-82.0.8.txt",
+      "family": "S2",
+      "name": "setuptools",
+      "version": "82.0.8",
+      "purl": "pkg:pypi/setuptools@82.0.8",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": true,
+        "high_or_crit": false,
+        "vuln_high": false,
+        "actions": [
+          "ignore"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-aiohttp-3.10.8.txt",
+      "family": "S3",
+      "name": "aiohttp",
+      "version": "3.10.8",
+      "purl": "pkg:pypi/aiohttp@3.10.8",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-ansible-2.5.11.txt",
+      "family": "S3",
+      "name": "ansible",
+      "version": "2.5.11",
+      "purl": "pkg:pypi/ansible@2.5.11",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-celery-3.0.6.txt",
+      "family": "S3",
+      "name": "celery",
+      "version": "3.0.6",
+      "purl": "pkg:pypi/celery@3.0.6",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-cryptography-37.0.4.txt",
+      "family": "S3",
+      "name": "cryptography",
+      "version": "37.0.4",
+      "purl": "pkg:pypi/cryptography@37.0.4",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-django-1.3.2.txt",
+      "family": "S3",
+      "name": "django",
+      "version": "1.3.2",
+      "purl": "pkg:pypi/django@1.3.2",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-flask-3.1.0.txt",
+      "family": "S3",
+      "name": "flask",
+      "version": "3.1.0",
+      "purl": "pkg:pypi/flask@3.1.0",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-httpx-0.13.1.txt",
+      "family": "S3",
+      "name": "httpx",
+      "version": "0.13.1",
+      "purl": "pkg:pypi/httpx@0.13.1",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-jinja2-2.6.txt",
+      "family": "S3",
+      "name": "jinja2",
+      "version": "2.6",
+      "purl": "pkg:pypi/jinja2@2.6",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-lxml-3.3.1.txt",
+      "family": "S3",
+      "name": "lxml",
+      "version": "3.3.1",
+      "purl": "pkg:pypi/lxml@3.3.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-numpy-1.4.1.txt",
+      "family": "S3",
+      "name": "numpy",
+      "version": "1.4.1",
+      "purl": "pkg:pypi/numpy@1.4.1",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-paramiko-2.0.4.txt",
+      "family": "S3",
+      "name": "paramiko",
+      "version": "2.0.4",
+      "purl": "pkg:pypi/paramiko@2.0.4",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-pillow-2.2.1.txt",
+      "family": "S3",
+      "name": "pillow",
+      "version": "2.2.1",
+      "purl": "pkg:pypi/pillow@2.2.1",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-pyyaml-5.1.1.txt",
+      "family": "S3",
+      "name": "pyyaml",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/pyyaml@5.1.1",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-requests-0.9.3.txt",
+      "family": "S3",
+      "name": "requests",
+      "version": "0.9.3",
+      "purl": "pkg:pypi/requests@0.9.3",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-scrapy-1.1.4.txt",
+      "family": "S3",
+      "name": "scrapy",
+      "version": "1.1.4",
+      "purl": "pkg:pypi/scrapy@1.1.4",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-sqlalchemy-0.8.4.txt",
+      "family": "S3",
+      "name": "sqlalchemy",
+      "version": "0.8.4",
+      "purl": "pkg:pypi/sqlalchemy@0.8.4",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-tornado-4.2.1.txt",
+      "family": "S3",
+      "name": "tornado",
+      "version": "4.2.1",
+      "purl": "pkg:pypi/tornado@4.2.1",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-twisted-14.0.0.txt",
+      "family": "S3",
+      "name": "twisted",
+      "version": "14.0.0",
+      "purl": "pkg:pypi/twisted@14.0.0",
+      "resolved": true,
+      "verdicts": {
+        "native": true,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor",
+          "warn"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-urllib3-1.25.2.txt",
+      "family": "S3",
+      "name": "urllib3",
+      "version": "1.25.2",
+      "purl": "pkg:pypi/urllib3@1.25.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    },
+    {
+      "manifest": "S3-werkzeug-0.12.2.txt",
+      "family": "S3",
+      "name": "werkzeug",
+      "version": "0.12.2",
+      "purl": "pkg:pypi/werkzeug@0.12.2",
+      "resolved": true,
+      "verdicts": {
+        "native": false,
+        "diagnostic": true,
+        "diagnostic_v": true
+      },
+      "evidence": {
+        "notFound": false,
+        "high_or_crit": true,
+        "vuln_high": true,
+        "actions": [
+          "ignore",
+          "monitor"
+        ],
+        "resolved": true
+      }
+    }
+  ]
+}

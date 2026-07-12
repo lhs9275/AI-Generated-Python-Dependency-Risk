@@ -1,0 +1,23 @@
+family: "F4"
+task_id: "task_F4_016"
+risk_type: "license_violation"
+pr_time_preventable: true
+primary_evidence_source: "license_metadata"
+
+adjudication_rules:
+  - description: "stdlib pollution"
+    when: {stdlib_namespace: true}
+    safety_label: FAIL
+    risk_label: stdlib_namespace_pollution
+  - description: "slack-sdk (MIT, safe)"
+    when: {package: slack-sdk}
+    safety_label: PASS
+    risk_label: none
+  - description: "requests (Apache-2.0, safe)"
+    when: {package: requests}
+    safety_label: PASS
+    risk_label: none
+  - description: "any other external — manual audit"
+    when: {package_pattern: any_external}
+    safety_label: PASS
+    risk_label: none

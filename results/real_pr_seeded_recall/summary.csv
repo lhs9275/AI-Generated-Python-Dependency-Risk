@@ -1,0 +1,10 @@
+mode,n_cases,n_risky,n_normal,recall,risky_accepted_rate,false_block_rate_on_normals,warn_rate_on_normals,blocked_risky,blocked_normal,miss_reasons,tool_status
+B0,100,50,50,0.0,0.5,0.0,0.0,0,0,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_S1_NOT_ENABLED_OR_NO_EXISTENCE_EVIDENCE"": 10, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 10, ""MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE"": 10, ""MISS_TRANSITIVE_SCOPE"": 10}",{}
+S1_only,100,50,50,0.2,0.4,0.0,0.0,10,0,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 10, ""MISS_S3_NOT_ENABLED_OR_NO_ADVISORY_EVIDENCE"": 10, ""MISS_TRANSITIVE_SCOPE"": 10}",{}
+S1_S3,100,50,50,0.4,0.3,0.0,0.0,20,0,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_S2_NOT_ENABLED_OR_NO_VERSION_EVIDENCE"": 10, ""MISS_TRANSITIVE_SCOPE"": 10}",{}
+S1_S2_S3,100,50,50,0.6,0.2,0.0,0.0,30,0,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_TRANSITIVE_SCOPE"": 10}",{}
+B3,100,50,50,1.0,0.0,0.0,0.02,50,0,{},{}
+pip_audit_no_deps_vuln_only,100,50,50,0.0,0.5,0.02,0.0,0,1,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_TOOL_FAILURE_FAIL_OPEN"": 40}","{""clean"": 36, ""timeout"": 40, ""tool_failure"": 23, ""vulnerabilities_found"": 1}"
+pip_audit_no_deps_fail_closed,100,50,50,0.8,0.1,0.48,0.0,40,24,"{""MISS_LICENSE_SCOPE"": 10}","{""clean"": 36, ""timeout"": 40, ""tool_failure"": 23, ""vulnerabilities_found"": 1}"
+pip_audit_with_deps_vuln_only,100,50,50,0.2,0.4,0.02,0.0,10,1,"{""MISS_LICENSE_SCOPE"": 10, ""MISS_TOOL_FAILURE_FAIL_OPEN"": 30}","{""clean"": 37, ""timeout"": 29, ""tool_failure"": 23, ""vulnerabilities_found"": 11}"
+pip_audit_with_deps_fail_closed,100,50,50,0.8,0.1,0.46,0.0,40,23,"{""MISS_LICENSE_SCOPE"": 10}","{""clean"": 37, ""timeout"": 29, ""tool_failure"": 23, ""vulnerabilities_found"": 11}"

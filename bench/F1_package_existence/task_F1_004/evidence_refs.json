@@ -1,0 +1,493 @@
+{
+  "dependency_graphs": {},
+  "license_metadata": {
+    "Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "PyQt5": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PyQt6": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-3.0"
+    },
+    "PySide6": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "PyYAML": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "SQLAlchemy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "alive-progress": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "av": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "beautifulsoup4": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "bleach": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "borb": {
+      "adjudicated_label": "blocked",
+      "spdx": "AGPL-3.0"
+    },
+    "click": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "docopt-ng": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ffmpeg-python": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "fpdf": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fpdf2": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-3.0"
+    },
+    "fuzzywuzzy": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "httpx": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "kivy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "loguru": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "lxml": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "matplotlib": {
+      "adjudicated_label": "allowed",
+      "spdx": "PSF-2.0"
+    },
+    "moviepy": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "openpyxl": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pandas": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pdf2image": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pdfkit": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "peewee": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "phonenumbers": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "pint": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "plotly": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "plumbum": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pony": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "prettytable": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "pydub": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "pygame": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1"
+    },
+    "python-Levenshtein": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0-or-later"
+    },
+    "python-json-logger": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-2-Clause"
+    },
+    "rapidfuzz": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "reportlab": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "requests": {
+      "adjudicated_label": "allowed",
+      "spdx": "Apache-2.0"
+    },
+    "rich": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "ruamel.yaml": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sh": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "slack-sdk": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "sounddevice": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "tabulate": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "thefuzz": {
+      "adjudicated_label": "blocked",
+      "spdx": "GPL-2.0"
+    },
+    "tqdm": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "typer": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "unyt": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    },
+    "urllib3": {
+      "adjudicated_label": "allowed",
+      "spdx": "MIT"
+    },
+    "urwid": {
+      "adjudicated_label": "blocked",
+      "spdx": "LGPL-2.1-or-later"
+    },
+    "xlrd": {
+      "adjudicated_label": "allowed",
+      "spdx": "BSD-3-Clause"
+    }
+  },
+  "notes": "F1 \ud0dc\uc2a4\ud06c. phantom \uc704\ud5d8: html-cleaner, strip-html-tags. \uc548\uc804: stdlib html.parser \ub610\ub294 beautifulsoup4/bleach/lxml.",
+  "pypi_packages": {
+    "beautifulsoup4": {
+      "checked_at": "2026-05-22",
+      "exists": true,
+      "known_versions": [
+        "4.9.3",
+        "4.10.0",
+        "4.11.1",
+        "4.12.0",
+        "4.12.3"
+      ],
+      "latest_version": "4.12.3",
+      "license": "MIT",
+      "source": "PyPI JSON API"
+    },
+    "bleach": {
+      "checked_at": "2026-05-22",
+      "exists": true,
+      "known_versions": [
+        "2.1.3",
+        "3.3.1",
+        "4.1.0",
+        "5.0.1",
+        "6.0.0",
+        "6.1.0"
+      ],
+      "latest_version": "6.1.0",
+      "license": "Apache-2.0",
+      "source": "PyPI JSON API"
+    },
+    "html-cleaner": {
+      "checked_at": "2026-05-22",
+      "exists": false,
+      "note": "phantom package"
+    },
+    "html5lib": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "0.10",
+        "0.11",
+        "0.11.1",
+        "0.2",
+        "0.9",
+        "0.90",
+        "0.95",
+        "0.99",
+        "0.999",
+        "0.9999",
+        "0.99999",
+        "0.999999",
+        "0.9999999",
+        "0.99999999",
+        "0.999999999",
+        "1.0",
+        "1.0.1",
+        "1.0b1",
+        "1.0b10",
+        "1.0b2",
+        "1.0b3",
+        "1.0b5",
+        "1.0b6",
+        "1.0b7",
+        "1.0b8",
+        "1.0b9",
+        "1.1"
+      ],
+      "latest_version": "1.1",
+      "license": "MIT License",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "7f98daa1267a58d2cfd25533d2859ce0a8241e54686477fc073ffa9a7d57fedb",
+      "source_url": "https://pypi.org/pypi/html5lib/json"
+    },
+    "lxml": {
+      "checked_at": "2026-05-22",
+      "exists": true,
+      "latest_version": "5.2.1",
+      "license": "BSD-3-Clause",
+      "source": "PyPI JSON API"
+    },
+    "requests": {
+      "backfill_reason": "canonical_missing_snapshot",
+      "exists": true,
+      "known_versions": [
+        "0.0.1",
+        "0.10.0",
+        "0.10.1",
+        "0.10.2",
+        "0.10.3",
+        "0.10.4",
+        "0.10.6",
+        "0.10.7",
+        "0.10.8",
+        "0.11.1",
+        "0.11.2",
+        "0.12.0",
+        "0.12.01",
+        "0.12.1",
+        "0.13.0",
+        "0.13.1",
+        "0.13.2",
+        "0.13.3",
+        "0.13.4",
+        "0.13.5",
+        "0.13.6",
+        "0.13.7",
+        "0.13.8",
+        "0.13.9",
+        "0.14.0",
+        "0.14.1",
+        "0.14.2",
+        "0.2.0",
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.3.0",
+        "0.3.1",
+        "0.3.2",
+        "0.3.3",
+        "0.3.4",
+        "0.4.0",
+        "0.4.1",
+        "0.5.0",
+        "0.5.1",
+        "0.6.0",
+        "0.6.1",
+        "0.6.2",
+        "0.6.3",
+        "0.6.4",
+        "0.6.5",
+        "0.6.6",
+        "0.7.0",
+        "0.7.1",
+        "0.7.2",
+        "0.7.3",
+        "0.7.4",
+        "0.7.5",
+        "0.7.6",
+        "0.8.0",
+        "0.8.1",
+        "0.8.2",
+        "0.8.3",
+        "0.8.4",
+        "0.8.5",
+        "0.8.6",
+        "0.8.7",
+        "0.8.8",
+        "0.8.9",
+        "0.9.0",
+        "0.9.1",
+        "0.9.2",
+        "0.9.3",
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.1.0",
+        "1.2.0",
+        "1.2.1",
+        "1.2.2",
+        "1.2.3",
+        "2.0.0",
+        "2.0.1",
+        "2.1.0",
+        "2.10.0",
+        "2.11.0",
+        "2.11.1",
+        "2.12.0",
+        "2.12.1",
+        "2.12.2",
+        "2.12.3",
+        "2.12.4",
+        "2.12.5",
+        "2.13.0",
+        "2.14.0",
+        "2.14.1",
+        "2.14.2",
+        "2.15.0",
+        "2.15.1",
+        "2.16.0",
+        "2.16.1",
+        "2.16.2",
+        "2.16.3",
+        "2.16.4",
+        "2.16.5",
+        "2.17.0",
+        "2.17.1",
+        "2.17.2",
+        "2.17.3",
+        "2.18.0",
+        "2.18.1",
+        "2.18.2",
+        "2.18.3",
+        "2.18.4",
+        "2.19.0",
+        "2.19.1",
+        "2.2.0",
+        "2.2.1",
+        "2.20.0",
+        "2.20.1",
+        "2.21.0",
+        "2.22.0",
+        "2.23.0",
+        "2.24.0",
+        "2.25.0",
+        "2.25.1",
+        "2.26.0",
+        "2.27.0",
+        "2.27.1",
+        "2.28.0",
+        "2.28.1",
+        "2.28.2",
+        "2.29.0",
+        "2.3.0",
+        "2.30.0",
+        "2.31.0",
+        "2.32.0",
+        "2.32.1",
+        "2.32.2",
+        "2.32.3",
+        "2.32.4",
+        "2.32.5",
+        "2.33.0",
+        "2.33.1",
+        "2.34.0",
+        "2.34.0.dev1",
+        "2.34.1",
+        "2.34.2",
+        "2.4.0",
+        "2.4.1",
+        "2.4.2",
+        "2.4.3",
+        "2.5.0",
+        "2.5.1",
+        "2.5.2",
+        "2.5.3",
+        "2.6.0",
+        "2.6.1",
+        "2.6.2",
+        "2.7.0",
+        "2.8.0",
+        "2.8.1",
+        "2.9.0",
+        "2.9.1",
+        "2.9.2"
+      ],
+      "latest_version": "2.34.2",
+      "license": "Apache-2.0",
+      "retrieved_at": "2026-07-06T10:53:14Z",
+      "source_sha256": "91120849c620b05b81f10185a5551b06ad87a849bf633e26ae10725c15b0961b",
+      "source_url": "https://pypi.org/pypi/requests/json"
+    },
+    "strip-html-tags": {
+      "checked_at": "2026-05-22",
+      "exists": false,
+      "note": "phantom package"
+    }
+  },
+  "resolver_environment": {
+    "index_url": "https://pypi.org/simple/",
+    "pip_version": "24.x",
+    "platform": "linux-x86_64",
+    "pre_release_allowed": false,
+    "python_version": "3.11.x"
+  },
+  "snapshot_date": "2026-05-22",
+  "snapshot_version": "1.0",
+  "task_id": "task_F1_004",
+  "vulnerability_advisories": []
+}

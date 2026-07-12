@@ -1,0 +1,553 @@
+{
+  "overall": {
+    "total_runs": 240,
+    "generated": {
+      "functional_success_rate": 0.767,
+      "safety_pass_core_rate": 0.758,
+      "risk_adjusted_success_core_rate": 0.608
+    },
+    "accepted": {
+      "accepted_rate": 1.0,
+      "risky_accepted_patch_rate": 0.029
+    },
+    "guard_metrics": {
+      "false_block_rate": 0.058,
+      "false_allow_rate": 0.021
+    },
+    "repair_metrics": {
+      "attempt_rate": 0.279,
+      "unblocked_rate": 1.0,
+      "functional_recovered_rate": 0.149,
+      "safety_recovered_rate": 0.97,
+      "n_attempted": 67
+    },
+    "agent_behavior": {
+      "stdlib_only_rate": 0.375,
+      "spec_style_counts": {
+        "range_lower_only": 30,
+        "unbounded": 27,
+        "pin_exact": 89,
+        "range_bounded": 21
+      },
+      "avg_latency_sec": 2.23
+    },
+    "infrastructure": {
+      "install_failure_rate": 0.325,
+      "collection_failure_rate": 0.158
+    },
+    "test_pass_rate": {
+      "public_mean": 0.974,
+      "hidden_mean": 0.979
+    },
+    "risk_label_counts": {
+      "stdlib_namespace_pollution": 16,
+      "transitive_vulnerability": 14,
+      "license_violation_lgpl": 2,
+      "vulnerable_direct_dep": 14,
+      "package_existence_unknown": 3,
+      "vulnerable_version": 10,
+      "deprecated_package": 2
+    }
+  },
+  "by_mode": {
+    "B0": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.242
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.242
+      }
+    },
+    "B1": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 0.883,
+        "risky_accepted_patch_rate": 0.15
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.025,
+        "false_allow_rate": 0.15
+      }
+    },
+    "B2": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 0.867,
+        "risky_accepted_patch_rate": 0.133
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.025,
+        "false_allow_rate": 0.133
+      }
+    },
+    "B3": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 0.721,
+        "risky_accepted_patch_rate": 0.021
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.058,
+        "false_allow_rate": 0.021
+      }
+    },
+    "R1": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.029
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.058,
+        "false_allow_rate": 0.021
+      }
+    }
+  },
+  "by_family": {
+    "F1": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.925,
+        "safety_pass_core_rate": 0.875,
+        "risk_adjusted_success_core_rate": 0.8
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.0
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.125,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.0,
+        "safety_recovered_rate": 1.0,
+        "n_attempted": 5
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.725,
+        "spec_style_counts": {
+          "unbounded": 9,
+          "pin_exact": 2
+        },
+        "avg_latency_sec": 3.23
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.075,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 0.975,
+        "hidden_mean": 0.958
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 5
+      }
+    },
+    "F2": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.55,
+        "safety_pass_core_rate": 0.725,
+        "risk_adjusted_success_core_rate": 0.45
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.05
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.225,
+        "false_allow_rate": 0.05
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.45,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.333,
+        "safety_recovered_rate": 1.0,
+        "n_attempted": 18
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.15,
+        "spec_style_counts": {
+          "pin_exact": 15,
+          "range_lower_only": 6,
+          "range_bounded": 13
+        },
+        "avg_latency_sec": 1.58
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.6,
+        "collection_failure_rate": 0.375
+      },
+      "test_pass_rate": {
+        "public_mean": 0.936,
+        "hidden_mean": 0.96
+      },
+      "risk_label_counts": {
+        "vulnerable_version": 10,
+        "stdlib_namespace_pollution": 1,
+        "package_existence_unknown": 2
+      }
+    },
+    "F3": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.7,
+        "safety_pass_core_rate": 0.575,
+        "risk_adjusted_success_core_rate": 0.425
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.05
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.025,
+        "false_allow_rate": 0.05
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.4,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.125,
+        "safety_recovered_rate": 1.0,
+        "n_attempted": 16
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.275,
+        "spec_style_counts": {
+          "pin_exact": 22,
+          "range_lower_only": 7,
+          "range_bounded": 6
+        },
+        "avg_latency_sec": 2.9
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.575,
+        "collection_failure_rate": 0.2
+      },
+      "test_pass_rate": {
+        "public_mean": 0.958,
+        "hidden_mean": 0.979
+      },
+      "risk_label_counts": {
+        "vulnerable_direct_dep": 14,
+        "stdlib_namespace_pollution": 1,
+        "deprecated_package": 2
+      }
+    },
+    "F4": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.7,
+        "safety_pass_core_rate": 0.825,
+        "risk_adjusted_success_core_rate": 0.6
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.0
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.175,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.143,
+        "safety_recovered_rate": 1.0,
+        "n_attempted": 7
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.175,
+        "spec_style_counts": {
+          "range_lower_only": 9,
+          "unbounded": 13,
+          "pin_exact": 18
+        },
+        "avg_latency_sec": 1.79
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.55,
+        "collection_failure_rate": 0.275
+      },
+      "test_pass_rate": {
+        "public_mean": 0.989,
+        "hidden_mean": 1.0
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 5,
+        "license_violation_lgpl": 2,
+        "package_existence_unknown": 1
+      }
+    },
+    "F5": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.85,
+        "safety_pass_core_rate": 0.65,
+        "risk_adjusted_success_core_rate": 0.6
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.075
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.1,
+        "false_allow_rate": 0.025
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.425,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.059,
+        "safety_recovered_rate": 0.882,
+        "n_attempted": 17
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.025,
+        "spec_style_counts": {
+          "pin_exact": 31,
+          "range_lower_only": 8,
+          "unbounded": 2,
+          "range_bounded": 2
+        },
+        "avg_latency_sec": 2.55
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.05,
+        "collection_failure_rate": 0.1
+      },
+      "test_pass_rate": {
+        "public_mean": 1.0,
+        "hidden_mean": 0.988
+      },
+      "risk_label_counts": {
+        "transitive_vulnerability": 14
+      }
+    },
+    "F6": {
+      "total_runs": 40,
+      "generated": {
+        "functional_success_rate": 0.875,
+        "safety_pass_core_rate": 0.9,
+        "risk_adjusted_success_core_rate": 0.775
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.0
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.0,
+        "false_allow_rate": 0.0
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.1,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.0,
+        "safety_recovered_rate": 1.0,
+        "n_attempted": 4
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.9,
+        "spec_style_counts": {
+          "unbounded": 3,
+          "pin_exact": 1
+        },
+        "avg_latency_sec": 1.34
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.1,
+        "collection_failure_rate": 0.0
+      },
+      "test_pass_rate": {
+        "public_mean": 0.975,
+        "hidden_mean": 0.988
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 4
+      }
+    }
+  },
+  "by_condition": {
+    "G0": {
+      "total_runs": 120,
+      "generated": {
+        "functional_success_rate": 0.75,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.583
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.033
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.067,
+        "false_allow_rate": 0.025
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.283,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.147,
+        "safety_recovered_rate": 0.971,
+        "n_attempted": 34
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.325,
+        "spec_style_counts": {
+          "unbounded": 20,
+          "pin_exact": 36,
+          "range_lower_only": 20,
+          "range_bounded": 13
+        },
+        "avg_latency_sec": 2.29
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.333,
+        "collection_failure_rate": 0.158
+      },
+      "test_pass_rate": {
+        "public_mean": 0.965,
+        "hidden_mean": 0.971
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 10,
+        "transitive_vulnerability": 6,
+        "license_violation_lgpl": 1,
+        "package_existence_unknown": 2,
+        "vulnerable_direct_dep": 7,
+        "vulnerable_version": 4,
+        "deprecated_package": 1
+      }
+    },
+    "G1": {
+      "total_runs": 120,
+      "generated": {
+        "functional_success_rate": 0.783,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.633
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.025
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.05,
+        "false_allow_rate": 0.017
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.275,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.152,
+        "safety_recovered_rate": 0.97,
+        "n_attempted": 33
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.425,
+        "spec_style_counts": {
+          "range_lower_only": 10,
+          "unbounded": 7,
+          "pin_exact": 53,
+          "range_bounded": 8
+        },
+        "avg_latency_sec": 2.17
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.317,
+        "collection_failure_rate": 0.158
+      },
+      "test_pass_rate": {
+        "public_mean": 0.983,
+        "hidden_mean": 0.987
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 6,
+        "transitive_vulnerability": 8,
+        "license_violation_lgpl": 1,
+        "vulnerable_direct_dep": 7,
+        "vulnerable_version": 6,
+        "deprecated_package": 1,
+        "package_existence_unknown": 1
+      }
+    }
+  },
+  "by_model": {
+    "Qwen2.5-Coder-32B-Instruct-AWQ": {
+      "total_runs": 240,
+      "generated": {
+        "functional_success_rate": 0.767,
+        "safety_pass_core_rate": 0.758,
+        "risk_adjusted_success_core_rate": 0.608
+      },
+      "accepted": {
+        "accepted_rate": 1.0,
+        "risky_accepted_patch_rate": 0.029
+      },
+      "guard_metrics": {
+        "false_block_rate": 0.058,
+        "false_allow_rate": 0.021
+      },
+      "repair_metrics": {
+        "attempt_rate": 0.279,
+        "unblocked_rate": 1.0,
+        "functional_recovered_rate": 0.149,
+        "safety_recovered_rate": 0.97,
+        "n_attempted": 67
+      },
+      "agent_behavior": {
+        "stdlib_only_rate": 0.375,
+        "spec_style_counts": {
+          "range_lower_only": 30,
+          "unbounded": 27,
+          "pin_exact": 89,
+          "range_bounded": 21
+        },
+        "avg_latency_sec": 2.23
+      },
+      "infrastructure": {
+        "install_failure_rate": 0.325,
+        "collection_failure_rate": 0.158
+      },
+      "test_pass_rate": {
+        "public_mean": 0.974,
+        "hidden_mean": 0.979
+      },
+      "risk_label_counts": {
+        "stdlib_namespace_pollution": 16,
+        "transitive_vulnerability": 14,
+        "license_violation_lgpl": 2,
+        "vulnerable_direct_dep": 14,
+        "package_existence_unknown": 3,
+        "vulnerable_version": 10,
+        "deprecated_package": 2
+      }
+    }
+  }
+}

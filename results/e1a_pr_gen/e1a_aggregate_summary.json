@@ -1,0 +1,163 @@
+{
+  "legs": [
+    {
+      "model": "Qwen2.5-Coder-7B",
+      "cond": "agent_native",
+      "n_risky": 318,
+      "blocked": 121,
+      "block_rate": 38.1,
+      "ci": [
+        32.9,
+        43.5
+      ],
+      "false_block_k": 26,
+      "false_block_n": 308,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "Qwen2.5-Coder-7B",
+      "cond": "safety_prompt",
+      "n_risky": 322,
+      "blocked": 135,
+      "block_rate": 41.9,
+      "ci": [
+        36.7,
+        47.4
+      ],
+      "false_block_k": 26,
+      "false_block_n": 304,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "Qwen2.5-Coder-14B",
+      "cond": "agent_native",
+      "n_risky": 279,
+      "blocked": 77,
+      "block_rate": 27.6,
+      "ci": [
+        22.7,
+        33.1
+      ],
+      "false_block_k": 26,
+      "false_block_n": 347,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "Qwen2.5-Coder-14B",
+      "cond": "safety_prompt",
+      "n_risky": 278,
+      "blocked": 79,
+      "block_rate": 28.4,
+      "ci": [
+        23.4,
+        34.0
+      ],
+      "false_block_k": 26,
+      "false_block_n": 348,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "deepseek-coder-6.7B",
+      "cond": "agent_native",
+      "n_risky": 247,
+      "blocked": 70,
+      "block_rate": 28.3,
+      "ci": [
+        23.1,
+        34.3
+      ],
+      "false_block_k": 25,
+      "false_block_n": 379,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "deepseek-coder-6.7B",
+      "cond": "safety_prompt",
+      "n_risky": 107,
+      "blocked": 9,
+      "block_rate": 8.4,
+      "ci": [
+        4.5,
+        15.2
+      ],
+      "false_block_k": 26,
+      "false_block_n": 519,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "CodeLlama-7B",
+      "cond": "agent_native",
+      "n_risky": 227,
+      "blocked": 55,
+      "block_rate": 24.2,
+      "ci": [
+        19.1,
+        30.2
+      ],
+      "false_block_k": 21,
+      "false_block_n": 399,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "CodeLlama-7B",
+      "cond": "safety_prompt",
+      "n_risky": 318,
+      "blocked": 108,
+      "block_rate": 34.0,
+      "ci": [
+        29.0,
+        39.3
+      ],
+      "false_block_k": 18,
+      "false_block_n": 308,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "Qwen2.5-Coder-32B",
+      "cond": "agent_native",
+      "n_risky": 257,
+      "blocked": 55,
+      "block_rate": 21.4,
+      "ci": [
+        16.8,
+        26.8
+      ],
+      "false_block_k": 27,
+      "false_block_n": 369,
+      "mcnemar_c": 0
+    },
+    {
+      "model": "Qwen2.5-Coder-32B",
+      "cond": "safety_prompt",
+      "n_risky": 248,
+      "blocked": 62,
+      "block_rate": 25.0,
+      "ci": [
+        20.0,
+        30.7
+      ],
+      "false_block_k": 24,
+      "false_block_n": 378,
+      "mcnemar_c": 0
+    }
+  ],
+  "pooled": {
+    "n_risky": 2601,
+    "blocked": 771,
+    "block_rate_pct": 29.6,
+    "ci": [
+      27.9,
+      31.4
+    ],
+    "false_block_pct": 6.7,
+    "false_block_ci": [
+      5.9,
+      7.6
+    ],
+    "false_block_k": 245,
+    "false_block_n": 3659
+  },
+  "_note_mcnemar_degenerate": "B0=no-gate accepts all risky by construction -> c=0 in every leg; the paired McNemar reduces to testing b>0. Report B3 block-rate over independent-risky (Wilson CI) as the primary statistic instead of B0/McNemar.",
+  "_independence": "Task population is gate-independent (real PRs, prevalence pop). Oracle shares OSV advisory lineage with the gate (different severity threshold/snapshot) -> circularity REDUCED not eliminated; state honestly.",
+  "_design": "U3 real-PR tasks + U2 independent >=HIGH OSV/PyPI oracle; gate reused unchanged; 5 models x 2 conditions; U1 (commercial backends) and P1-hallucination replay = future work."
+}

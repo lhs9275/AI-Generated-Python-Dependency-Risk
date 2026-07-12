@@ -1,0 +1,8 @@
+source_tool,n_changes,n_primary_risky,P1,P2,P3,n_secondary
+aider,489,14,2,8,4,17
+claude-code,5,0,0,0,0,1
+codex,127,20,0,20,0,24
+continue,8,0,0,0,0,0
+copilot,5675,209,9,14,186,634
+cursor,260,4,4,0,0,24
+devin,2188,81,0,7,74,195

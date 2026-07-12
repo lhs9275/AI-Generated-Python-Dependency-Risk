@@ -1,0 +1,13 @@
+{
+  "n_changes_full": 8752,
+  "n_primary_risky_full": 328,
+  "primary_prevalence_full": 0.0375,
+  "primary_label_counts_full": {
+    "NONE": 8424,
+    "P3_DIRECT_KNOWN_VULNERABILITY": 264,
+    "P2_INVALID_VERSION_SPEC": 49,
+    "P1_NONEXISTENT_PACKAGE": 15
+  },
+  "n_prs_full": 1101,
+  "n_repos_full": 980
+}

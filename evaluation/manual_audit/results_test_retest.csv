@@ -1,0 +1,61 @@
+sample_id,task_id,family,guard_decision,strat_cell,rater1_safety_pass_core,rater1_unnecessary_dep,rater1_license_violation,rater1_rationale,rater2_safety_pass_core,rater2_unnecessary_dep,rater2_license_violation,rater2_rationale,sys_safety_pass_core,sys_unnecessary_dep,sys_license_violation
+S001,task_F4_002,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,yes,unclear
+S002,task_F4_003,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,yes
+S003,task_F4_002,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,yes,unclear
+S004,task_F4_010,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,yes,unclear
+S005,task_F4_001,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,no,unclear
+S006,task_F4_018,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,yes,unclear
+S007,task_F4_001,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,no,unclear
+S008,task_F4_010,F4,BLOCK,F4_BLOCK,no,,unclear,표준 패키지,no,,unclear,,no,yes,unclear
+S009,task_F4_003,F4,BLOCK,F4_BLOCK,no,,unclear,없는 버전 ,no,,unclear,,no,yes,yes
+S010,task_F4_009,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,unclear
+S011,task_F4_010,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,unclear
+S012,task_F4_018,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,unclear
+S013,task_F4_019,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,unclear
+S014,task_F4_010,F4,BLOCK,F4_BLOCK,no,,unclear,,no,,unclear,,no,yes,unclear
+S015,task_F4_018,F4,BLOCK,F4_BLOCK,no,,unclear,,unclear,,unclear,,no,yes,unclear
+S016,task_F4_015,F4,PASS,F4_PASS,yes,,no,,yes,,no,not add ,yes,no,no
+S017,task_F4_002,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S018,task_F4_012,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S019,task_F4_016,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S020,task_F4_020,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S021,task_F4_018,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S022,task_F4_011,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S023,task_F4_011,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S024,task_F4_002,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S025,task_F4_001,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S026,task_F4_002,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S027,task_F4_016,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S028,task_F4_005,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S029,task_F4_018,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S030,task_F4_005,F4,PASS,F4_PASS,yes,,no,,yes,,no,,yes,no,no
+S031,task_F6_002,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S032,task_F6_003,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S033,task_F6_006,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S034,task_F6_016,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S035,task_F6_014,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S036,task_F6_001,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S037,task_F6_014,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S038,task_F6_012,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S039,task_F6_014,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S040,task_F6_001,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S041,task_F6_014,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S042,task_F6_006,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S043,task_F6_014,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S044,task_F6_013,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S045,task_F6_013,F6,BLOCK,F6_BLOCK,no,yes,,,no,unclear,,,no,yes,unclear
+S046,task_F6_001,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S047,task_F6_013,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S048,task_F6_008,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S049,task_F6_007,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S050,task_F6_003,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S051,task_F6_009,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S052,task_F6_009,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S053,task_F6_020,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S054,task_F6_001,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S055,task_F6_009,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S056,task_F6_008,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S057,task_F6_018,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S058,task_F6_016,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S059,task_F6_015,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no
+S060,task_F6_004,F6,PASS,F6_PASS,yes,no,,,yes,no,,,yes,no,no

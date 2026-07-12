@@ -1,0 +1,123 @@
+{
+  "modes": {
+    "B0": {
+      "changed": 0,
+      "compared": 1200,
+      "missing_new": 0,
+      "missing_old": 0,
+      "not_comparable": 0,
+      "old_new_pairs": {
+        "PASS->PASS": 1200
+      }
+    },
+    "B2": {
+      "changed": 83,
+      "compared": 1200,
+      "missing_new": 0,
+      "missing_old": 0,
+      "not_comparable": 0,
+      "old_new_pairs": {
+        "BLOCK->BLOCK": 168,
+        "PASS->PASS": 764,
+        "WARN->BLOCK": 12,
+        "WARN->PASS": 71,
+        "WARN->WARN": 185
+      }
+    },
+    "B3": {
+      "changed": 61,
+      "compared": 1200,
+      "missing_new": 0,
+      "missing_old": 0,
+      "not_comparable": 0,
+      "old_new_pairs": {
+        "BLOCK->BLOCK": 306,
+        "PASS->PASS": 574,
+        "WARN->BLOCK": 22,
+        "WARN->PASS": 39,
+        "WARN->WARN": 259
+      }
+    },
+    "B3_no_S1": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "B3_no_S2": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "B3_no_S3": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "B3_no_S4": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "B3_no_S5": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "B3_no_S6": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "S1_S2": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "S1_S2_S3": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "S1_S3": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    },
+    "S1_only": {
+      "changed": 0,
+      "compared": 0,
+      "missing_new": 0,
+      "missing_old": 1200,
+      "not_comparable": 1200,
+      "old_new_pairs": {}
+    }
+  },
+  "n_runs": 1200
+}

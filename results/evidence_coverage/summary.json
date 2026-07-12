@@ -1,0 +1,12 @@
+{
+  "dep_changes_audited": 932,
+  "legacy_marker_counts": {
+    "package_existence_unknown": 1436,
+    "pypi_live": 2058,
+    "snapshot_missing": 0
+  },
+  "missing_rows": 0,
+  "runs_audited": 1200,
+  "task_count": 120,
+  "unique_missing_packages": 0
+}

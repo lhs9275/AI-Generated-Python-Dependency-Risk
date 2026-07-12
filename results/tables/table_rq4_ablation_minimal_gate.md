@@ -1,0 +1,9 @@
+## table_rq4_ablation_minimal_gate
+
+| model | n | RiskyAcc_B3_full | RiskyAcc_S1S2S3_minimal | delta_minimal_minus_full_pp | McNemar_p_S1S2S3_vs_B3 | cohen_h_S1S2S3_vs_B3 | ablation_delta_no_S1_pp | ablation_delta_no_S2_pp | ablation_delta_no_S3_pp | ablation_delta_no_S4_pp | ablation_delta_no_S5_pp | ablation_delta_no_S6_pp |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Qwen-7B | 240 | 0.0167 | 0.025 | 0.8 | 0.5 | 0.059 | 9.6 | 10.0 | 1.7 | 0.0 | 0.8 | 0.0 |
+| Qwen-14B | 240 | 0.0083 | 0.025 | 1.7 | 0.125 | 0.135 | 9.2 | 12.9 | 2.9 | 0.0 | 1.7 | 0.0 |
+| Qwen-32B | 240 | 0.0208 | 0.0333 | 1.3 | 0.25 | 0.078 | 6.7 | 9.2 | 3.3 | 0.0 | 1.2 | 0.0 |
+| DeepSeek-6.7B | 240 | 0.0042 | 0.0167 | 1.2 | 0.25 | 0.13 | 3.3 | 4.6 | 2.1 | 0.4 | 0.8 | 0.0 |
+| CodeLlama-7B | 240 | 0.075 | 0.0792 | 0.4 | 1.0 | 0.016 | 18.3 | 5.4 | 0.4 | 0.0 | 0.4 | 0.0 |
