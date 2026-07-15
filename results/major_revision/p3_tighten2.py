@@ -38,28 +38,39 @@ def record_verdict(ver, vuln, pkn):
         if ver in (a.get('versions') or []): cov_loose=True
         for rng in a.get('ranges',[]):
             if rng.get('type') not in ('ECOSYSTEM','SEMVER'): continue
-            intro='0'; fixed=None; last=None
-            for ev in rng.get('events',[]):
-                if 'introduced' in ev: intro=ev['introduced']
-                if 'fixed' in ev: fixed=ev['fixed']
-                if 'last_affected' in ev: last=ev['last_affected']
             # validate bound tokens as PEP440; a commit-hash fixed => not well-formed
             def V(x):
                 try: return Version(x)
                 except InvalidVersion: return None
-            lo=V(intro) if intro!='0' else None
-            hi=V(fixed) if fixed is not None else None
-            la=V(last) if last is not None else None
-            wellformed = (fixed is not None and hi is not None) or (last is not None and la is not None)
-            try: below_lo = (lo is not None and v<lo)
-            except: below_lo=False
-            inrange = (not below_lo) and (hi is None or v<hi) and (la is None or v<=la)
-            if wellformed:
-                if inrange: cov_wf=True
-                else: exc_wf=True
-            else:
-                # unbounded / commit-fixed => loose coverage only
-                if not below_lo and hi is None and la is None: cov_loose=True
+            # A single OSV range can encode MULTIPLE disjoint intervals via a
+            # flat, ordered events list (introduced ... fixed/last_affected ...
+            # introduced ...). Build one segment per interval rather than keeping
+            # only the last-seen bounds, then apply the same per-interval PEP440
+            # coverage test to each. (Earlier this collapsed to the last interval.)
+            segs=[]; cur_intro=None
+            for ev in rng.get('events',[]):
+                if 'introduced' in ev:
+                    if cur_intro is not None: segs.append((cur_intro,None,None))
+                    cur_intro=ev['introduced']
+                if 'fixed' in ev:
+                    segs.append((cur_intro if cur_intro is not None else '0', ev['fixed'], None)); cur_intro=None
+                if 'last_affected' in ev:
+                    segs.append((cur_intro if cur_intro is not None else '0', None, ev['last_affected'])); cur_intro=None
+            if cur_intro is not None: segs.append((cur_intro,None,None))
+            for intro,fixed,last in segs:
+                lo=V(intro) if intro not in (None,'0') else None
+                hi=V(fixed) if fixed is not None else None
+                la=V(last) if last is not None else None
+                wellformed = (fixed is not None and hi is not None) or (last is not None and la is not None)
+                try: below_lo = (lo is not None and v<lo)
+                except: below_lo=False
+                inrange = (not below_lo) and (hi is None or v<hi) and (la is None or v<=la)
+                if wellformed:
+                    if inrange: cov_wf=True
+                    else: exc_wf=True
+                else:
+                    # unbounded / commit-fixed => loose coverage only
+                    if not below_lo and hi is None and la is None: cov_loose=True
     return (cov_wf, exc_wf, cov_loose)
 
 def covering_prePR(ver, pkg, pt):

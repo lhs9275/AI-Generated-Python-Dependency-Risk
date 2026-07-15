@@ -15,7 +15,7 @@
   "t_cover_verified": true,
   "airflow_spurious_flip_resolved": "CVE-2024-45498 PYSEC last_affected=2.10.0-NA malformed; GHSA bounds [2.10.0,2.10.1) exclude 3.2.0",
   "ecdsa_caveat": "ecdsa 0.19.2 kept P3 (CVE-2024-23342 Minerva, no-fix-by-design); construct=known-vulnerable-at-PR not fix-available; 1-line Discussion caveat",
-  "known_limitation": "well-formed-bounded > malformed-unbounded reconciliation is a documented heuristic (fired only on datasette); multi-segment range keep-last bug is a no-op on this dataset, patch before re-run"
+  "known_limitation": "well-formed-bounded > malformed-unbounded reconciliation is a documented heuristic (fired only on datasette); the earlier multi-segment range keep-last collapse is now FIXED in p3_tighten2.py (segment-per-interval) with a regression test (test_multiinterval.py) — the fix is byte-identical on this dataset (FP=55, FN=6, P3 264->215, total 328->279 unchanged), confirming it was outcome-neutral here"
  },
  "original": {
   "P1": 15,

@@ -1,6 +1,14 @@
-# Correction Notice — P3 Advisory-Range Re-Verification (r8)
+# Correction Notice — P3 Advisory-Range Re-Verification (r9)
 
 **Date:** 2026-07-15  **Supersedes:** the P3 counts in r5 (`tse-submission-2026-07-r5`, `f34b676`).
+
+> **r9 changelog (matcher hardening + navigation; corrected counts/CIs unchanged).**
+> (i) `p3_tighten2.py` multi-segment range handling FIXED (segment-per-interval instead of
+> keep-last collapse) + `test_multiinterval.py` regression test; rerun is byte-identical
+> (FP=55, FN=6, P3 264→215, total 328→279, 3.19%), confirming the earlier collapse was
+> outcome-neutral on this dataset. (ii) `scripts/reproduce_tables.sh` now runs this
+> corrected `results/major_revision/` layer LAST as the single authoritative entry point;
+> README frozen tag + reviewer path updated to r9. No corrected count, CI, or metric changed.
 
 > **r8 changelog (documentation hygiene; no data or computed metric changed from r6/r7).**
 > (i) README title and npm prevalence updated to the corrected 4.52% (legacy
