@@ -1,6 +1,12 @@
-# Correction Notice — P3 Advisory-Range Re-Verification (r6)
+# Correction Notice — P3 Advisory-Range Re-Verification (r7)
 
 **Date:** 2026-07-15  **Supersedes:** the P3 counts in r5 (`tse-submission-2026-07-r5`, `f34b676`).
+
+> **r7 changelog (prose-only; no numbers changed from r6).** Fixed two documentation
+> typos in this notice: the *pre-correction* direct-evidence denominator is 4,620 (not
+> 4,670 — the corrected pool of 4,670 arises only after reclassification), matching the
+> locked `corrected_downstream.json` (`4/4620 -> 35/4670`); and the recompute script is
+> `results_ladder.py` (not `results_ledger.py`). All quantities are byte-identical to r6.
 
 ## What was corrected
 The original P3 (direct known-vulnerability) adjudication was **range-blind**: it checked
@@ -32,7 +38,7 @@ sibling). **No human labeling was added.**
 ## Owned downstream consequence (not masked)
 The frozen gate's S3 stage resolves advisories at **archive-snapshot** time, not PR time,
 so **31 of the 55 corrected false positives are still S3-blocked**. The retained-sample
-direct-evidence primary-negative BLOCK rate therefore rises from 0.09% (4/4,670) to 0.75%
+direct-evidence primary-negative BLOCK rate therefore rises from 0.09% (4/4,620) to 0.75%
 (35/4,670) and full-guard B3 from 2.73% to 3.66% (171/4,670). The gate is thus **not** more
 accurate than the corrected labeling; we report this rather than rerun the gate to hide it.
 
@@ -45,7 +51,7 @@ inter-labeler agreement (κ=0.896, PA⁺=0.903, preserved as the original proces
 - `p3_tighten2.py` — the deterministic matcher (final)
 - `advisory_archive/` — 804 archived OSV/GHSA advisory JSONs used by the matcher
 - `changed_rows_final.csv` — 61-row ledger (55 FP + 6 FN) with per-row verdict + covering CVE
-- `results_recompute.py` / `results_ledger.py` — reproduce corrected prevalence + gate ladder (both reproduce the r5 baseline 328 exactly, validating the parse)
+- `results_recompute.py` / `results_ladder.py` — reproduce corrected prevalence + gate ladder (both reproduce the r5 baseline 328 exactly, validating the parse)
 - `prevalence_cluster_ci_corrected.py` / `.json` — canonical 60k cluster-bootstrap CI on corrected labels
 - `corrected_counts.json`, `corrected_downstream.json`, `npm_downstream_final.json` — locked corrected summaries
 - `CHANGED_FILES_SUPERSESSION.md` — note on the superseded intermediate `residual_12_audit.csv`
