@@ -1,4 +1,16 @@
 #!/usr/bin/env bash
+# ============================================================================
+# NOTE (r7+): This script reproduces the PRE-CORRECTION (r5) naturalistic
+# baseline — primary 328/8,752 = 3.7% with the original P3 adjudication. That
+# baseline is SUPERSEDED by the P3 affected-range re-verification (Section
+# "correction"): the manuscript's current result is 279/8,752 = 3.19%.
+# This script is retained ONLY to prove the raw parse (its 328 reproduction is
+# what validates the correction's starting point). For the CORRECTED manuscript
+# numbers and CIs run instead:
+#   python results/major_revision/results_recompute.py
+#   python results/major_revision/prevalence_cluster_ci_corrected.py
+# See results/major_revision/CORRECTION_NOTICE.md.
+# ============================================================================
 # Reproduce the naturalistic validation (Table VI) and the inter-labeler
 # agreement (primary Cohen kappa) entirely offline from the archived per-change
 # corpus. No GPU and no network required:
@@ -89,9 +101,10 @@ assert o["point"]["k"] == 328 and o["point"]["n"] == 8752, "prevalence counts dr
 assert ci["wilson_unclustered"] == [3.37, 4.17], ci["wilson_unclustered"]
 assert ci["pr_clustered"] == [2.96, 4.68], ci["pr_clustered"]
 assert ci["repo_clustered"] == [2.94, 4.7], ci["repo_clustered"]
-print("prevalence CIs: recomputed == manuscript  ✓  "
+print("prevalence CIs: recomputed == r5 PRE-CORRECTION baseline  ✓  "
       "(3.7% 328/8752; Wilson 3.4-4.2; PR-clustered 2.96-4.68; "
-      "repo-clustered 2.94-4.70)")
+      "repo-clustered 2.94-4.70). SUPERSEDED by 3.19% 279/8752 — see "
+      "results/major_revision/ (CORRECTION_NOTICE.md).")
 PY
 
 echo

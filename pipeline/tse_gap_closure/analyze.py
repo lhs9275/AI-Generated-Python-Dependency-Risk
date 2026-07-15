@@ -355,8 +355,10 @@ def main():
     stats = {p[0] + "_vs_" + p[1]: paired(pop, *p) for p in PAIRS}
     meta = {
         "gate_analysis_sample": "repo-stratified 500-PR downsample (seed 42); all "
-                                "primary-risk PRs retained, safe PRs sub-sampled. "
-                                "Within-stratum acceptance/safe-block rates unbiased.",
+                                "primary-risk PRs retained, safe PRs sub-sampled by "
+                                "round-robin (unequal inclusion). Rates are descriptive "
+                                "of the retained stratified sample, not population-weighted "
+                                "estimates.",
         "n_joined_changes": len(joined_all),
         "n_analysis_population_add_or_versionchange": len(pop),
         "n_removes_excluded": len(removes),

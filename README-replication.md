@@ -1,12 +1,12 @@
 # AgentSupplyGuard — Replication Package
 
 This package accompanies the paper:
-> *AI-Generated Python Dependency Risk: Naturalistic Prevalence, Enforcement Limits, and a Controlled Detectability Benchmark*
+> *Python Dependency Risk in AI-Agent-Attributed Pull Requests: Naturalistic Prevalence, Public-Evidence Detectability, and Enforcement Trade-offs*
 > — Hyeonsu Lee and Geunseok Yang, Department of Computer Science and Applied Mathematics, Hankyong National University.
 
 This artifact supports verification of all reported tables and statistical claims without regenerating model outputs. GPU execution is required only to reproduce the original LLM generations. The main verification path starts from archived per-run JSON files, audits the frozen S1 package-existence evidence, recomputes strict-offline guard decisions into `results/offline_v2/canonical_runs.jsonl`, and then derives the paper tables from that JSONL.
 
-> **⚠️ P3 label correction (r7).** The naturalistic P3 (known-advisory) counts were corrected after r5 by a deterministic affected-range re-verification against OSV/GHSA: primary prevalence **3.7% → 3.19%** (P3 264 → 215; total 328 → 279). See **[`results/major_revision/CORRECTION_NOTICE.md`](results/major_revision/CORRECTION_NOTICE.md)** for the full disclosure, the deterministic matcher, the 61-row changed-label ledger, and the recompute scripts (which reproduce the r5 baseline 328 exactly, validating the parse). The original r5 scripts below are retained unmodified and reproduce the pre-correction baseline; the correction is an additive, clearly-labeled layer.
+> **⚠️ P3 label correction (r8).** The naturalistic P3 (known-advisory) counts were corrected after r5 by a deterministic affected-range re-verification against OSV/GHSA: primary prevalence **3.7% → 3.19%** (P3 264 → 215; total 328 → 279). See **[`results/major_revision/CORRECTION_NOTICE.md`](results/major_revision/CORRECTION_NOTICE.md)** for the full disclosure, the deterministic matcher, the 61-row changed-label ledger, and the recompute scripts (which reproduce the r5 baseline 328 exactly, validating the parse). The original r5 scripts below are retained unmodified and reproduce the pre-correction baseline; the correction is an additive, clearly-labeled layer.
 
 ---
 
@@ -101,8 +101,12 @@ analysis, and a socket-denied no-network gate. It prints
 `✓ All values consistent with manuscript` and writes
 `results/statistical_consistency_check.md`.
 
-The npm cross-ecosystem replication (Table VIII: prevalence 4.83%, ported-gate
-block recall, npm-audit baseline) is reproduced from the archived
+The npm cross-ecosystem replication (Table VIII: corrected prevalence 4.52%
+after the P3 affected-range re-verification — the legacy `pipeline/npm_prevalence_robust.py`
+below reproduces the pre-correction 4.83% baseline; the corrected 4.52% and its
+repository-clustered CI are in `results/major_revision/npm_downstream.json` via
+`results/major_revision/npm_rematch2.py` — ported-gate block recall,
+npm-audit baseline) is reproduced from the archived
 `results/npm_*.json` via `pipeline/npm_prevalence_robust.py` (prevalence + strict
 temporal grade + F1/F2/F3 mix) and `pipeline/npm_external_recall.py` (external
 recall corpus, block recall, npm-audit analogue); no GPU or network required.

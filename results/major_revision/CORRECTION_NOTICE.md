@@ -1,12 +1,23 @@
-# Correction Notice — P3 Advisory-Range Re-Verification (r7)
+# Correction Notice — P3 Advisory-Range Re-Verification (r8)
 
 **Date:** 2026-07-15  **Supersedes:** the P3 counts in r5 (`tse-submission-2026-07-r5`, `f34b676`).
 
-> **r7 changelog (prose-only; no numbers changed from r6).** Fixed two documentation
+> **r8 changelog (documentation hygiene; no data or computed metric changed from r6/r7).**
+> (i) README title and npm prevalence updated to the corrected 4.52% (legacy
+> `npm_prevalence_robust.py` reproduces the pre-correction 4.83% baseline; corrected value +
+> repository-clustered CI are in `npm_downstream.json`). (ii) `scripts/reproduce_naturalistic.sh`
+> now carries a banner marking its 328/8,752 = 3.7% output as the SUPERSEDED r5 baseline
+> (retained only to validate the raw parse), pointing to `results/major_revision/` for the
+> corrected 3.19%. (iii) The `gate_analysis_sample` label in `analyze.py` / `paired_stats.json`
+> no longer calls within-stratum rates "unbiased" — they are descriptive of the retained
+> round-robin stratified sample, matching the manuscript's careful framing. All corrected
+> counts, CIs, and metrics are unchanged.
+>
+> **r7 changelog (prose-only; no computed metric changed from r6).** Fixed two documentation
 > typos in this notice: the *pre-correction* direct-evidence denominator is 4,620 (not
 > 4,670 — the corrected pool of 4,670 arises only after reclassification), matching the
 > locked `corrected_downstream.json` (`4/4620 -> 35/4670`); and the recompute script is
-> `results_ladder.py` (not `results_ledger.py`). All quantities are byte-identical to r6.
+> `results_ladder.py` (not `results_ledger.py`). Corrected quantities unchanged from r6.
 
 ## What was corrected
 The original P3 (direct known-vulnerability) adjudication was **range-blind**: it checked
