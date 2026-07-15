@@ -1,0 +1,22 @@
+{
+ "phase": 1,
+ "inputs": {
+  "independent_labels.csv": "5f3409597913d3fdc6e77dfe6e9f94d52547f43ba37c491a79cb5c898bd8f3c3",
+  "labels_A.csv": "2428d735a5a5bf4c8cbe221377fa3149376f66ccddd64035e41b4c6203c8df4f",
+  "labels_B.csv": "7d4ffa4759fe79e0d849a2be8afd4bc95af8fcdf1dab474794278537bd65eeb4",
+  "adjudication_log.csv": "a9e0d048e0ba867f363dbfe8316eb0aa83af54dddc16038837134af62f65c587",
+  "guard_outputs.jsonl": "f3848692b517f88484a72977f85853952e186664fba3ebe95ebd35a7f8f08941",
+  "downsample_log.json": "1b7b600cc7580f34552b492a9e05a7edf7b6fa12b80d2ad086b2be8735355ef0",
+  "labeling_agreement.json": "be8b046a7d1e55711f9793da2873b05adccce1ae4a929c8340dd36c3f90d450c",
+  "positive_class_agreement.json": "ebe816f03e18a2a763e4b09148c904d318bbfce86f837f33b4eac29fbebb5183"
+ },
+ "counts": {
+  "label_rows": 10224,
+  "eligible_add_versionchange": 8752,
+  "guard_rows": 5789,
+  "P1": 15,
+  "P2": 49,
+  "P3": 264,
+  "total_primary": 328
+ }
+}

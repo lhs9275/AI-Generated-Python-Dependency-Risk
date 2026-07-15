@@ -6,6 +6,8 @@ This package accompanies the paper:
 
 This artifact supports verification of all reported tables and statistical claims without regenerating model outputs. GPU execution is required only to reproduce the original LLM generations. The main verification path starts from archived per-run JSON files, audits the frozen S1 package-existence evidence, recomputes strict-offline guard decisions into `results/offline_v2/canonical_runs.jsonl`, and then derives the paper tables from that JSONL.
 
+> **⚠️ P3 label correction (r6).** The naturalistic P3 (known-advisory) counts were corrected after r5 by a deterministic affected-range re-verification against OSV/GHSA: primary prevalence **3.7% → 3.19%** (P3 264 → 215; total 328 → 279). See **[`results/major_revision/CORRECTION_NOTICE.md`](results/major_revision/CORRECTION_NOTICE.md)** for the full disclosure, the deterministic matcher, the 61-row changed-label ledger, and the recompute scripts (which reproduce the r5 baseline 328 exactly, validating the parse). The original r5 scripts below are retained unmodified and reproduce the pre-correction baseline; the correction is an additive, clearly-labeled layer.
+
 ---
 
 ## Contents

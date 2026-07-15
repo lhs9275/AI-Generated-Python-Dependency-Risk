@@ -1,0 +1,147 @@
+{
+ "DENOM_add_vc": 8752,
+ "baseline_total": 328,
+ "baseline_counts": {
+  "P1": 15,
+  "P2": 49,
+  "P3": 264
+ },
+ "corrected_total": 279,
+ "corrected_counts": {
+  "P1": 15,
+  "P2": 49,
+  "P3": 215
+ },
+ "corrected_prevalence_pct": 3.1878,
+ "corrected_prevalence_wilson": [
+  2.84,
+  3.577
+ ],
+ "removals_only_floor_pct": 3.1193,
+ "p3_dominance_pct": 77.06,
+ "per_tool": {
+  "copilot": {
+   "k": 184,
+   "n": 5675,
+   "pct": 3.24,
+   "wilson": [
+    2.81,
+    3.74
+   ]
+  },
+  "devin": {
+   "k": 57,
+   "n": 2188,
+   "pct": 2.61,
+   "wilson": [
+    2.02,
+    3.36
+   ]
+  },
+  "aider": {
+   "k": 14,
+   "n": 489,
+   "pct": 2.86,
+   "wilson": [
+    1.71,
+    4.75
+   ]
+  },
+  "cursor": {
+   "k": 4,
+   "n": 260,
+   "pct": 1.54,
+   "wilson": [
+    0.6,
+    3.89
+   ]
+  },
+  "codex": {
+   "k": 20,
+   "n": 127,
+   "pct": 15.75,
+   "wilson": [
+    10.43,
+    23.08
+   ]
+  },
+  "continue": {
+   "k": 0,
+   "n": 8,
+   "pct": 0.0,
+   "wilson": [
+    0.0,
+    32.44
+   ]
+  },
+  "claude-code": {
+   "k": 0,
+   "n": 5,
+   "pct": 0.0,
+   "wilson": [
+    0.0,
+    43.45
+   ]
+  }
+ },
+ "pr_level": {
+  "k": 116,
+  "n": 1101,
+  "pct": 10.54,
+  "wilson": [
+   8.86,
+   12.49
+  ]
+ },
+ "repo_level": {
+  "k": 109,
+  "n": 980,
+  "pct": 11.12,
+  "wilson": [
+   9.3,
+   13.24
+  ]
+ },
+ "merged": {
+  "k": 41,
+  "n": 1254,
+  "pct": 3.27,
+  "wilson": [
+   2.42,
+   4.41
+  ]
+ },
+ "p1_all": {
+  "k": 15,
+  "n": 8752,
+  "pct": 0.171,
+  "wilson": [
+   0.104,
+   0.283
+  ]
+ },
+ "p1_merged": {
+  "k": 6,
+  "n": 1254,
+  "pct": 0.478
+ },
+ "tool_mix": {
+  "leave_one_out_pct": {
+   "aider": 3.21,
+   "claude-code": 3.19,
+   "codex": 3.0,
+   "continue": 3.19,
+   "copilot": 3.09,
+   "cursor": 3.24,
+   "devin": 3.38
+  },
+  "loo_range": [
+   3.0,
+   3.38
+  ],
+  "equal_tool_5_n100_pct": 5.2,
+  "equal_tool_all_pct": 3.71
+ },
+ "fp_ids_n": 55,
+ "fn_ids_n": 6
+}

@@ -1,0 +1,35 @@
+{
+ "equal_tool_weight": 3.69,
+ "per_tool": {
+  "aider": [
+   3,
+   80
+  ],
+  "devin": [
+   18,
+   281
+  ],
+  "cursor": [
+   8,
+   165
+  ],
+  "claude-code": [
+   12,
+   234
+  ],
+  "codex": [
+   2,
+   119
+  ],
+  "codewhisperer": [
+   0,
+   29
+  ],
+  "continue": [
+   15,
+   376
+  ]
+ },
+ "false_block_decomp": "3 = 1 temporal (sequelize) + 2 never-covered (epp, otel); astro MEDIUM was WARN-missed not blocked",
+ "false_block": "3/1226=0.24% (frozen-gate; by-construction 0 under matcher-consistent rerun)"
+}

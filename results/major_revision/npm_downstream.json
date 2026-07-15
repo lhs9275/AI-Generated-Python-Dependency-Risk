@@ -1,0 +1,12 @@
+{
+ "npm_prevalence": "4.83%->4.52%",
+ "npm_family": "F1 6/F2 11/F3 41",
+ "npm_F3_dom": "70.7%",
+ "npm_repo_CI": [
+  2.75,
+  6.82
+ ],
+ "npm_recall": "56/62=0.903 -> 53/58=0.914",
+ "npm_false_block": "0 -> 3 (or 0 if gate rerun consistently)",
+ "strict_grade": "45/1284=3.50% -> 41/1284=3.19%"
+}

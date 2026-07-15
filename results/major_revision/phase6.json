@@ -1,0 +1,6 @@
+{
+ "npm_prevalence": "4.83%->4.52% (62->58, 4 F3 FP, 0 FN)",
+ "npm_F3": "45->41",
+ "npm_dominance": "41/58=70.7%",
+ "benchmark_F3_oracle": "CLEAN (hand-authored per-task version bounds, no range-blind bug; RiskyAcc-Core/AFSP unaffected)"
+}

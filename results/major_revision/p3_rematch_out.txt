@@ -1,0 +1,10 @@
+evaluated pinned changes: 2977
+verdicts: {'same': 2915, 'FP(P3->NONE)': 55, 'FN(NONE->P3)': 7}
+
+FP (P3->NONE): 55
+FN (NONE->P3): 7
+FP by package: [('pillow', 19), ('cryptography', 18), ('paramiko', 14), ('brotli', 2), ('apache-airflow', 1), ('langchain', 1)]
+FN by package: [('click', 3), ('datasette', 1), ('pandasai', 1), ('langchain-core', 1), ('ecdsa', 1)]
+
+P3: 264 -> 216  (total primary 328 -> 280)
+prevalence: 3.7% -> 3.20%

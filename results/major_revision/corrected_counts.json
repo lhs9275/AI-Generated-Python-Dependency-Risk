@@ -1,0 +1,32 @@
+{
+ "corrected": {
+  "P1": 15,
+  "P2": 49,
+  "P3": 215,
+  "total_primary": 279,
+  "prevalence_pct": 3.19,
+  "FP_removed": 55,
+  "FN_added": 6,
+  "fp_never_covered": 16,
+  "fp_temporal": 39,
+  "datasette_dropped": true,
+  "prevalence_corrected_pct": 3.19,
+  "removals_only_sensitivity_pct": 3.12,
+  "t_cover_verified": true,
+  "airflow_spurious_flip_resolved": "CVE-2024-45498 PYSEC last_affected=2.10.0-NA malformed; GHSA bounds [2.10.0,2.10.1) exclude 3.2.0",
+  "ecdsa_caveat": "ecdsa 0.19.2 kept P3 (CVE-2024-23342 Minerva, no-fix-by-design); construct=known-vulnerable-at-PR not fix-available; 1-line Discussion caveat",
+  "known_limitation": "well-formed-bounded > malformed-unbounded reconciliation is a documented heuristic (fired only on datasette); multi-segment range keep-last bug is a no-op on this dataset, patch before re-run"
+ },
+ "original": {
+  "P1": 15,
+  "P2": 49,
+  "P3": 264,
+  "total": 328,
+  "prevalence_pct": 3.75
+ },
+ "lock": {
+  "status": "LOCKED",
+  "axes": "Fable+Sonnet+GPT-Pro all LOCK-OK (GPT-Pro blocker t_cover resolved 0 flips)",
+  "date": "2026-07-15"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "phase": 5,
+ "prevalence_pct": 3.19,
+ "total_primary": 279,
+ "P1": 15,
+ "P2": 49,
+ "P3": 215,
+ "p3_dominance_pct": 77.1,
+ "repo_clustered_CI_2k": [
+  2.43,
+  4.16
+ ],
+ "note_CI": "rerun canonical prevalence_cluster_ci.py 60k for final",
+ "removals_only_sensitivity_pct": 3.12,
+ "gate_matrix_retained": {
+  "primary": 278,
+  "prim_BLOCK": 166,
+  "prim_WARN": 105,
+  "prim_PASS": 7,
+  "primary_negative": 4670,
+  "neg_BLOCK": 171,
+  "neg_WARN": 80,
+  "neg_PASS": 4419
+ },
+ "detection": "271/278",
+ "silent_P3_PASS": 7,
+ "silent_decomp": "2 P2 boundary + 5 FN genuine gate-miss",
+ "degradation": {
+  "direct_evidence_neg_block": "0.09% -> 0.75% (4/4620 -> 35/4670)",
+  "B3_neg_block": "2.73% -> 3.66% (126/4620 -> 171/4670)"
+ },
+ "fp_gate_decisions": "55 FP = 45 BLOCK + 10 PASS -> 45 now primary-negative blocks",
+ "PR_clustered_CI_60k": [
+  2.42,
+  4.1
+ ],
+ "repo_clustered_CI_60k": [
+  2.38,
+  4.15
+ ],
+ "merged_subset": "41/1254=3.27% (was 47/1254=3.7%)",
+ "PR_level": "116/1101=10.5% (was 137=12.4%)",
+ "per_tool_corrected": "copilot 184/5675, devin 57/2188, codex 20/127, aider 14/489, cursor 4/260",
+ "s3_block_decomp": "31 = 29 post-PR-temporal + 2 never-covered (gate S3 snapshot-time leakage)",
+ "depdec_exact_match": "P3 215/8752 = 2.46% = DepDec agent rate 2.46%",
+ "matrix_derived": "block-only accept 40.3%, block precision 49.3%, flagged 51.9%, primary-neg burden 5.37%"
+}

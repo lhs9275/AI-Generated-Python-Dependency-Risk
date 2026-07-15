@@ -1,0 +1,18 @@
+CORRECTED: primary=278 primary-negative=4670 total_retained=4948
+  B0_no_gate                 blocked=   0 accept=278/278=100.0%  negBLOCK=0/4670=0.0%
+  B1_scanner_fail_open       blocked= 524 accept=67/278=24.1%  negBLOCK=313/4670=6.7%
+  B1b_scanner_fail_closed    blocked= 626 accept=39/278=14.0%  negBLOCK=387/4670=8.29%
+  S1_existence               blocked=  15 accept=263/278=94.6%  negBLOCK=0/4670=0.0%
+  S1S2_version               blocked=  65 accept=217/278=78.1%  negBLOCK=4/4670=0.09%
+  S1S2S3_direct_evidence     blocked= 198 accept=115/278=41.4%  negBLOCK=35/4670=0.75%
+  S1S2S3_plus_license        blocked= 337 accept=112/278=40.3%  negBLOCK=171/4670=3.66%
+  B3_full_guard              blocked= 337 accept=112/278=40.3%  negBLOCK=171/4670=3.66%
+
+B3 primary  : {'BLOCK': 166, 'WARN': 105, 'PASS': 7}
+B3 primary-neg: {'PASS': 4419, 'BLOCK': 171, 'WARN': 80}
+block-share prim/all = 166/337 = 49.3%
+block-or-warn prim/all = 271/522 = 51.9%
+neg intervention = 251/4670 = 5.37%
+detection block-or-warn = 271/278 = 97.5%
+block-only recall = 166/278 = 59.7%
+PASS residual = 7/278 = 2.5%
