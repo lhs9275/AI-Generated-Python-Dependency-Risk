@@ -1,6 +1,11 @@
-# Correction Notice — P3 Advisory-Range Re-Verification (r9)
+# Correction Notice — P3 Advisory-Range Re-Verification (r10)
 
 **Date:** 2026-07-15  **Supersedes:** the P3 counts in r5 (`tse-submission-2026-07-r5`, `f34b676`).
+
+> **r10 changelog (metadata only; no data/metric/code changed).** Corrected the first-author
+> name in `README-replication.md` and `LICENSE` (Hyeonsu Lee -> Hyunsoo Lee) to match the
+> manuscript, and unified the department name in `LICENSE` to "Computer Science and Applied
+> Mathematics". All corrected counts, CIs, and metrics are byte-identical to r6-r9.
 
 > **r9 changelog (matcher hardening + navigation; corrected counts/CIs unchanged).**
 > (i) `p3_tighten2.py` multi-segment range handling FIXED (segment-per-interval instead of
